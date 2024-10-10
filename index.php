@@ -111,13 +111,13 @@
             <img class="w-100" src="img/bghome.jpg" alt="Image" />
             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
               <div class="p-3 titulo-mobile mt-5">
-                <h6 class="display-index text-white text-uppercase animated zoomIn" data-wow-delay="0.2s">Gerencia o seu
-                  <span style="color: #ce8ff3">portfólio de inovação</span> com <br />facilidade e dados acionáveis
+                <h6 class="display-index text-white animated zoomIn" data-wow-delay="0.2s">A
+                  <span style="color: #ce8ff3">Plataforma de Inovação</span> para te ajudar a estruturar <br />e gerir
+                  seu portfólio de ideias e inovação
                 </h6>
                 <br />
                 <p class="animated zoomIn text-white" data-wow-delay="0.6s">
-                  Nossa plataforma vai te ajudar a <strong>consolidar e gerenciar seu portfólio de
-                    <br>inovação,</strong> evitando duplicidade de esforços e projetos perdidos.
+                  20 anos de experiência <strong>Inventta </strong> em inovação transformados em software
                 </p>
               </div>
             </div>
@@ -181,11 +181,19 @@
   <!-- Institucional Start -->
   <div class="w-100 bg-light shadow d-flex align-items-center justify-content-center p-3 mb-5 mt-4">
     <p class="mt-3 text-center text-primary cta-index">
-      Plataforma de <span style="color: #000">gestão da inovação</span> para gerenciar iniciativas de inovação com
-      dados, criar programa de ideias e
-      <i>open innovation</i>, monitorar seu portfólio de forma global e capacitar seu time.
+      <span class="font-weight-bold">Um único espaço, várias formas de inovar.</span><br />
+      Use a plataforma Avantt.i para coletar ideias de colaboradores e gerenciá-las em projetos de inovação, da ideia à
+      implementação.
     </p>
   </div>
+
+  <div class="ajuste-btn-mobileG w-100 container d-flex p-4 align-items-center justify-content-center mt-4 mb-5">
+    <button type="button" class="btn btn-primary btn-fixoG py-md-3 me-3 animated slideInLeft textos-btn-mobile"
+      data-bs-toggle="modal" data-bs-target="#searchModal">Acesse e teste grátis</button>
+    <a href="./price" class="btn btn-dark btn-fixoG py-md-3 animated slideInRight textos-btn-mobile">Conheça
+      nossos planos</a>
+  </div>
+
   <!-- Institucional End -->
 
   <div class="institucional d-flex align-items-center justify-content-center">
@@ -220,12 +228,7 @@
   </div>
   <!-- Institucional End -->
 
-  <div class="ajuste-btn-mobileG w-100 container d-flex p-4 align-items-center justify-content-center mt-4 mb-4">
-    <button type="button" class="btn btn-primary btn-fixoG py-md-3 me-3 animated slideInLeft textos-btn-mobile"
-      data-bs-toggle="modal" data-bs-target="#searchModal">Inicie grátis agora</button>
-    <a href="./clients" class="btn btn-dark btn-fixoG py-md-3 animated slideInRight textos-btn-mobile">Conheça
-      nossos cases de sucesso</a>
-  </div>
+
 
   <!-- About Start -->
   <section id="about">
