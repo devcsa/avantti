@@ -1,0 +1,18 @@
+{
+   "description": "Sistema Administrativo de Blog",
+   "authors": [
+      {
+         "name": "CSA dev",
+         "email": "contato@csadev.com.br"
+      }
+   ],
+   "autoload": {
+      "psr-4": {
+         "Core\\": "core",
+         "App\\": "app"
+      }
+   },
+   "require": {
+      "phpmailer/phpmailer": "^6.6"
+   }
+}
