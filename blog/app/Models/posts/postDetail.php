@@ -14,6 +14,9 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
     $row = $result->fetch_assoc();
     $title = $row["title"];
     $visibility = $row["visibility"];
+    $url_page = $row["url_page"];
+    $title_page = $row["title_page"];
+    $meta_description = $row["meta_description"];
     $content = $row["content"];
     $image_cover = "./app/assets/img/posts/destaques/" . $row["image_cover"];
     $image_fileName = $row["image_cover"];

@@ -47,7 +47,8 @@ include "./core/check_session.php";
             <div class="card">
             </div>
             <div class="card-body">
-              <form id="addPostForm" action="./app/Models/posts/addPostModel.php/" method="post" enctype="multipart/form-data">
+              <form id="addPostForm" action="./app/Models/posts/addPostModel.php/" method="post"
+                enctype="multipart/form-data">
                 <input type="hidden" name="userId" id="userId" />
                 <input type="hidden" name="actionPost" id="actionPost" value="addPost" />
                 <div class="row">
@@ -80,7 +81,8 @@ include "./core/check_session.php";
                       350)</small></label>
                   <input type="file" id="featured-image" name="featured-image" accept="image/*" />
                   <div>
-                    <img id="image-view" src="./app/assets/img/posts/sizes/destaque.jpg" alt="Featured Image" class="image-post-display img-fluid mb-2" />
+                    <img id="image-view" src="./app/assets/img/posts/sizes/destaque.jpg" alt="Featured Image"
+                      class="image-post-display img-fluid mb-2" />
                   </div>
                   <div class="urlImage">
                     <input type="hidden" id="image-file-name" name="image-file-name">
@@ -90,7 +92,8 @@ include "./core/check_session.php";
                     <i class="fa fa-search" aria-hidden="true"></i></span>
                   <span id="btnViewImage" class="btn btn-secondary btn-featured-image mr-1" title="Visualizar imagem">
                     <i id="iconViewImage" class="fa fa-eye" aria-hidden="true"></i></span>
-                  <span id="btnRemoveImage" class="btn btn-danger btn-featured-image" title="Remover imagem"> <i class="fa fa-trash-o fa-lg" aria-hidden="true"></i></span>
+                  <span id="btnRemoveImage" class="btn btn-danger btn-featured-image" title="Remover imagem"> <i
+                      class="fa fa-trash-o fa-lg" aria-hidden="true"></i></span>
 
                 </div>
                 <div class="form-group">
@@ -112,7 +115,8 @@ include "./core/check_session.php";
     </section>
 
     <!-- Modal de Aviso -->
-    <div class="modal fade" id="modal-message" tabindex="-1" role="dialog" aria-labelledby="modal-message-label" aria-hidden="true">
+    <div class="modal fade" id="modal-message" tabindex="-1" role="dialog" aria-labelledby="modal-message-label"
+      aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -137,7 +141,8 @@ include "./core/check_session.php";
   <!-- Footer -->
   <div class="footer-bottom">
     <div class="logo-footer">
-      <a href="https://avanttinovacao.com.br/" target="_blank"><img src="./app/assets/img/logos/logo-clara-st.png" class="logo" alt="Logo Avantti" /></a>
+      <a href="https://avanttinovacao.com.br/" target="_blank"><img src="./app/assets/img/logos/logo-clara-st.png"
+          class="logo" alt="Logo Avantti" /></a>
     </div>
   </div>
 
@@ -148,6 +153,7 @@ include "./core/check_session.php";
   <script src="./app/assets/js/vendor/tinymce.min.js"></script>
   <script src="./app/assets/js/script.js"></script>
   <script src="./app/assets/js/post.js"></script>
+  <script src="./app/assets/js/posts/url_posts.js"></script>
 
 
 

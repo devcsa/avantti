@@ -6,12 +6,10 @@ include "./core/connection.php";  // Conexão com o banco de dados
 $postID = 39;
 
 // Filtrar Post
-$sql_post_view = "SELECT posts.*,
-categories.name AS category_name,
-users.username AS author_name
-FROM posts
-INNER JOIN categories ON posts.category_id = categories.id
-INNER JOIN users ON posts.author_id = users.id WHERE posts.id = $postID";
+$sql_post_view = "SELECT posts.*, categories.name AS category_name, users.username AS author_name
+                  FROM posts
+                  INNER JOIN categories ON posts.category_id = categories.id
+                  INNER JOIN users ON posts.author_id = users.id WHERE posts.id = $postID";
 
 $result_post_view = $conn->query($sql_post_view);
 
@@ -26,7 +24,7 @@ if ($result_post_view->num_rows > 0) {
   $updated_date = $updated_at->format("d ") . $meses[$updated_at->format("n") - 1] . $updated_at->format(", Y");
 
   // Variáveis do post
-  $image_cover = "./app/assets/img/posts/destaques/" . $row_post_view["image_cover"];
+  $image_cover = "../app/assets/img/posts/destaques/" . $row_post_view["image_cover"];
   $author_name = $row_post_view["author_name"];
   $title = $row_post_view["title"];
   $content = $row_post_view["content"];
@@ -65,12 +63,8 @@ if ($result_post_view->num_rows > 0) {
 <body>
   <header>
     <div class='container-fluid position-relative p-0'>
-      <nav class='navbar navbar-expand-lg navbar-dark px-4 py-3 py-lg-0'>
-        <div class='d-flex justify-content-center' id='logo-header'>
-          <a href='/index'><img id='imglogo' src='./app/assets/img/logos/logo-clara.png' class='logo' alt='Logo' /></a>
-          <div class='link-blog'><a class='blog-link' href='blog'>/Blog</a></div>
-        </div>
-      </nav>
+      <nav id='navbar-blog' class='navbar navbar-expand-lg navbar-dark px-4 py-3 py-lg-0'></nav>
+
       <div class='container-fluid bg-primary py-3 bg-blog-post'>
         <div class='row py-4'>
           <div class='titulo-mobile mt-6 pt-3 title-blog'>
@@ -106,83 +100,156 @@ if ($result_post_view->num_rows > 0) {
             <div class='section-title section-title-sm position-relative pb-3 mb-4'>
               <h3 class='mb-0 blog-title'>Categorias</h3>
             </div>
-            <div class='link-animated d-flex flex-column justify-content-start'>
-              <?php
-              $result_categories->data_seek(0);
+            <div class='link-animated d-flex flex-column justify-content-start'>";
 
-              while ($row_category = $result_categories->fetch_assoc()) {
-                echo '<a href='./blog?categoryID=' . $row_category[id'] . '' class='h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2'><i class='bi bi-arrow-right me-2'></i>' . $row_category['name'] . '</a>';
-              }
-              ?>
-</div>
-</div>
-<!-- Category End -->
+  $sql_categories = "SELECT id, name FROM categories";
+  $result_categories = $conn->query($sql_categories);
+  if ($result_categories->num_rows > 0) {
+    while ($row_category = $result_categories->fetch_assoc()) {
+      $html .= "<a href='./blog?categoryID=" . $row_category['id'] . "' class='h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2'><i class='bi bi-arrow-right me-2'></i>" . $row_category['name'] . "</a>";
+    }
+  }
 
-<!-- Recent Post Start -->
-<div class='mb-5 wow slideInUp' data-wow-delay='0.1s'>
-  <div class='section-title section-title-sm position-relative pb-3 mb-4'>
-    <h3 class='mb-0 blog-title'>Postagens Recentes</h3>
-  </div>
+  $html .= "
+            </div>
+          </div>
+          <!-- Category End -->
 
-  <?php
-            while ($row_recents_posts = $result_recents_posts->fetch_assoc()) {
-              echo '<div class='d-flex rounded overflow-hidden mb-3'>';
-              echo '<img class='img-fluid' src='../app/assets/img/posts/destaques/' . $row_recents_posts['image_cover'] . '' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />';
-              echo '<a href='./viewPost?postID=' . $row_recents_posts['id'] . '' class='blog-recents fw-semi-bold d-flex align-items-center bg-light px-3 mb-0'>' . $row_recents_posts['title'] . '</a>';
-              echo '</div>';
-            }
-            ?>
-  <!-- Recent Post End -->
+          <!-- Recent Post Start -->
+          <div class='mb-5 wow slideInUp' data-wow-delay='0.1s'>
+            <div class='section-title section-title-sm position-relative pb-3 mb-4'>
+              <h3 class='mb-0 blog-title'>Postagens Recentes</h3>
+            </div>";
 
-  <!-- Image Start -->
-  <div class='mb-5 wow slideInUp' data-wow-delay='0.1s'>
-    <img src='../app/assets/img/labi.gif' alt='Gif Animado' class='img-fluid rounded' />
-  </div>
-  <!-- Image End -->
+  $sql_recent_posts = "SELECT id, title, image_cover FROM posts ORDER BY created_at DESC LIMIT 5";
+  $result_recent_posts = $conn->query($sql_recent_posts);
+  if ($result_recent_posts->num_rows > 0) {
+    while ($row_recent_post = $result_recent_posts->fetch_assoc()) {
+      $html .= "
+              <div class='d-flex rounded overflow-hidden mb-3'>
+                <img class='img-fluid' src='../app/assets/img/posts/destaques/" . $row_recent_post['image_cover'] . "' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
+                <a href='./viewPost?postID=" . $row_recent_post['id'] . "' class='blog-recents fw-semi-bold d-flex align-items-center bg-light px-3 mb-0'>" . $row_recent_post['title'] . "</a>
+              </div>";
+    }
+  }
 
-  <!-- Tags Start -->
-  <div class='mb-5 wow slideInUp' data-wow-delay='0.1s'>
-    <div class='section-title section-title-sm position-relative pb-3 mb-4'>
-      <h3 class='mb-0 blog-title'>Tags</h3>
+  $html .= "
+          </div>
+          <!-- Recent Post End -->
+
+          <!-- Image Start -->
+          <div class='mb-5 wow slideInUp' data-wow-delay='0.1s'>
+            <img src='../app/assets/img/labi.gif' alt='Gif Animado' class='img-fluid rounded' />
+          </div>
+          <!-- Image End -->
+
+          <!-- Tags Start -->
+          <div class='mb-5 wow slideInUp' data-wow-delay='0.1s'>
+            <div class='section-title section-title-sm position-relative pb-3 mb-4'>
+              <h3 class='mb-0 blog-title'>Tags</h3>
+            </div>
+            <div class='d-flex flex-wrap m-n1'>";
+
+  $sql_tags = "SELECT tag_name FROM tags";
+  $result_tags = $conn->query($sql_tags);
+  if ($result_tags->num_rows > 0) {
+    while ($row_tag = $result_tags->fetch_assoc()) {
+      $html .= "<a href='#' class='btn btn-light m-1'>" . $row_tag['tag_name'] . "</a>";
+    }
+  }
+
+  $html .= "
+            </div>
+          </div>
+          <!-- Tags End -->
+        </div>
+        <!-- Sidebar End -->
+      </div>
     </div>
-    <div class='d-flex flex-wrap m-n1'>
-      <?php
-                while ($row = $result->fetch_assoc()) {
-                  echo '<a href='' class='btn btn-light m-1'>' . $row['tag_name'] . '</a>';
-                }
-                ?>
-    </div>
   </div>
-  <!-- Tags End -->
 
-</div>
-<!-- Sidebar End -->
-</div>
-</div>
-</div>
-</div>
-
-<footer id='footer'>
-  <div class='footer-bottom'>
-    <div class='logo-footer'>
-      <a href='https://avanttinovacao.com.br/' target='_blank'><img src='../app/assets/img/logos/logo-clara-st.png'
-          class='logo' alt='Logo' /></a>
+  <!-- Footer Start -->
+  <footer id='footer'>
+    <div class='footer-newsletter'>
+      <div class='container'>
+        <div class='row justify-content-center'>
+          <div class='col-lg-6'>
+            <h3 class='mb-4'>Assine Nossa Newsletter</h3>
+            <span><input type='email' name='email' id='newsletter' placeholder='E-mail' autocomplete='email' /><button
+                onclick='sendNewsletter()' type='submit'>Assinar</button></span>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</footer>
+
+    <div class='footer-top'>
+      <div class='footer-links'>
+        <h4 class='mb-1'>Sobre Nós</h4>
+        <ul>
+          <li><i class='fas fa-chevron-right me-2'></i> <a href='/about'>Nossa História</a></li>
+        </ul>
+      </div>
+
+      <div class='footer-links'>
+        <h4 class='mb-1'>Por que escolher a Avantt.i</h4>
+        <ul>
+          <li><i class='fas fa-chevron-right me-2'></i> <a href='/conheca#diferenciais'>Nossos diferenciais de
+              mercado </a></li>
+        </ul>
+      </div>
+
+      <div class='footer-links'>
+        <h4 class='mb-1'>Mais</h4>
+        <ul>
+          <li><i class='fas fa-chevron-right me-2'></i> <a href='/more'>Como funciona a Avantt.i </a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class='footer-bottom'>
+      <div class='logo-footer'>
+        <a href='https://avanttinovacao.com.br/' target='_blank'><img src='../app/assets/img/logos/logo-clara-st.png'
+            class='logo' alt='Logo' /></a>
+      </div>
+      <div class='social-links'>
+        <a class='btn btn-primary btn-square me-2' href='https://www.linkedin.com/company/avantti-inovacao/'
+          target='_blank'><i class='fab fa-linkedin-in fw-normal'></i></a>
+        <a class='btn btn-primary btn-square' href='https://avanttinovacao.com.br/' target='_blank'><i
+            class='fas fa-globe fa-sm'></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Footer End -->
+
+  <!-- Back to Top -->
+  <a href='#' class='btn btn-lg btn-back-to-top rounded back-to-top'><i class='bi bi-arrow-up'></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js'></script>
+  <script src='../app/assets/js/vendor/wow/wow.min.js'></script>
+  <script src='../app/assets/js/vendor/easing/easing.min.js'></script>
+  <script src='../app/assets/js/vendor/waypoints/waypoints.min.js'></script>
+
+  <!-- Template Javascript -->
+  <script src='../app/assets/js/main.js'></script>
+
+  <script src='../app/assets/js/navbar-blog.js'></script>
+
 </body>
-
 </html>";
 
-// Defina o caminho onde o arquivo será salvo
-$file_path = "./posts/post_" . $postID . ".php";
+  // Defina o caminho onde o arquivo será salvo
+  $file_path = "./posts/post_" . $postID . ".php";
 
-// Salve o conteúdo HTML em um arquivo
-file_put_contents($file_path, $html);
+  // Salve o conteúdo HTML em um arquivo
+  file_put_contents($file_path, $html);
 
-echo "Página salva com sucesso: <a href='$file_path'>$file_path</a>";
+  echo "Página salva com sucesso: <a href='$file_path'>$file_path</a>";
 } else {
-echo "Postagem não encontrada!";
+  echo "Postagem não encontrada!";
 }
 
 $conn->close();

@@ -71,13 +71,36 @@ include "./core/check_session.php";
                   </select>
                 </div>
                 <div class="form-group col-md-2">
-                  <label class="font-weight-bold mb-1" for="visibility">Status</label>
+                  <label for="visibility">Status</label>
                   <select class="form-control" name="visibility" id="visibility">
                     <option value="1" <?php if ($visibility == "Rascunho") echo 'selected'; ?>>Rascunho</option>
                     <option value="2" <?php if ($visibility == "Publicado") echo 'selected'; ?>>Publicado</option>
                     <option value="3" <?php if ($visibility == "Destaque") echo 'selected'; ?>>Destaque</option>
                     <option value="4" <?php if ($visibility == "Arquivado") echo 'selected'; ?>>Arquivado</option>
                   </select>
+                </div>
+
+              </div>
+
+              <div class="row">
+                <div class="form-group col-md-5-5">
+                  <label for="title-page">Título Página</label>
+                  <input type="text" class="form-control" id="title-page" name="title-page" maxlength="60" required
+                    value="<?php echo $title_page; ?>" />
+                </div>
+                <div class="form-group col-md-5-5">
+                  <label for="url-page">URL Página</label>
+                  <input type="text" class="form-control" id="url-page" name="url-page" maxlength="60" required
+                    value="<?php echo $url_page; ?>" />
+                </div>
+                <div class="add-url-page">
+                  <span title="Sugerir URL"><i class="fa fa-link" aria-hidden="true"></i></span>
+
+                </div>
+                <div class="form-group col-md-12">
+                  <label for="url-page">Meta-descrição</label>
+                  <textarea id="meta-description" class="meta-description" name="meta-description"
+                    value="<?php echo $meta_description; ?>"></textarea>
                 </div>
 
               </div>
@@ -120,6 +143,7 @@ include "./core/check_session.php";
   </section>
 
 
+
   <!-- Modal de Aviso -->
   <div class="modal fade" id="modal-message" tabindex="-1" role="dialog" aria-labelledby="modal-message-label"
     aria-hidden="true">
@@ -159,6 +183,7 @@ include "./core/check_session.php";
   <script src="./app/assets/js/vendor/tinymce.min.js"></script>
   <script src="./app/assets/js/script.js"></script>
   <script src="./app/assets/js/post.js"></script>
+  <script src="./app/assets/js/posts/url_posts.js"></script>
   <!-- <script src="https://cdn.ckeditor.com/4.7.3/standard/ckeditor.js"></script>
   <script>
     CKEDITOR.replace("editor1");
