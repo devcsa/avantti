@@ -45,7 +45,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
   // Prepara a declaração SQL com um placeholder para o conteúdo
-  $sql = "INSERT INTO posts (`author_id`, `category_id`, `image_cover`, `title`, `content`, `visibility`) VALUES (?, ?, ?, ?, ?, ?)";
+  $sql = "INSERT INTO posts (`author_id`, `category_id`, `image_cover`, `title`, `content`, `visibility`, `url_page`, `title_page`, `meta_description`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
   // Prepara a declaração SQL
   $stmt = $conn->prepare($sql);
@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // Verifica se a preparação da declaração foi bem-sucedida
   if ($stmt) {
     // Liga os parâmetros à declaração
-    $stmt->bind_param("iisssi", $author, $category, $image_cover, $title, $content, $visibility);
+    $stmt->bind_param("iisssisss", $author, $category, $image_cover, $title, $content, $visibility, $url_page, $title_page, $meta_description);
 
     // Obtém os valores dos parâmetros do $_POST
     $author = $_POST["userId"];
@@ -61,11 +61,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $title = $_POST["title"];
     $category = $_POST["category"];
     $visibility = $_POST["visibility"];
+    $url_page = $_POST["url_page"];
+    $title_page = $_POST["title_page"];
+    $meta_description = $_POST["meta_description"];
     $content = $_POST["editorContent"]; // Não precisa escapar, pois prepared statements cuida disso
-
 
     // Executa a declaração
     if ($stmt->execute()) {
+      $postID = $conn->insert_id;
+      include "../../../generateStaticPost.php";
       header("Location: ../../../../posts.php?status=PostSuccess");
       exit;
     } else {

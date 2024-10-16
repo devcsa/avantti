@@ -51,6 +51,7 @@ include "./core/check_session.php";
                 enctype="multipart/form-data">
                 <input type="hidden" name="userId" id="userId" />
                 <input type="hidden" name="actionPost" id="actionPost" value="addPost" />
+
                 <div class="row">
                   <div class="form-group col-md-7">
                     <label for="title">Título</label>
@@ -59,9 +60,7 @@ include "./core/check_session.php";
                   <div class="form-group col-md-3">
                     <label for="category">Categoria</label>
                     <?php
-
                     include "./app/Models/categories/categoryList.php";
-
                     ?>
                   </div>
                   <div class="form-group col-md-2">
@@ -73,7 +72,26 @@ include "./core/check_session.php";
                       <option value="4">Arquivado</option>
                     </select>
                   </div>
+                </div>
 
+                <div class="row">
+                  <div class="form-group col-md-5-5">
+                    <label for="title_page">Meta-título</label>
+                    <input type="text" class="form-control" id="title_page" name="title_page" maxlength="60" />
+                  </div>
+                  <div class="form-group col-md-5-5">
+                    <label for="url_page">URL página</label>
+                    <input type="text" class="form-control" id="url_page" name="url_page" maxlength="60" />
+                  </div>
+                  <div class="add-url-page">
+                    <span title="Sugerir URL" onclick="generateUrlPost()">
+                      <i class="fa fa-link" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                  <div class="form-group col-md-12">
+                    <label for="meta_description">Meta-descrição</label>
+                    <textarea id="meta_description" class="meta-description" name="meta_description"></textarea>
+                  </div>
                 </div>
 
                 <div class="form-group">

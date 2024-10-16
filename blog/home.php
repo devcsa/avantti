@@ -217,7 +217,8 @@ include "./app/Models/categories/addCategory.php";
           <p id="modal-message-text"></p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          <button id="btn-dismiss" type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          <button id="confirm-delete" type="button" class="btn btn-danger">Excluir</button>
         </div>
       </div>
     </div>
@@ -235,15 +236,15 @@ include "./app/Models/categories/addCategory.php";
   </script> -->
 
   <script>
-  $(document).ready(function() {
-    $("#phone").inputmask("(99) 99999-9999", {
-      clearMaskOnLostFocus: false,
+    $(document).ready(function() {
+      $("#phone").inputmask("(99) 99999-9999", {
+        clearMaskOnLostFocus: false,
+      });
     });
-  });
   </script>
 
   <script>
-  <?php
+    <?php
 
 
     if (isset($_GET['status'])) {

@@ -9,39 +9,39 @@
 
   <!-- Google Tag Manager -->
   <script>
-  (function(w, d, s, l, i) {
-    w[l] = w[l] || [];
-    w[l].push({
-      'gtm.start': new Date().getTime(),
-      event: 'gtm.js'
-    });
-    var f = d.getElementsByTagName(s)[0],
-      j = d.createElement(s),
-      dl = l != 'dataLayer' ? '&l=' + l : '';
-    j.async = true;
-    j.src =
-      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-    f.parentNode.insertBefore(j, f);
-  })(window, document, 'script', 'dataLayer', 'GTM-5H9VSQWL');
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5H9VSQWL');
   </script>
   <!-- End Google Tag Manager -->
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-VN5MYF8C3L"></script>
   <script>
-  window.dataLayer = window.dataLayer || [];
+    window.dataLayer = window.dataLayer || [];
 
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag('js', new Date());
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-  gtag('config', 'G-VN5MYF8C3L');
+    gtag('config', 'G-VN5MYF8C3L');
   </script>
 
 
   <meta name="description"
-    content="Software de gestão da inovação que te ajuda a provar resultados de forma prática, direto ao ponto, visualizando diversos projetos dentro de um único local. " />
+    content="Software de gestão da inovação que te ajuda a provar resultados de forma prática, direto ao ponto, visualizando diversos projetos dentro de um único local." />
 
 
 
@@ -82,9 +82,9 @@
 
   <!-- Widget Env Script -->
   <script>
-  window.Zaia = {
-    AgentURL: "https://platform.zaia.app/embed/chat/18613",
-  };
+    window.Zaia = {
+      AgentURL: "https://platform.zaia.app/embed/chat/18613",
+    };
   </script>
 
   <!-- Widget Loader Script -->
@@ -295,12 +295,12 @@
   </div>
 
   <script type="text/javascript">
-  function openModalEmail() {
-    $("#emailModal").modal("show");
+    function openModalEmail() {
+      $("#emailModal").modal("show");
 
-    let texto_email = document.getElementById("message");
-    texto_email.value = "Olá! Acessei a página da Avantt.i e quero agendar uma call para conhecer mais. \n\nObrigada!";
-  }
+      let texto_email = document.getElementById("message");
+      texto_email.value = "Olá! Acessei a página da Avantt.i e quero agendar uma call para conhecer mais. \n\nObrigada!";
+    }
   </script>
   <!-- Modal E-mail End -->
 
@@ -676,18 +676,18 @@
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
   <script type="text/javascript">
-  (function() {
-    // emailjs.init("ye4doyHG3bmtrhbjk");
-    emailjs.init("M5tc3I8aObv3dh3Cd");
-  })();
+    (function() {
+      // emailjs.init("ye4doyHG3bmtrhbjk");
+      emailjs.init("M5tc3I8aObv3dh3Cd");
+    })();
   </script>
 
   <script>
-  // Facts counter
-  $('[data-toggle="counter-up"]').counterUp({
-    delay: 10,
-    time: 2000,
-  });
+    // Facts counter
+    $('[data-toggle="counter-up"]').counterUp({
+      delay: 10,
+      time: 2000,
+    });
   </script>
 
   <!-- Template Javascript -->

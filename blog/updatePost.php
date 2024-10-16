@@ -84,23 +84,24 @@ include "./core/check_session.php";
 
               <div class="row">
                 <div class="form-group col-md-5-5">
-                  <label for="title-page">Título Página</label>
-                  <input type="text" class="form-control" id="title-page" name="title-page" maxlength="60" required
+                  <label for="title_page">Título página</label>
+                  <input type="text" class="form-control" id="title_page" name="title_page" maxlength="60"
                     value="<?php echo $title_page; ?>" />
                 </div>
                 <div class="form-group col-md-5-5">
-                  <label for="url-page">URL Página</label>
-                  <input type="text" class="form-control" id="url-page" name="url-page" maxlength="60" required
+                  <label for="url_page">URL página</label>
+                  <input type="text" class="form-control" id="url_page" name="url_page" maxlength="60"
                     value="<?php echo $url_page; ?>" />
                 </div>
                 <div class="add-url-page">
-                  <span title="Sugerir URL"><i class="fa fa-link" aria-hidden="true"></i></span>
-
+                  <span title="Sugerir URL" onclick="generateUrlPost()">
+                    <i class="fa fa-link" aria-hidden="true"></i>
+                  </span>
                 </div>
                 <div class="form-group col-md-12">
-                  <label for="url-page">Meta-descrição</label>
-                  <textarea id="meta-description" class="meta-description" name="meta-description"
-                    value="<?php echo $meta_description; ?>"></textarea>
+                  <label for="meta_description">Meta-descrição</label>
+                  <textarea id="meta_description" class="meta-description"
+                    name="meta_description"><?php echo $meta_description; ?></textarea>
                 </div>
 
               </div>

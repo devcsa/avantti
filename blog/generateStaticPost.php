@@ -1,44 +1,48 @@
 <?php
 
-include "./core/connection.php";  // Conexão com o banco de dados
+include __DIR__ . '/core/connection.php';
 
-// Defina o ID do post que você deseja gerar a página estática
-$postID = 39;
 
-// Filtrar Post
-$sql_post_view = "SELECT posts.*, categories.name AS category_name, users.username AS author_name
+if (isset($postID)) {
+
+  // Filtrar Post
+  $sql_post_view = "SELECT posts.*, categories.name AS category_name, users.username AS author_name
                   FROM posts
                   INNER JOIN categories ON posts.category_id = categories.id
                   INNER JOIN users ON posts.author_id = users.id WHERE posts.id = $postID";
 
-$result_post_view = $conn->query($sql_post_view);
+  $result_post_view = $conn->query($sql_post_view);
 
-if ($result_post_view->num_rows > 0) {
-  $row_post_view = $result_post_view->fetch_assoc();
+  if ($result_post_view->num_rows > 0) {
+    $row_post_view = $result_post_view->fetch_assoc();
 
-  // Montar as datas de criação e atualização
-  $meses = array("Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez");
-  $created_at = new DateTime($row_post_view["created_at"]);
-  $updated_at = new DateTime($row_post_view["updated_at"]);
-  $created_date = $created_at->format("d ") . $meses[$created_at->format("n") - 1] . $created_at->format(", Y");
-  $updated_date = $updated_at->format("d ") . $meses[$updated_at->format("n") - 1] . $updated_at->format(", Y");
+    // Montar as datas de criação e atualização
+    $meses = array("Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez");
+    $created_at = new DateTime($row_post_view["created_at"]);
+    $updated_at = new DateTime($row_post_view["updated_at"]);
+    $created_date = $created_at->format("d ") . $meses[$created_at->format("n") - 1] . $created_at->format(", Y");
+    $updated_date = $updated_at->format("d ") . $meses[$updated_at->format("n") - 1] . $updated_at->format(", Y");
 
-  // Variáveis do post
-  $image_cover = "../app/assets/img/posts/destaques/" . $row_post_view["image_cover"];
-  $author_name = $row_post_view["author_name"];
-  $title = $row_post_view["title"];
-  $content = $row_post_view["content"];
-  $category = $row_post_view["category_name"];
+    // Variáveis do post
+    $image_cover = "../app/assets/img/posts/destaques/" . $row_post_view["image_cover"];
+    $author_name = $row_post_view["author_name"];
+    $title = $row_post_view["title"];
+    $content = $row_post_view["content"];
+    $category = $row_post_view["category_name"];
 
-  // Gerar o HTML da página
-  $html = "
+    $url_page = $row_post_view['url_page'] ? $row_post_view['url_page'] : $postID;  // Usar o ID do post se não houver url
+    $title_page = $row_post_view['title_page'] ? $row_post_view['title_page'] : $title;  // Usar o título do post se não houver meta_title
+    $meta_description = $row_post_view['meta_description'];
+
+    // Gerar o HTML da página
+    $html = "
 <!DOCTYPE html>
 <html lang='pt-br'>
 <head>
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-  <meta name='description' content='Software de gestão da inovação que te ajuda a provar resultados de forma prática, direto ao ponto.' />
-  <title>$title - Avantt.i</title>
+  <meta name='description' content='$meta_description' />
+  <title>$title_page - Avantt.i</title>
 
   <!-- Favicon -->
   <link href='../app/assets/img/favicon.png' rel='icon' />
@@ -102,15 +106,15 @@ if ($result_post_view->num_rows > 0) {
             </div>
             <div class='link-animated d-flex flex-column justify-content-start'>";
 
-  $sql_categories = "SELECT id, name FROM categories";
-  $result_categories = $conn->query($sql_categories);
-  if ($result_categories->num_rows > 0) {
-    while ($row_category = $result_categories->fetch_assoc()) {
-      $html .= "<a href='./blog?categoryID=" . $row_category['id'] . "' class='h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2'><i class='bi bi-arrow-right me-2'></i>" . $row_category['name'] . "</a>";
+    $sql_categories = "SELECT id, name FROM categories";
+    $result_categories = $conn->query($sql_categories);
+    if ($result_categories->num_rows > 0) {
+      while ($row_category = $result_categories->fetch_assoc()) {
+        $html .= "<a href='./blog?categoryID=" . $row_category['id'] . "' class='h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2'><i class='bi bi-arrow-right me-2'></i>" . $row_category['name'] . "</a>";
+      }
     }
-  }
 
-  $html .= "
+    $html .= "
             </div>
           </div>
           <!-- Category End -->
@@ -121,19 +125,19 @@ if ($result_post_view->num_rows > 0) {
               <h3 class='mb-0 blog-title'>Postagens Recentes</h3>
             </div>";
 
-  $sql_recent_posts = "SELECT id, title, image_cover FROM posts ORDER BY created_at DESC LIMIT 5";
-  $result_recent_posts = $conn->query($sql_recent_posts);
-  if ($result_recent_posts->num_rows > 0) {
-    while ($row_recent_post = $result_recent_posts->fetch_assoc()) {
-      $html .= "
-              <div class='d-flex rounded overflow-hidden mb-3'>
+    $sql_recent_posts = "SELECT id, title, image_cover, url_page FROM posts ORDER BY created_at DESC LIMIT 5";
+    $result_recent_posts = $conn->query($sql_recent_posts);
+    if ($result_recent_posts->num_rows > 0) {
+      while ($row_recent_post = $result_recent_posts->fetch_assoc()) {
+        $html .= "
+              <div class='d-flex rounded bg-light overflow-hidden mb-3'>
                 <img class='img-fluid' src='../app/assets/img/posts/destaques/" . $row_recent_post['image_cover'] . "' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
-                <a href='./viewPost?postID=" . $row_recent_post['id'] . "' class='blog-recents fw-semi-bold d-flex align-items-center bg-light px-3 mb-0'>" . $row_recent_post['title'] . "</a>
+                <a href='" . $row_recent_post['url_page'] . "' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>" . $row_recent_post['title'] . "</a>
               </div>";
+      }
     }
-  }
 
-  $html .= "
+    $html .= "
           </div>
           <!-- Recent Post End -->
 
@@ -150,15 +154,15 @@ if ($result_post_view->num_rows > 0) {
             </div>
             <div class='d-flex flex-wrap m-n1'>";
 
-  $sql_tags = "SELECT tag_name FROM tags";
-  $result_tags = $conn->query($sql_tags);
-  if ($result_tags->num_rows > 0) {
-    while ($row_tag = $result_tags->fetch_assoc()) {
-      $html .= "<a href='#' class='btn btn-light m-1'>" . $row_tag['tag_name'] . "</a>";
+    $sql_tags = "SELECT tag_name FROM tags";
+    $result_tags = $conn->query($sql_tags);
+    if ($result_tags->num_rows > 0) {
+      while ($row_tag = $result_tags->fetch_assoc()) {
+        $html .= "<a href='#' class='btn btn-light m-1'>" . $row_tag['tag_name'] . "</a>";
+      }
     }
-  }
 
-  $html .= "
+    $html .= "
             </div>
           </div>
           <!-- Tags End -->
@@ -241,15 +245,18 @@ if ($result_post_view->num_rows > 0) {
 </body>
 </html>";
 
-  // Defina o caminho onde o arquivo será salvo
-  $file_path = "./posts/post_" . $postID . ".php";
+    // Defina o caminho onde o arquivo será salvo
+    $file_path = "../../../posts/" . $url_page . ".php";
 
-  // Salve o conteúdo HTML em um arquivo
-  file_put_contents($file_path, $html);
+    // Salve o conteúdo HTML em um arquivo
+    file_put_contents($file_path, $html);
 
-  echo "Página salva com sucesso: <a href='$file_path'>$file_path</a>";
+    echo "Página salva com sucesso: <a href='$file_path'>$file_path</a>";
+  } else {
+    echo "Postagem não encontrada!";
+  }
 } else {
-  echo "Postagem não encontrada!";
+  echo "Erro: ID da postagem não foi fornecido.";
 }
 
 $conn->close();

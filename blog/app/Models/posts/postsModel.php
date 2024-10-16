@@ -10,7 +10,8 @@ categories.name AS category_name,
 users.username AS author_name
 FROM posts
 INNER JOIN categories ON posts.category_id = categories.id
-INNER JOIN users ON posts.author_id = users.id";
+INNER JOIN users ON posts.author_id = users.id ORDER BY posts.updated_at DESC
+";
 
 
 

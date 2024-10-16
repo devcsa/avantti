@@ -60,19 +60,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
   // Prepara a declaração SQL para atualizar a postagem
-  $sql = "UPDATE posts SET `author_id` = ?, `category_id` = ?, `image_cover` = ?, `title` = ?, `content` = ?, `visibility` = ? WHERE id = ?";
+  $sql = "UPDATE posts SET `author_id` = ?, `category_id` = ?, `image_cover` = ?, `title` = ?, `content` = ?, `visibility` = ?, `url_page` = ?, `title_page` = ?, `meta_description` = ? WHERE id = ?";
   $stmt = $conn->prepare($sql);
 
   // Verifica se a preparação da declaração foi bem-sucedida
   if ($stmt) {
     // Liga os parâmetros à declaração
-    $stmt->bind_param("iisssii", $author, $category, $image_cover, $title, $content, $visibility, $post_id);
+    $stmt->bind_param("iisssisssi", $author, $category, $image_cover, $title, $content, $visibility, $url_page, $title_page, $meta_description, $post_id);
 
     // Obtém os valores dos parâmetros do $_POST
     $author = $_POST["userId"];
     $title = $_POST["title"];
     $category = $_POST["category"];
     $visibility = $_POST["visibility"];
+    $url_page = $_POST["url_page"];
+    $title_page = $_POST["title_page"];
+    $meta_description = $_POST["meta_description"];
     $content = $_POST["editorContent"];
     $image_cover = $fileName;
 
@@ -87,6 +90,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Executa a declaração
     if ($stmt->execute()) {
+      $postID = $post_id;
+      include "../../../generateStaticPost.php";
       header("Location: ../../../../posts.php?status=PostUpdated");
       exit;
     } else {

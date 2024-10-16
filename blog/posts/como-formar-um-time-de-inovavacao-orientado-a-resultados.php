@@ -4,8 +4,8 @@
 <head>
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-  <meta name='description' content='Software de gestão da inovação que te ajuda a provar resultados de forma prática, direto ao ponto.' />
-  <title>Como formar um time de inovação orientado a resultados? - Avantt.i</title>
+  <meta name='description' content='Software de gestão da inovação que te ajuda a provar resultados de forma prática, direto ao ponto, visualizando diversos projetos dentro de um único local. ' />
+  <title>Como formar um time de inovavação orientado a resultados - Avantt.i</title>
 
   <!-- Favicon -->
   <link href='../app/assets/img/favicon.png' rel='icon' />
@@ -35,12 +35,12 @@
       <div class='container-fluid bg-primary py-3 bg-blog-post'>
         <div class='row py-4'>
           <div class='titulo-mobile mt-6 pt-3 title-blog'>
-            <h1 class='main-title animated zoomIn mb-4'>Como formar um time de inovação orientado a resultados?</h1>
+            <h1 class='main-title animated zoomIn mb-4'>Como formar um time de inovavação orientado a resultados</h1>
             <div class='d-flex mb-2 detail-post'>
               <small><i class='far fa-user me-2'></i><a href='./blog?authorID=23'>Cicero Alves</a> | <a href='./blog?categoryID=1'>Cultura de Inovação</a></small>
             </div>
             <div class='d-flex detail-post'>
-              <small><i class='far fa-calendar-alt me-2'></i>30 Ago, 2024 | Atualizado em 02 Out, 2024</small>
+              <small><i class='far fa-calendar-alt me-2'></i>30 Ago, 2024 | Atualizado em 16 Out, 2024</small>
             </div>
           </div>
         </div>
@@ -163,25 +163,25 @@
             <div class='section-title section-title-sm position-relative pb-3 mb-4'>
               <h3 class='mb-0 blog-title'>Postagens Recentes</h3>
             </div>
-              <div class='d-flex rounded overflow-hidden mb-3'>
+              <div class='d-flex rounded bg-light overflow-hidden mb-3'>
+                <img class='img-fluid' src='../app/assets/img/posts/destaques/68_Team-pana.png' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
+                <a href='papel-do-comite-de-inovacao' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>Papel do Comitê de Inovação</a>
+              </div>
+              <div class='d-flex rounded bg-light overflow-hidden mb-3'>
                 <img class='img-fluid' src='../app/assets/img/posts/destaques/1_blog2.png' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
-                <a href='./viewPost?postID=3' class='blog-recents fw-semi-bold d-flex align-items-center bg-light px-3 mb-0'>Se todos são a favor da inovação, por que ela não acontece?</a>
+                <a href='' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>Se todos s</a>
               </div>
-              <div class='d-flex rounded overflow-hidden mb-3'>
+              <div class='d-flex rounded bg-light overflow-hidden mb-3'>
                 <img class='img-fluid' src='../app/assets/img/posts/destaques/4_blog3.png' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
-                <a href='./viewPost?postID=13' class='blog-recents fw-semi-bold d-flex align-items-center bg-light px-3 mb-0'>Um novo jeito de decidir sobre projetos de inovação.</a>
+                <a href='' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>Um novo jeito de decidir sobre projetos de inova</a>
               </div>
-              <div class='d-flex rounded overflow-hidden mb-3'>
+              <div class='d-flex rounded bg-light overflow-hidden mb-3'>
                 <img class='img-fluid' src='../app/assets/img/posts/destaques/5_blog4.png' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
-                <a href='./viewPost?postID=14' class='blog-recents fw-semi-bold d-flex align-items-center bg-light px-3 mb-0'>Avantti: o seu aliado na gestão da inovação.</a>
+                <a href='avantti-o-seu-aliado-na-gestao' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>Avantti: o seu aliado na gestão</a>
               </div>
-              <div class='d-flex rounded overflow-hidden mb-3'>
+              <div class='d-flex rounded bg-light overflow-hidden mb-3'>
                 <img class='img-fluid' src='../app/assets/img/posts/destaques/18_blog6.png' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
-                <a href='./viewPost?postID=18' class='blog-recents fw-semi-bold d-flex align-items-center bg-light px-3 mb-0'>Como criar um ambiente propício à inovação?</a>
-              </div>
-              <div class='d-flex rounded overflow-hidden mb-3'>
-                <img class='img-fluid' src='../app/assets/img/posts/destaques/20_00_banner.png' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
-                <a href='./viewPost?postID=20' class='blog-recents fw-semi-bold d-flex align-items-center bg-light px-3 mb-0'>Toolkit de Estratégia</a>
+                <a href='' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>Como criar um ambiente prop</a>
               </div>
           </div>
           <!-- Recent Post End -->

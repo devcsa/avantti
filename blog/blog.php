@@ -5,7 +5,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <meta name="description" content="Software de gestão da inovação que te ajuda a provar resultados de forma prática, direto ao ponto, visualizando diversos projetos dentro de um único local. " />
+  <meta name="description"
+    content="Software de gestão da inovação que te ajuda a provar resultados de forma prática, direto ao ponto, visualizando diversos projetos dentro de um único local. " />
 
   <title>Seu aliado na gestão da inovação | Blog Avantt.i</title>
 
@@ -57,7 +58,8 @@
   </style>
 
   <!-- Spinner Start -->
-  <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+  <div id="spinner"
+    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
     <div class="spinner"></div>
   </div>
   <!-- Spinner End -->
@@ -105,7 +107,8 @@
               Conheça nosso <span class="text-primary">Blog </span>
             </h6>
             <br />
-            <p class="animated zoomIn text-white" data-wow-delay="0.6s" style="font-family: Montserrat; font-weight: 500">
+            <p class="animated zoomIn text-white" data-wow-delay="0.6s"
+              style="font-family: Montserrat; font-weight: 500">
               E fique por dentro dos nossos estudos e<br>materiais relevantes para seu negócio.
             </p>
           </div>
@@ -145,7 +148,7 @@
               echo '<div class="blog-item bg-light rounded overflow-hidden">';
               echo '<div class="blog-img position-relative overflow-hidden">';
               echo '<img class="img-fluid" src="./app/assets/img/posts/destaques/' . $row_posts["image_cover"] . '" alt="Postagem" />';
-              echo '<a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="./viewPost?postID=' . $row_posts["id"] . '">' . $row_posts["category_name"] . '</a>';
+              echo '<a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="./posts/' . $row_posts["url_page"] . '">' . $row_posts["category_name"] . '</a>';
               echo '</div>';
               echo '<div class="p-3 detail-blog">';
               echo '<div class="d-flex mb-3">';
@@ -153,7 +156,7 @@
               echo '<small><i class="far fa-calendar-alt text-primary me-2"></i>' . $formatted_date . '</small>';
               echo '</div>';
               echo '<h4 class="mb-3 post-title">' . $short_title . '</h4>';
-              echo '<p class="two-lines">' . $short_content . '</p><a class="text-uppercase" href="./viewPost?postID=' . $row_posts["id"] . '">Ler mais <i class="bi bi-arrow-right"></i></a>';
+              echo '<p class="two-lines">' . $short_content . '</p><a class="text-uppercase" href="./posts/' . $row_posts["url_page"] . '">Ler mais <i class="bi bi-arrow-right"></i></a>';
               echo '</div>';
               echo '</div>';
               echo '</div>';
@@ -191,9 +194,9 @@
 
             <?php
             while ($row_recents_posts = $result_recents_posts->fetch_assoc()) {
-              echo '<div class="d-flex rounded overflow-hidden mb-3">';
+              echo '<div class="d-flex rounded bg-light overflow-hidden mb-3">';
               echo '<img class="img-fluid" src="./app/assets/img/posts/destaques/' . $row_recents_posts["image_cover"] . '" style="width: 100px; height: 100px; object-fit: cover" alt="Posts Recentes" />';
-              echo '<a href="./viewPost?postID=' . $row_recents_posts["id"] . '" class="blog-recents fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">' . $row_recents_posts["title"] . '</a>';
+              echo '<a href="./posts/' . $row_recents_posts["url_page"] . '" class="blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0">' . $row_recents_posts["title"] . '</a>';
               echo '</div>';
             }
             ?>
@@ -232,7 +235,8 @@
 
 
   <!-- Modal Message-->
-  <div class="modal fade" id="mensagem" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="mensagem" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div id="tipoMsg" class="modal-header">
@@ -248,7 +252,8 @@
   </div>
 
   <!-- Modal de Aviso -->
-  <div class="modal fade" id="modal-message" tabindex="-1" role="dialog" aria-labelledby="modal-message-label" aria-hidden="true">
+  <div class="modal fade" id="modal-message" tabindex="-1" role="dialog" aria-labelledby="modal-message-label"
+    aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -273,7 +278,8 @@
         <div class="row justify-content-center">
           <div class="col-lg-6">
             <h3 class="mb-4">Assine Nossa Newsletter</h3>
-            <span><input type="email" name="email" id="newsletter" placeholder="E-mail" autocomplete="email" /><button onclick="sendNewsletter()" type="submit">Assinar</button></span>
+            <span><input type="email" name="email" id="newsletter" placeholder="E-mail" autocomplete="email" /><button
+                onclick="sendNewsletter()" type="submit">Assinar</button></span>
           </div>
         </div>
       </div>
@@ -307,11 +313,14 @@
 
     <div class="footer-bottom">
       <div class="logo-footer">
-        <a href="https://avanttinovacao.com.br/" target="_blank"><img src="./app/assets/img/logos/logo-clara-st.png" class="logo" alt="Logo" /></a>
+        <a href="https://avanttinovacao.com.br/" target="_blank"><img src="./app/assets/img/logos/logo-clara-st.png"
+            class="logo" alt="Logo" /></a>
       </div>
       <div class="social-links">
-        <a class="btn btn-primary btn-square me-2" href="https://www.linkedin.com/company/avantti-inovacao/" target="_blank"><i class="fab fa-linkedin-in fw-normal"></i></a>
-        <a class="btn btn-primary btn-square" href="https://avanttinovacao.com.br/" target="_blank"><i class="fas fa-globe fa-sm"></i></a>
+        <a class="btn btn-primary btn-square me-2" href="https://www.linkedin.com/company/avantti-inovacao/"
+          target="_blank"><i class="fab fa-linkedin-in fw-normal"></i></a>
+        <a class="btn btn-primary btn-square" href="https://avanttinovacao.com.br/" target="_blank"><i
+            class="fas fa-globe fa-sm"></i></a>
       </div>
     </div>
   </footer>
