@@ -4,7 +4,7 @@
 <head>
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-  <meta name='description' content='Inspirado por uma conversa que tivemos durante um webinar que realizamos em agosto de 2020, durante o qual discutimos o tema “Inovadores: o motor da inovação”, resolvemos colocar no papel nossa visão sobre as principais alavancas para se promover um ambiente propício a inovação. E sem mais delongas, descremos abaixo.' />
+  <meta name='description' content='' />
   <title>Como criar um ambiente propício à inovação? - Avantt.i</title>
 
   <!-- Favicon -->
@@ -37,10 +37,10 @@
           <div class='titulo-mobile mt-6 pt-3 title-blog'>
             <h1 class='main-title animated zoomIn mb-4'>Como criar um ambiente propício à inovação?</h1>
             <div class='d-flex mb-2 detail-post'>
-              <small><i class='far fa-user me-2'></i><a href='./blog?authorID=23'>Cicero Alves</a> | <a href='./blog?categoryID=1'>Cultura de Inovação</a></small>
+              <small><i class='far fa-user me-2'></i><a href='./blog?authorID=31'>Vinícius Scarpa</a> | <a href='./blog?categoryID=1'>Cultura de Inovação</a></small>
             </div>
             <div class='d-flex detail-post'>
-              <small><i class='far fa-calendar-alt me-2'></i>30 Ago, 2024 | Atualizado em 16 Out, 2024</small>
+              <small><i class='far fa-calendar-alt me-2'></i>12 Jan, 2023 | Atualizado em 12 Jan, 2023</small>
             </div>
           </div>
         </div>
@@ -111,24 +111,24 @@
               <h3 class='mb-0 blog-title'>Postagens Recentes</h3>
             </div>
               <div class='d-flex rounded bg-light overflow-hidden mb-3'>
-                <img class='img-fluid' src='../app/assets/img/posts/destaques/68_Team-pana.png' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
-                <a href='papel-do-comite-de-inovacao' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>Papel do Comitê de Inovação</a>
+                <img class='img-fluid' src='../app/assets/img/posts/destaques/68_Webinar-cuate.png' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
+                <a href='impacto-da-digitalizacao' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>Impacto da Digitalização</a>
               </div>
               <div class='d-flex rounded bg-light overflow-hidden mb-3'>
-                <img class='img-fluid' src='../app/assets/img/posts/destaques/1_blog2.png' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
-                <a href='' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>Se todos s</a>
+                <img class='img-fluid' src='../app/assets/img/posts/destaques/82_A importância dos drivers de inovação nas grandes empresas.png' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
+                <a href='a-importancia-dos-drivers-de-inovacao-nas-grandes-empresas ' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>A importância dos drivers de inovação nas grandes empresas </a>
               </div>
               <div class='d-flex rounded bg-light overflow-hidden mb-3'>
-                <img class='img-fluid' src='../app/assets/img/posts/destaques/4_blog3.png' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
-                <a href='um-novo-jeito-de-decidir-sobre-projetos-de-inova' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>Um novo jeito de decidir sobre projetos de inovação</a>
+                <img class='img-fluid' src='../app/assets/img/posts/destaques/81_design doing.jpg' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
+                <a href='design-doing' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>Design Doing</a>
               </div>
               <div class='d-flex rounded bg-light overflow-hidden mb-3'>
-                <img class='img-fluid' src='../app/assets/img/posts/destaques/5_blog4.png' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
-                <a href='avantti-o-seu-aliado-na-gestao' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>Avantti: o seu aliado na gestão</a>
+                <img class='img-fluid' src='../app/assets/img/posts/destaques/80_A Importância das entrevistas no Processo de Design Thinking.png' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
+                <a href='a-importancia-das-entrevistas-no-processo-de-design-thinking' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>A Importância das entrevistas no Processo de Design Thinking </a>
               </div>
               <div class='d-flex rounded bg-light overflow-hidden mb-3'>
-                <img class='img-fluid' src='../app/assets/img/posts/destaques/18_blog6.png' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
-                <a href='como-criar-um-ambiente-propicio-a-inovacao' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>Como criar um ambiente propício à inovação?</a>
+                <img class='img-fluid' src='../app/assets/img/posts/destaques/79_Desk-research-UX.png' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
+                <a href='desk-research' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>Desk Research</a>
               </div>
           </div>
           <!-- Recent Post End -->

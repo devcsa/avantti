@@ -84,7 +84,7 @@ include "./core/check_session.php";
 
               <div class="row">
                 <div class="form-group col-md-5-5">
-                  <label for="title_page">Título página</label>
+                  <label for="title_page">Meta-título</label>
                   <input type="text" class="form-control" id="title_page" name="title_page" maxlength="60"
                     value="<?php echo $title_page; ?>" />
                 </div>

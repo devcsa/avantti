@@ -4,8 +4,8 @@
 <head>
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-  <meta name='description' content='Teste' />
-  <title>As organizações aprenderam ao longo do tempo - Avantt.i</title>
+  <meta name='description' content='' />
+  <title>A evolução da gestão da inovação - Avantt.i</title>
 
   <!-- Favicon -->
   <link href='../app/assets/img/favicon.png' rel='icon' />
@@ -35,12 +35,12 @@
       <div class='container-fluid bg-primary py-3 bg-blog-post'>
         <div class='row py-4'>
           <div class='titulo-mobile mt-6 pt-3 title-blog'>
-            <h1 class='main-title animated zoomIn mb-4'>As organizações aprenderam ao longo do tempo</h1>
+            <h1 class='main-title animated zoomIn mb-4'>A evolução da gestão da inovação</h1>
             <div class='d-flex mb-2 detail-post'>
-              <small><i class='far fa-user me-2'></i><a href='./blog?authorID=23'>Cicero Alves</a> | <a href='./blog?categoryID=9'>Gestão da Inovação</a></small>
+              <small><i class='far fa-user me-2'></i><a href='./blog?authorID=28'>Lucas</a> | <a href='./blog?categoryID=9'>Gestão da Inovação</a></small>
             </div>
             <div class='d-flex detail-post'>
-              <small><i class='far fa-calendar-alt me-2'></i>30 Ago, 2024 | Atualizado em 16 Out, 2024</small>
+              <small><i class='far fa-calendar-alt me-2'></i>18 Jul, 2024 | Atualizado em 15 Ago, 2024</small>
             </div>
           </div>
         </div>
@@ -53,15 +53,14 @@
       <div class='row g-5'>
         <div class='col-lg-8'>
           <div class='img-destaque position-relative overflow-hidden'>
-            <img class='img-fluid' src='../app/assets/img/posts/destaques/28_Imagem1.png' alt='Imagem Destaque' />
+            <img class='img-fluid' src='../app/assets/img/posts/destaques/28_gestao da inovação (2).png' alt='Imagem Destaque' />
           </div>
           <div class='content-blog position-relative overflow-hidden'>
             <div class="SCXW18148949 BCX8">
 <div class="OutlineElement Ltr SCXW18148949 BCX8">
 <p class="Paragraph SCXW18148949 BCX8" style="text-align: justify;"><span class="TextRun SCXW18148949 BCX8" lang="PT-BR" xml:lang="PT-BR" data-contrast="auto"><span class="NormalTextRun SCXW18148949 BCX8"><span class="TextRun SCXW148329999 BCX8" lang="PT-BR" xml:lang="PT-BR" data-contrast="auto"><span class="NormalTextRun SCXW148329999 BCX8">&nbsp; &nbsp; &nbsp; &nbsp;</span></span>Ao longo dos anos, a pr&aacute;tica de gerar inova&ccedil;&atilde;o de maneira consciente e sistem&aacute;tica tem evolu&iacute;do significativamente. Inicialmente confinada a artigos acad&ecirc;micos, a gest&atilde;o da inova&ccedil;&atilde;o come&ccedil;ou a ganhar destaque fora da academia no final dos anos 90, impulsionada por best-sellers como "O Dilema da Inova&ccedil;&atilde;o" de Clayton Christensen, "Gest&atilde;o da Inova&ccedil;&atilde;o" de Joe&nbsp;</span><span class="NormalTextRun SpellingErrorV2Themed SCXW18148949 BCX8">Tidd</span><span class="NormalTextRun SCXW18148949 BCX8">, "Inova&ccedil;&atilde;o Aberta" de Henry </span><span class="NormalTextRun SpellingErrorV2Themed SCXW18148949 BCX8">Chesbrough</span><span class="NormalTextRun SCXW18148949 BCX8"> e "A Arte da Inova&ccedil;&atilde;o" de Tom Kelley, entre outros.</span></span><span class="EOP SCXW18148949 BCX8" data-ccp-props="{">&nbsp;</span></p>
-<p class="Paragraph SCXW18148949 BCX8" style="text-align: justify;"><strong><span class="EOP SCXW18148949 BCX8" data-ccp-props="{">Teste: Imagem copiada da web e colada com ctrl+v</span></strong></p>
-<p class="Paragraph SCXW18148949 BCX8" style="text-align: justify;"><img src="https://www.kaibaratrading.com/assets/img/destaques/image5.png" width="765" height="199"></p>
 </div>
+<div class="OutlineElement Ltr SCXW18148949 BCX8" style="text-align: justify;">&nbsp;</div>
 <div class="OutlineElement Ltr SCXW18148949 BCX8" style="text-align: justify;">
 <h3 class="Paragraph SCXW18148949 BCX8"><strong><span class="TextRun SCXW18148949 BCX8" lang="PT-BR" xml:lang="PT-BR" data-contrast="auto"><span class="NormalTextRun SCXW18148949 BCX8">Aprendizados da Gest&atilde;o da Inova&ccedil;&atilde;o</span></span><span class="EOP SCXW18148949 BCX8" data-ccp-props="{">&nbsp;</span></strong></h3>
 </div>
@@ -175,24 +174,24 @@
               <h3 class='mb-0 blog-title'>Postagens Recentes</h3>
             </div>
               <div class='d-flex rounded bg-light overflow-hidden mb-3'>
-                <img class='img-fluid' src='../app/assets/img/posts/destaques/68_Team-pana.png' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
-                <a href='papel-do-comite-de-inovacao' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>Papel do Comitê de Inovação</a>
+                <img class='img-fluid' src='../app/assets/img/posts/destaques/68_Webinar-cuate.png' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
+                <a href='impacto-da-digitalizacao' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>Impacto da Digitalização</a>
               </div>
               <div class='d-flex rounded bg-light overflow-hidden mb-3'>
-                <img class='img-fluid' src='../app/assets/img/posts/destaques/1_blog2.png' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
-                <a href='' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>Se todos s</a>
+                <img class='img-fluid' src='../app/assets/img/posts/destaques/82_A importância dos drivers de inovação nas grandes empresas.png' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
+                <a href='a-importancia-dos-drivers-de-inovacao-nas-grandes-empresas ' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>A importância dos drivers de inovação nas grandes empresas </a>
               </div>
               <div class='d-flex rounded bg-light overflow-hidden mb-3'>
-                <img class='img-fluid' src='../app/assets/img/posts/destaques/4_blog3.png' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
-                <a href='' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>Um novo jeito de decidir sobre projetos de inova</a>
+                <img class='img-fluid' src='../app/assets/img/posts/destaques/81_design doing.jpg' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
+                <a href='design-doing' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>Design Doing</a>
               </div>
               <div class='d-flex rounded bg-light overflow-hidden mb-3'>
-                <img class='img-fluid' src='../app/assets/img/posts/destaques/5_blog4.png' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
-                <a href='avantti-o-seu-aliado-na-gestao' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>Avantti: o seu aliado na gestão</a>
+                <img class='img-fluid' src='../app/assets/img/posts/destaques/80_A Importância das entrevistas no Processo de Design Thinking.png' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
+                <a href='a-importancia-das-entrevistas-no-processo-de-design-thinking' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>A Importância das entrevistas no Processo de Design Thinking </a>
               </div>
               <div class='d-flex rounded bg-light overflow-hidden mb-3'>
-                <img class='img-fluid' src='../app/assets/img/posts/destaques/18_blog6.png' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
-                <a href='' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>Como criar um ambiente prop</a>
+                <img class='img-fluid' src='../app/assets/img/posts/destaques/79_Desk-research-UX.png' style='width: 100px; height: 100px; object-fit: cover' alt='Posts Recentes' />
+                <a href='desk-research' class='blog-recents fw-semi-bold d-flex align-items-center px-3 mb-0'>Desk Research</a>
               </div>
           </div>
           <!-- Recent Post End -->

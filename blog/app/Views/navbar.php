@@ -14,7 +14,7 @@ echo "<nav class='navbar navbar-expand-sm navbar-dark bg-dark py-2'>
         <a href='home' class='nav-link font-weight-bold'>Dashboard</a>
       </li>
       <li class='nav-item px-2'>
-        <a href='posts' class='nav-link font-weight-bold'>Postagens</a>
+        <a href='posts.php' class='nav-link font-weight-bold'>Postagens</a>
       </li>
       <li class='nav-item px-2'>
         <a href='categories' class='nav-link font-weight-bold'>Categorias</a>
