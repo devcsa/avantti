@@ -1,11 +1,10 @@
-.htaccess
 .htaccess copy
-js/firbase-init.js
-assets/
-img/
-blog/core/connection.php
-blog/vendor/
-blog/.htaccess
-blog/app/assets/img/
-blog/app/assets/img_old/
-blog/.vscode
+/assets/movies/*.mp4
+/blog/.htaccess
+/blog/app/assets/img_old/
+/blog/app/assets/img/posts/basepath/*.*
+/blog/app/assets/img/posts/destaques/*.*
+/blog/.vscode
+.env
+README.md
+/posts/*.php
