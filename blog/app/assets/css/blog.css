@@ -1,0 +1,28 @@
+h2 {
+   /* color: #9d28f0; */
+   color: #47009a;
+   font-weight: 600;
+}
+
+h3 {
+   font-size: 1.2rem !important;
+   font-weight: 600;
+}
+
+p {
+   color: #9d28f0;
+   line-height: 20px;
+   font-size: 0.95rem;
+}
+
+a {
+   text-decoration: none !important;
+}
+
+.card-body {
+   color: #47009a;
+}
+
+.card {
+   width: 49%;
+}

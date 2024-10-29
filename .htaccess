@@ -1,0 +1,25 @@
+Options -Indexes
+
+ErrorDocument 404 /error/404.html
+
+RewriteEngine on
+RewriteBase /
+
+# RewriteCond %{HTTP_HOST} !^www.avanttinovacao.com.br$
+# RewriteRule ^(.*)$ https://www.avanttinovacao.com.br/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^blog/(.*)$ /blog/$1 [L]
+
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*[^/])$ /$1.php [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.+)/$ /$1 [R=301,L]
