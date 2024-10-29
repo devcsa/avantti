@@ -9,34 +9,34 @@
 
   <!-- Google Tag Manager -->
   <script>
-    (function(w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({
-        'gtm.start': new Date().getTime(),
-        event: 'gtm.js'
-      });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
-      j.async = true;
-      j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-5H9VSQWL');
+  (function(w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+      'gtm.start': new Date().getTime(),
+      event: 'gtm.js'
+    });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src =
+      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer', 'GTM-5H9VSQWL');
   </script>
   <!-- End Google Tag Manager -->
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-VN5MYF8C3L"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
+  window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
 
-    gtag('config', 'G-VN5MYF8C3L');
+  gtag('config', 'G-VN5MYF8C3L');
   </script>
 
 
@@ -58,9 +58,11 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
 
   <!-- Libraries Stylesheet -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
     integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+
   <link href="lib/animate/animate.min.css" rel="stylesheet" />
 
   <!-- Customized Bootstrap Stylesheet -->
@@ -76,15 +78,15 @@
 <body>
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5H9VSQWL" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
+      style="display:none;visibility:hidden" title="Google TM"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
 
   <!-- Widget Env Script -->
   <script>
-    window.Zaia = {
-      AgentURL: "https://platform.zaia.app/embed/chat/18613",
-    };
+  window.Zaia = {
+    AgentURL: "https://platform.zaia.app/embed/chat/18613",
+  };
   </script>
 
   <!-- Widget Loader Script -->
@@ -295,12 +297,12 @@
   </div>
 
   <script type="text/javascript">
-    function openModalEmail() {
-      $("#emailModal").modal("show");
+  function openModalEmail() {
+    $("#emailModal").modal("show");
 
-      let texto_email = document.getElementById("message");
-      texto_email.value = "Olá! Acessei a página da Avantt.i e quero agendar uma call para conhecer mais. \n\nObrigada!";
-    }
+    let texto_email = document.getElementById("message");
+    texto_email.value = "Olá! Acessei a página da Avantt.i e quero agendar uma call para conhecer mais. \n\nObrigada!";
+  }
   </script>
   <!-- Modal E-mail End -->
 
@@ -508,7 +510,7 @@
           <div class="my-3 front-2">
             <div class="d-flex flex-row justify-content-center border-bottom pt-4 pb-4" style="height: 93px">
               <div class="d-flex" style="width: auto">
-                <img class="img-fluid rounded" src="./img/icons/logo-votorantin.png" style="width: 175px"
+                <img class="img-fluid rounded" src="./img/icons/logo-votorantin.png" style="width: 175px; height: 44px;"
                   alt="Logo Votorantim" />
               </div>
             </div>
@@ -536,7 +538,7 @@
           <div class="my-3 back-2">
             <div class="d-flex flex-row justify-content-center border-bottom pt-4 pb-4" style="height: 93px">
               <div class="d-flex" style="width: auto">
-                <img class="img-fluid rounded" src="./img/icons/logo-votorantin.png" style="width: 175px"
+                <img class="img-fluid rounded" src="./img/icons/logo-votorantin.png" style="width: 175px; height: 44px;"
                   alt="Logo Votorantim" />
               </div>
             </div>
@@ -669,25 +671,25 @@
   <script src="lib/easing/easing.min.js"></script>
   <script src="lib/waypoints/waypoints.min.js"></script>
   <script src="lib/counterup/counterup.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <!-- <script src="lib/owlcarousel/owl.carousel.min.js"></script> -->
 
   <script src="./js/email.js"></script>
 
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
   <script type="text/javascript">
-    (function() {
-      // emailjs.init("ye4doyHG3bmtrhbjk");
-      emailjs.init("M5tc3I8aObv3dh3Cd");
-    })();
+  (function() {
+    // emailjs.init("ye4doyHG3bmtrhbjk");
+    emailjs.init("M5tc3I8aObv3dh3Cd");
+  })();
   </script>
 
   <script>
-    // Facts counter
-    $('[data-toggle="counter-up"]').counterUp({
-      delay: 10,
-      time: 2000,
-    });
+  // Facts counter
+  $('[data-toggle="counter-up"]').counterUp({
+    delay: 10,
+    time: 2000,
+  });
   </script>
 
   <!-- Template Javascript -->

@@ -5,20 +5,20 @@
 
   <!-- Google Tag Manager -->
   <script>
-    (function(w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({
-        'gtm.start': new Date().getTime(),
-        event: 'gtm.js'
-      });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
-      j.async = true;
-      j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-5H9VSQWL');
+  (function(w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+      'gtm.start': new Date().getTime(),
+      event: 'gtm.js'
+    });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src =
+      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer', 'GTM-5H9VSQWL');
   </script>
   <!-- End Google Tag Manager -->
 
@@ -56,9 +56,9 @@
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
   <script type="text/javascript">
-    (function() {
-      emailjs.init("M5tc3I8aObv3dh3Cd");
-    })();
+  (function() {
+    emailjs.init("M5tc3I8aObv3dh3Cd");
+  })();
   </script>
 </head>
 
@@ -149,7 +149,7 @@
               </div>
               <div class="price-condicao">
                 <div class="saiba-mais mb-2">
-                  <span class="detail-obs"><strong style="color: #df0075">Onboarding</strong> 1x R$ 7.000,00</span>
+                  <span class="detail-obs"><strong style="color: #df0075">Onboarding</strong> 1x R$ 7.000</span>
                 </div>
                 <span>
                   <p><strong>Ideias ilimitadas, gestão do <br>portfólio global, dashboards</strong></p>
@@ -179,7 +179,7 @@
 
               <div class="price-condicao">
                 <div class="saiba-mais mb-2">
-                  <span class="detail-obs"><strong style="color: #df0075">Onboarding</strong> 1x R$ 7.000,00</span>
+                  <span class="detail-obs"><strong style="color: #df0075">Onboarding</strong> 1x R$ 7.000</span>
                 </div>
                 <span>
                   <p><strong>Ideias ilimitadas, gestão do <br>portfólio global, dashboards</strong></p>
@@ -292,7 +292,7 @@
               </div>
               <div class="price-condicao">
                 <div class="saiba-mais mb-2">
-                  <span class="detail-obs"><strong style="color: #df0075">Onboarding</strong> 1x R$ 7.000,00</span>
+                  <span class="detail-obs"><strong style="color: #df0075">Onboarding</strong> 1x R$ 7.000</span>
                 </div>
                 <span>
                   <p><strong>Ideias ilimitadas, gestão do <br>portfólio global, dashboards</strong></p>
@@ -338,7 +338,7 @@
 
               <div class="price-condicao">
                 <div class="saiba-mais mb-2">
-                  <span class="detail-obs"><strong style="color: #df0075">Onboarding</strong> 1x R$ 7.000,00</span>
+                  <span class="detail-obs"><strong style="color: #df0075">Onboarding</strong> 1x R$ 7.000</span>
                 </div>
                 <span>
                   <p><strong>Ideias ilimitadas, gestão do <br>portfólio global, dashboards</strong></p>
@@ -449,7 +449,7 @@
                   <thead>
                     <tr>
                       <td class="font-weight-bold">Adquira 500 créditos e customize seu suporte</td>
-                      <td class="font-weight-bold">R$ 5.000,00</td>
+                      <td class="font-weight-bold">R$ 5.000</td>
                     </tr>
                     <tr>
                       <td><i class="fa fa-check fa-sm text-primary pt-1 me-2"></i>Mentorias 1h sobre qualquer tema da
@@ -569,7 +569,7 @@
                   <div class="projetos-inventta">EXECUÇÃO POCs MVPs</div>
                   <div class="projetos-inventta">SCOUTING PARCEIROS</div>
                   <div class="d-flex row justify-content-around mt-2">
-                    <div class="projetos-inventta-detail">R$8.000,00
+                    <div class="projetos-inventta-detail">R$8.000
                       10h duração/ 10 pax</div>
                     <div class="projetos-inventta-detail">R$80.000 ~250.000
                       programa</div>
@@ -600,10 +600,10 @@
   </div>
 
   <script>
-    if (window.innerWidth < 430) {
-      document.getElementById("personalize-plano").innerText = "Personalize seu Plano"
-      document.getElementById("agende-demonstracao").innerText = "Agende uma demonstração"
-    }
+  if (window.innerWidth < 430) {
+    document.getElementById("personalize-plano").innerText = "Personalize seu Plano"
+    document.getElementById("agende-demonstracao").innerText = "Agende uma demonstração"
+  }
   </script>
 
   <!-- Diferenciais Start -->
@@ -914,13 +914,13 @@
   </div>
 
   <script type="text/javascript">
-    function openModalEmail() {
-      $("#emailModal").modal("show");
+  function openModalEmail() {
+    $("#emailModal").modal("show");
 
-      let texto_email = document.getElementById("message");
-      texto_email.value =
-        "Olá! Acessei a página da Avantt.i e quero agendar uma call para conhecer mais. \n\nObrigada!";
-    }
+    let texto_email = document.getElementById("message");
+    texto_email.value =
+      "Olá! Acessei a página da Avantt.i e quero agendar uma call para conhecer mais. \n\nObrigada!";
+  }
   </script>
   <!-- Modal E-mail End -->
 

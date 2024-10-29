@@ -5,20 +5,20 @@
 
   <!-- Google Tag Manager -->
   <script>
-  (function(w, d, s, l, i) {
-    w[l] = w[l] || [];
-    w[l].push({
-      'gtm.start': new Date().getTime(),
-      event: 'gtm.js'
-    });
-    var f = d.getElementsByTagName(s)[0],
-      j = d.createElement(s),
-      dl = l != 'dataLayer' ? '&l=' + l : '';
-    j.async = true;
-    j.src =
-      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-    f.parentNode.insertBefore(j, f);
-  })(window, document, 'script', 'dataLayer', 'GTM-5H9VSQWL');
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5H9VSQWL');
   </script>
   <!-- End Google Tag Manager -->
 
@@ -60,9 +60,9 @@
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
   <script type="text/javascript">
-  (function() {
-    emailjs.init("M5tc3I8aObv3dh3Cd");
-  })();
+    (function() {
+      emailjs.init("M5tc3I8aObv3dh3Cd");
+    })();
   </script>
 </head>
 
@@ -153,32 +153,6 @@
     </div>
   </section>
   <!-- End Clients Section -->
-
-  <!-- <section class="d-flex justify-content-center mt-4">
-    <div class="scroller" data-speed="fast">
-      <ul class="tag-list scroller__inner">
-        <li>
-          <img src="./assets/img/logos/ac-camargo.png" alt="Logo AC Camargo" />
-        </li>
-        <li>
-          <img src="./assets/img/logos/ccr.png" alt="Logo CCR" />
-        </li>
-        <li>
-          <img src="./assets/img/logos/ferbasa.png" alt="Logo Ferbasa" />
-        </li>
-        <li>
-          <img src="./assets/img/logos/parker.png" alt="Logo Parker" />
-        </li>
-        <li>
-          <img src="./assets/img/logos/votorantin.png" alt="Logo Parker" />
-        </li>
-        <li>
-          <img src="./assets/img/logos/mercurio.png" alt="Correias Mercurio" />
-        </li>
-      </ul>
-    </div>
-  </section> -->
-
 
   <!-- Clients Start -->
   <div class="container-fluid py-3 wow fadeInUp border-bottom pb-5" data-wow-delay="0.1s">
@@ -285,7 +259,7 @@
           <div class="my-3 front-2">
             <div class="d-flex flex-row justify-content-center border-bottom pt-4 pb-4" style="height: 93px">
               <div class="d-flex" style="width: auto">
-                <img class="img-fluid rounded" src="./img/icons/logo-votorantin.png" style="width: 175px"
+                <img class="img-fluid rounded" src="./img/icons/logo-votorantin.png" style="width: 175px; height: 44px;"
                   alt="Logo Votorantim" />
               </div>
             </div>
@@ -313,7 +287,7 @@
           <div class="my-3 back-2">
             <div class="d-flex flex-row justify-content-center border-bottom pt-4 pb-4" style="height: 93px">
               <div class="d-flex" style="width: auto">
-                <img class="img-fluid rounded" src="./img/icons/logo-votorantin.png" style="width: 175px"
+                <img class="img-fluid rounded" src="./img/icons/logo-votorantin.png" style="width: 175px; height: 44px;"
                   alt="Logo Votorantim" />
               </div>
             </div>
@@ -401,18 +375,18 @@
   </div>
 
   <script>
-  var button1 = document.querySelector(".botao1");
-  var button2 = document.querySelector(".botao2");
-  var button3 = document.querySelector(".botao3");
-  if (window.innerWidth < 576) {
-    button1.textContent = "Coletar Ideias";
-    button2.textContent = "Gerenciar ...";
-    button3.textContent = "Melhoria ...";
-  } else {
-    button1.textContent = "Coletar Ideias";
-    button2.textContent = "Gerenciar Projetos";
-    button3.textContent = "Melhoria Contínua";
-  }
+    var button1 = document.querySelector(".botao1");
+    var button2 = document.querySelector(".botao2");
+    var button3 = document.querySelector(".botao3");
+    if (window.innerWidth < 576) {
+      button1.textContent = "Coletar Ideias";
+      button2.textContent = "Gerenciar ...";
+      button3.textContent = "Melhoria ...";
+    } else {
+      button1.textContent = "Coletar Ideias";
+      button2.textContent = "Gerenciar Projetos";
+      button3.textContent = "Melhoria Contínua";
+    }
   </script>
 
   <!-- Modal E-mail Start -->
@@ -450,12 +424,12 @@
   </div>
 
   <script type="text/javascript">
-  function openModalEmail() {
-    $("#emailModal").modal("show");
+    function openModalEmail() {
+      $("#emailModal").modal("show");
 
-    let texto_email = document.getElementById("message");
-    texto_email.value = "Olá! Acessei a página da Avantt.i e quero agendar uma call para conhecer mais. \n\nObrigada!";
-  }
+      let texto_email = document.getElementById("message");
+      texto_email.value = "Olá! Acessei a página da Avantt.i e quero agendar uma call para conhecer mais. \n\nObrigada!";
+    }
   </script>
   <!-- Modal E-mail End -->
 
@@ -630,16 +604,16 @@
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
   <script>
-  // Vendor carousel
-  $(".vendor-carousel").owlCarousel({
-    items: 1,
-    loop: true,
-    margin: 10,
-    dots: true,
-    autoplay: true,
-    smartSpeed: 1500,
-    autoplayHoverPause: true,
-  });
+    // Vendor carousel
+    $(".vendor-carousel").owlCarousel({
+      items: 1,
+      loop: true,
+      margin: 10,
+      dots: true,
+      autoplay: true,
+      smartSpeed: 1500,
+      autoplayHoverPause: true,
+    });
   </script>
 
   <!-- Template Javascript -->
