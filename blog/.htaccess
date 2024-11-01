@@ -1,0 +1,12 @@
+Options -Indexes
+
+DirectoryIndex blog.php
+
+ErrorDocument 404 /error/404.html
+
+
+# Remover a extensão .php da URL
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

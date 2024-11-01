@@ -1,6 +1,5 @@
 .htaccess copy
 /assets/movies/*.mp4
-/blog/.htaccess
 /blog/app/assets/img_old/
 /blog/app/assets/img/posts/basepath/*.*
 /blog/app/assets/img/posts/destaques/*.*
@@ -8,3 +7,4 @@
 .env
 README.md
 /posts/*.php
+.gitignore
