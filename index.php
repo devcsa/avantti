@@ -5,7 +5,35 @@
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-  <title>Avantt.i - Seu aliado na gestão da inovação</title>
+  <meta name="title" content="Avantti Inovação | Soluções de Inovação e Transformação Digital para Empresas">
+  <meta name="description" content="A Avantti Inovação oferece soluções em transformação digital, inovação e tecnologia para empresas que buscam crescimento e eficiência. Descubra nossos serviços em consultoria e estratégias inovadoras para impulsionar resultados e preparar sua empresa para o futuro.">
+  <meta name="keywords" content="Avantti Inovação, Soluções de Inovação">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="Portuguese">
+  <meta name="revisit-after" content="10 days">
+  <meta name="author" content="Avantti">
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="Sumário">
+  <meta name="twitter:site" content="@avantti">
+  <meta name="twitter:title" content="Avantti Inovação | Soluções de Inovação e Transformação Digital para Empresas">
+  <meta name="twitter:description" content="A Avantti Inovação oferece soluções em transformação digital, inovação e tecnologia para empresas que buscam crescimento e eficiência. Descubra nossos serviços em consultoria e estratégias inovadoras para impulsionar resultados e preparar sua empresa para o futuro.">
+  <meta name="twitter:creator" content="@avantti">
+  <!-- Imagem Twitter Summary Card, tem que ter pelo menos 120x120px -->
+  <meta name="twitter:image" content="https://www.avantti.csahost.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Avantti Inovação | Soluções de Inovação e Transformação Digital para Empresas" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://www.avantti.csahost.com.br" />
+  <meta property="og:image" content="https://www.avantti.csahost.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png" />
+  <meta property="og:description" content="A Avantti Inovação oferece soluções em transformação digital, inovação e tecnologia para empresas que buscam crescimento e eficiência. Descubra nossos serviços em consultoria e estratégias inovadoras para impulsionar resultados e preparar sua empresa para o futuro." /> 
+  <meta property="og:site_name" content="Avantti" />
+  <meta property="fb:admins" content="" />
+
+
+  <title>Avantti Inovação | Soluções de Inovação e Transformação Digital para Empresas</title>
 
   <!-- Google Tag Manager -->
   <script>
@@ -38,12 +66,6 @@
 
   gtag('config', 'G-VN5MYF8C3L');
   </script>
-
-
-  <meta name="description"
-    content="Software de gestão da inovação que te ajuda a provar resultados de forma prática, direto ao ponto, visualizando diversos projetos dentro de um único local." />
-
-
 
   <!-- Favicon -->
   <link href="./img/favicon.png" rel="icon" />

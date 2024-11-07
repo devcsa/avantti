@@ -23,12 +23,36 @@
   <!-- End Google Tag Manager -->
 
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-  <meta name="description"
-    content="Software de gestão da inovação que te ajuda a provar resultados de forma prática, direto ao ponto, visualizando diversos projetos dentro de um único local. " />
+  <meta name="title" content="Serviços Avantti | Muito Mais que um Software: Soluções Completa em Inovação e Transformação Digital">
+  <meta name="description" content="A Avantt.i oferece mais que uma plataforma: são serviços completos para implementação e sucesso em inovação. Parte do Ecossistema Inventta, traz 20 anos de expertise em estratégia, treinamentos, capacitações e acesso exclusivo ao parceiro de CVC, Inventures. Transforme seu negócio com a Avantt.i.">
+  <meta name="keywords" content="Avantti Inovação, Soluções de Inovação">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="Portuguese">
+  <meta name="revisit-after" content="10 days">
+  <meta name="author" content="Avantti">
 
-  <title>Serviços | Avantt.i</title>
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="Sumário">
+  <meta name="twitter:site" content="@avantti">
+  <meta name="twitter:title" content="Serviços Avantti | Muito Mais que um Software: Soluções Completa em Inovação e Transformação Digital">
+  <meta name="twitter:description" content="A Avantt.i oferece mais que uma plataforma: são serviços completos para implementação e sucesso em inovação. Parte do Ecossistema Inventta, traz 20 anos de expertise em estratégia, treinamentos, capacitações e acesso exclusivo ao parceiro de CVC, Inventures. Transforme seu negócio com a Avantt.i.">
+  <meta name="twitter:creator" content="@avantti">
+  <!-- Imagem Twitter Summary Card, tem que ter pelo menos 120x120px -->
+  <meta name="twitter:image" content="https://www.avantti.csahost.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Serviços Avantti | Muito Mais que um Software: Soluções Completa em Inovação e Transformação Digital" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://www.avantti.csahost.com.br" />
+  <meta property="og:image" content="https://www.avantti.csahost.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png" />
+  <meta property="og:description" content="A Avantt.i oferece mais que uma plataforma: são serviços completos para implementação e sucesso em inovação. Parte do Ecossistema Inventta, traz 20 anos de expertise em estratégia, treinamentos, capacitações e acesso exclusivo ao parceiro de CVC, Inventures. Transforme seu negócio com a Avantt.i." /> 
+  <meta property="og:site_name" content="Avantti" />
+  <meta property="fb:admins" content="" />
+  <title>Serviços Avantti | Muito Mais que um Software: Soluções Completa em Inovação e Transformação Digital
+  </title>
 
   <!-- Favicon -->
   <link href="./img/favicon.png" rel="icon" />

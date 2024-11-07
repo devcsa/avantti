@@ -3,8 +3,43 @@
 
 <head>
 
-  <!-- Google Tag Manager -->
-  <script>
+
+
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+  <meta name="title" content="Descubra Mais sobre a Avantti Inovação | Soluções e Serviços Adicionais">
+  <meta name="description" content="Explore as soluções complementares da Avantti Inovação para transformação digital e inovação. Oferecemos serviços adicionais que ampliam o impacto de nossos projetos, garantindo resultados consistentes e sustentáveis para sua empresa.">
+  <meta name="keywords" content="Avantti Inovação, Soluções de Inovação">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="Portuguese">
+  <meta name="revisit-after" content="10 days">
+  <meta name="author" content="Avantti">
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="Sumário">
+  <meta name="twitter:site" content="@avantti">
+  <meta name="twitter:title" content="Descubra Mais sobre a Avantti Inovação | Soluções e Serviços Adicionais">
+  <meta name="twitter:description" content="Explore as soluções complementares da Avantti Inovação para transformação digital e inovação. Oferecemos serviços adicionais que ampliam o impacto de nossos projetos, garantindo resultados consistentes e sustentáveis para sua empresa.">
+  <meta name="twitter:creator" content="@avantti">
+  <!-- Imagem Twitter Summary Card, tem que ter pelo menos 120x120px -->
+  <meta name="twitter:image" content="https://www.avantti.csahost.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Descubra Mais sobre a Avantti Inovação | Soluções e Serviços Adicionais" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://www.avantti.csahost.com.br" />
+  <meta property="og:image" content="https://www.avantti.csahost.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png" />
+  <meta property="og:description" content="Explore as soluções complementares da Avantti Inovação para transformação digital e inovação. Oferecemos serviços adicionais que ampliam o impacto de nossos projetos, garantindo resultados consistentes e sustentáveis para sua empresa." /> 
+  <meta property="og:site_name" content="Avantti" />
+  <meta property="fb:admins" content="" />
+  
+  <title>Descubra Mais sobre a Avantti Inovação | Soluções e Serviços Adicionais</title>
+
+
+    <!-- Google Tag Manager -->
+    <script>
     (function(w, d, s, l, i) {
       w[l] = w[l] || [];
       w[l].push({
@@ -22,14 +57,6 @@
   </script>
   <!-- End Google Tag Manager -->
 
-
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <meta name="description"
-    content="Software de gestão da inovação que te ajuda a provar resultados de forma prática, direto ao ponto, visualizando diversos projetos dentro de um único local. " />
-
-  <title>Mais sobre nós | Avantt.i</title>
 
   <!-- Favicon -->
   <link href="./img/favicon.png" rel="icon" />

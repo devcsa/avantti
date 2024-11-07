@@ -3,8 +3,41 @@
 
 <head>
 
-  <!-- Google Tag Manager -->
-  <script>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+  <meta name="title" content="Avantti Inovação | Planos e Preços para Soluções de Transformação Digital">
+  <meta name="description" content="Explore os planos e preços das soluções de inovação e transformação digital da Avantti Inovação. Oferecemos pacotes personalizados para atender às necessidades específicas de cada empresa, impulsionando resultados com tecnologia e estratégia.">
+  <meta name="keywords" content="Avantti Inovação, Soluções de Inovação">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="Portuguese">
+  <meta name="revisit-after" content="10 days">
+  <meta name="author" content="Avantti">
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="Sumário">
+  <meta name="twitter:site" content="@avantti">
+  <meta name="twitter:title" content="Avantti Inovação | Planos e Preços para Soluções de Transformação Digital">
+  <meta name="twitter:description" content="Explore os planos e preços das soluções de inovação e transformação digital da Avantti Inovação. Oferecemos pacotes personalizados para atender às necessidades específicas de cada empresa, impulsionando resultados com tecnologia e estratégia.">
+  <meta name="twitter:creator" content="@avantti">
+  <!-- Imagem Twitter Summary Card, tem que ter pelo menos 120x120px -->
+  <meta name="twitter:image" content="https://www.avantti.csahost.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Avantti Inovação | Planos e Preços para Soluções de Transformação Digital" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://www.avantti.csahost.com.br" />
+  <meta property="og:image" content="https://www.avantti.csahost.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png" />
+  <meta property="og:description" content="Explore os planos e preços das soluções de inovação e transformação digital da Avantti Inovação. Oferecemos pacotes personalizados para atender às necessidades específicas de cada empresa, impulsionando resultados com tecnologia e estratégia." /> 
+  <meta property="og:site_name" content="Avantti" />
+  <meta property="fb:admins" content="" />
+
+  <title>Avantti Inovação | Planos e Preços para Soluções de Transformação Digital</title>
+
+
+    <!-- Google Tag Manager -->
+    <script>
   (function(w, d, s, l, i) {
     w[l] = w[l] || [];
     w[l].push({
@@ -21,15 +54,6 @@
   })(window, document, 'script', 'dataLayer', 'GTM-5H9VSQWL');
   </script>
   <!-- End Google Tag Manager -->
-
-
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <meta name="description"
-    content="Software de gestão da inovação que te ajuda a provar resultados de forma prática, direto ao ponto, visualizando diversos projetos dentro de um único local. " />
-
-  <title>Planos e preços | Avantt.i</title>
 
   <!-- Favicon -->
   <link href="./img/favicon.png" rel="icon" />
