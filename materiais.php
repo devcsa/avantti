@@ -6,9 +6,9 @@
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-  <meta name="title" content="Materiais Educativos e Conteúdos Exclusivos | Avantti Inovação">
-  <meta name="description" content="Acesse conteúdos exclusivos da Avantti Inovação sobre transformação digital, estratégias de inovação e tendências de mercado. Baixe e explore nossos e-books, guias e estudos de caso para impulsionar o crescimento e a inovação da sua empresa.">
-  <meta name="keywords" content="Avantti Inovação, Soluções de Inovação">
+  <meta name="title" content="Materiais Educativos | Recursos para Gestão da Inovação | Avantti">
+  <meta name="description" content="Acesse materiais exclusivos da Avantti sobre gestão da inovação. Recursos práticos e educativos para organizar, planejar e impulsionar projetos inovadores em sua empresa.">
+  <meta name="keywords" content="Materiais de gestão da inovação, Recursos educativos para inovação, Guias sobre inovação empresarial, Planejamento de inovação organizacional, Ferramentas para gestão da inovação">
   <meta name="robots" content="index, follow">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="language" content="Portuguese">
@@ -18,23 +18,23 @@
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="Sumário">
   <meta name="twitter:site" content="@avantti">
-  <meta name="twitter:title" content="Materiais Educativos e Conteúdos Exclusivos | Avantti Inovação">
-  <meta name="twitter:description" content="Acesse conteúdos exclusivos da Avantti Inovação sobre transformação digital, estratégias de inovação e tendências de mercado. Baixe e explore nossos e-books, guias e estudos de caso para impulsionar o crescimento e a inovação da sua empresa.">
+  <meta name="twitter:title" content="Materiais Educativos | Recursos para Gestão da Inovação | Avantti">
+  <meta name="twitter:description" content="Acesse materiais exclusivos da Avantti sobre gestão da inovação. Recursos práticos e educativos para organizar, planejar e impulsionar projetos inovadores em sua empresa.">
   <meta name="twitter:creator" content="@avantti">
   <!-- Imagem Twitter Summary Card, tem que ter pelo menos 120x120px -->
   <meta name="twitter:image" content="https://www.avantti.csahost.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png">
 
   <!-- Open Graph data -->
-  <meta property="og:title" content="Materiais Educativos e Conteúdos Exclusivos | Avantti Inovação" />
+  <meta property="og:title" content="Materiais Educativos | Recursos para Gestão da Inovação | Avantti" />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://www.avantti.csahost.com.br" />
   <meta property="og:image" content="https://www.avantti.csahost.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png" />
-  <meta property="og:description" content="Acesse conteúdos exclusivos da Avantti Inovação sobre transformação digital, estratégias de inovação e tendências de mercado. Baixe e explore nossos e-books, guias e estudos de caso para impulsionar o crescimento e a inovação da sua empresa." /> 
+  <meta property="og:description" content="Acesse materiais exclusivos da Avantti sobre gestão da inovação. Recursos práticos e educativos para organizar, planejar e impulsionar projetos inovadores em sua empresa." /> 
   <meta property="og:site_name" content="Avantti" />
   <meta property="fb:admins" content="" />
 
 
-  <title>Materiais Educativos e Conteúdos Exclusivos | Avantti Inovação</title>
+  <title>Materiais Educativos | Recursos para Gestão da Inovação | Avantti</title>
 
 
     <!-- Google Tag Manager -->

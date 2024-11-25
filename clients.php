@@ -6,9 +6,9 @@
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-  <meta name="title" content="Nossos Clientes | Cases de Sucesso em Inovação com a Avantti">
-  <meta name="description" content="Conheça os clientes da Avantti Inovação e nossos cases de sucesso em transformação digital e inovação. Veja como ajudamos empresas de diversos setores a alcançarem resultados sólidos e sustentáveis com soluções inovadoras e estratégicas.">
-  <meta name="keywords" content="Avantti Inovação, Soluções de Inovação">
+  <meta name="title" content="Nossos Clientes | Casos de Sucesso em Gestão da Inovação | Avantti">
+  <meta name="description" content="Conheça os clientes da Avantti e descubra como empresas de diversos setores utilizam nossa plataforma para alcançar resultados estratégicos na gestão da inovação.">
+  <meta name="keywords" content="Clientes da Avantti, Casos de sucesso em gestão da inovação, Empresas que usam a Avantti">
   <meta name="robots" content="index, follow">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="language" content="Portuguese">
@@ -18,22 +18,22 @@
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="Sumário">
   <meta name="twitter:site" content="@avantti">
-  <meta name="twitter:title" content="Nossos Clientes | Cases de Sucesso em Inovação com a Avantti">
-  <meta name="twitter:description" content="Conheça os clientes da Avantti Inovação e nossos cases de sucesso em transformação digital e inovação. Veja como ajudamos empresas de diversos setores a alcançarem resultados sólidos e sustentáveis com soluções inovadoras e estratégicas.">
+  <meta name="twitter:title" content="Nossos Clientes | Casos de Sucesso em Gestão da Inovação | Avantti">
+  <meta name="twitter:description" content="Conheça os clientes da Avantti e descubra como empresas de diversos setores utilizam nossa plataforma para alcançar resultados estratégicos na gestão da inovação.">
   <meta name="twitter:creator" content="@avantti">
   <!-- Imagem Twitter Summary Card, tem que ter pelo menos 120x120px -->
   <meta name="twitter:image" content="https://www.avantti.csahost.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png">
 
   <!-- Open Graph data -->
-  <meta property="og:title" content="Nossos Clientes | Cases de Sucesso em Inovação com a Avantti" />
+  <meta property="og:title" content="Nossos Clientes | Casos de Sucesso em Gestão da Inovação | Avantti" />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://www.avantti.csahost.com.br" />
   <meta property="og:image" content="https://www.avantti.csahost.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png" />
-  <meta property="og:description" content="Conheça os clientes da Avantti Inovação e nossos cases de sucesso em transformação digital e inovação. Veja como ajudamos empresas de diversos setores a alcançarem resultados sólidos e sustentáveis com soluções inovadoras e estratégicas." /> 
+  <meta property="og:description" content="Conheça os clientes da Avantti e descubra como empresas de diversos setores utilizam nossa plataforma para alcançar resultados estratégicos na gestão da inovação." /> 
   <meta property="og:site_name" content="Avantti" />
   <meta property="fb:admins" content="" />
 
-  <title>Nossos Clientes | Cases de Sucesso em Inovação com a Avantti</title>
+  <title>Nossos Clientes | Casos de Sucesso em Gestão da Inovação | Avantti</title>
 
 
    <!-- Google Tag Manager -->

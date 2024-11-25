@@ -5,9 +5,9 @@
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-  <meta name="title" content="Avantti Inovação | Soluções de Inovação e Transformação Digital para Empresas">
-  <meta name="description" content="A Avantti Inovação oferece soluções em transformação digital, inovação e tecnologia para empresas que buscam crescimento e eficiência. Descubra nossos serviços em consultoria e estratégias inovadoras para impulsionar resultados e preparar sua empresa para o futuro.">
-  <meta name="keywords" content="Avantti Inovação, Soluções de Inovação">
+  <meta name="title" content="Plataforma de Inovação | Colete ideias, crie e implemente projetos, visualize resultados | Avantt.i">
+  <meta name="description" content="Descubra a Avantti, a plataforma de gestão da inovação que ajuda empresas a criar, planejar, implementar e visualizar projetos inovadores com clareza de dados e eficiência. Torne sua inovação estratégica!">
+  <meta name="keywords" content="Plataforma de gestão da inovação, Gestão de inovação, Organização de iniciativas de inovação">
   <meta name="robots" content="index, follow">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="language" content="Portuguese">
@@ -17,23 +17,23 @@
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="Sumário">
   <meta name="twitter:site" content="@avantti">
-  <meta name="twitter:title" content="Avantti Inovação | Soluções de Inovação e Transformação Digital para Empresas">
-  <meta name="twitter:description" content="A Avantti Inovação oferece soluções em transformação digital, inovação e tecnologia para empresas que buscam crescimento e eficiência. Descubra nossos serviços em consultoria e estratégias inovadoras para impulsionar resultados e preparar sua empresa para o futuro.">
+  <meta name="twitter:title" content="Plataforma de Inovação | Colete ideias, crie e implemente projetos, visualize resultados | Avantt.i">
+  <meta name="twitter:description" content="Descubra a Avantti, a plataforma de gestão da inovação que ajuda empresas a criar, planejar, implementar e visualizar projetos inovadores com clareza de dados e eficiência. Torne sua inovação estratégica!">
   <meta name="twitter:creator" content="@avantti">
   <!-- Imagem Twitter Summary Card, tem que ter pelo menos 120x120px -->
   <meta name="twitter:image" content="https://www.avantti.csahost.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png">
 
   <!-- Open Graph data -->
-  <meta property="og:title" content="Avantti Inovação | Soluções de Inovação e Transformação Digital para Empresas" />
+  <meta property="og:title" content="Plataforma de Inovação | Colete ideias, crie e implemente projetos, visualize resultados | Avantt.i" />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://www.avantti.csahost.com.br" />
   <meta property="og:image" content="https://www.avantti.csahost.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png" />
-  <meta property="og:description" content="A Avantti Inovação oferece soluções em transformação digital, inovação e tecnologia para empresas que buscam crescimento e eficiência. Descubra nossos serviços em consultoria e estratégias inovadoras para impulsionar resultados e preparar sua empresa para o futuro." /> 
+  <meta property="og:description" content="Descubra a Avantti, a plataforma de gestão da inovação que ajuda empresas a criar, planejar, implementar e visualizar projetos inovadores com clareza de dados e eficiência. Torne sua inovação estratégica!" /> 
   <meta property="og:site_name" content="Avantti" />
   <meta property="fb:admins" content="" />
 
 
-  <title>Avantti Inovação | Soluções de Inovação e Transformação Digital para Empresas</title>
+  <title>Plataforma de Inovação | Colete ideias, crie e implemente projetos, visualize resultados | Avantt.i</title>
 
   <!-- Google Tag Manager -->
   <script>

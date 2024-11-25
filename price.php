@@ -6,9 +6,9 @@
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-  <meta name="title" content="Avantti Inovação | Planos e Preços para Soluções de Transformação Digital">
-  <meta name="description" content="Explore os planos e preços das soluções de inovação e transformação digital da Avantti Inovação. Oferecemos pacotes personalizados para atender às necessidades específicas de cada empresa, impulsionando resultados com tecnologia e estratégia.">
-  <meta name="keywords" content="Avantti Inovação, Soluções de Inovação">
+  <meta name="title" content="Planos e Preços | Plataforma de Gestão da Inovação | Avantti">
+  <meta name="description" content="Explore os planos e preços da Avantti e escolha a solução ideal para sua empresa. Conquiste resultados reais em projetos de inovação, com custo acessível e suporte completo.">
+  <meta name="keywords" content="Planos e preços Avantti, Preços plataforma de inovação, Custos de plataforma de inovação">
   <meta name="robots" content="index, follow">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="language" content="Portuguese">
@@ -18,22 +18,22 @@
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="Sumário">
   <meta name="twitter:site" content="@avantti">
-  <meta name="twitter:title" content="Avantti Inovação | Planos e Preços para Soluções de Transformação Digital">
-  <meta name="twitter:description" content="Explore os planos e preços das soluções de inovação e transformação digital da Avantti Inovação. Oferecemos pacotes personalizados para atender às necessidades específicas de cada empresa, impulsionando resultados com tecnologia e estratégia.">
+  <meta name="twitter:title" content="Planos e Preços | Plataforma de Gestão da Inovação | Avantti">
+  <meta name="twitter:description" content="Explore os planos e preços da Avantti e escolha a solução ideal para sua empresa. Conquiste resultados reais em projetos de inovação, com custo acessível e suporte completo.">
   <meta name="twitter:creator" content="@avantti">
   <!-- Imagem Twitter Summary Card, tem que ter pelo menos 120x120px -->
   <meta name="twitter:image" content="https://www.avantti.csahost.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png">
 
   <!-- Open Graph data -->
-  <meta property="og:title" content="Avantti Inovação | Planos e Preços para Soluções de Transformação Digital" />
+  <meta property="og:title" content="Planos e Preços | Plataforma de Gestão da Inovação | Avantti" />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://www.avantti.csahost.com.br" />
   <meta property="og:image" content="https://www.avantti.csahost.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png" />
-  <meta property="og:description" content="Explore os planos e preços das soluções de inovação e transformação digital da Avantti Inovação. Oferecemos pacotes personalizados para atender às necessidades específicas de cada empresa, impulsionando resultados com tecnologia e estratégia." /> 
+  <meta property="og:description" content="Explore os planos e preços da Avantti e escolha a solução ideal para sua empresa. Conquiste resultados reais em projetos de inovação, com custo acessível e suporte completo." /> 
   <meta property="og:site_name" content="Avantti" />
   <meta property="fb:admins" content="" />
 
-  <title>Avantti Inovação | Planos e Preços para Soluções de Transformação Digital</title>
+  <title>Planos e Preços | Plataforma de Gestão da Inovação | Avantti</title>
 
 
     <!-- Google Tag Manager -->

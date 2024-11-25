@@ -8,9 +8,9 @@
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-  <meta name="title" content="Descubra Mais sobre a Avantti Inovação | Soluções e Serviços Adicionais">
-  <meta name="description" content="Explore as soluções complementares da Avantti Inovação para transformação digital e inovação. Oferecemos serviços adicionais que ampliam o impacto de nossos projetos, garantindo resultados consistentes e sustentáveis para sua empresa.">
-  <meta name="keywords" content="Avantti Inovação, Soluções de Inovação">
+  <meta name="title" content="Explore Mais | Recursos e Informações Sobre Gestão da Inovação | Avantti">
+  <meta name="description" content="Descubra mais conteúdos e recursos oferecidos pela Avantti para aprofundar seus conhecimentos sobre gestão da inovação. Explore novas possibilidades para inovar na sua empresa.">
+  <meta name="keywords" content="Recursos sobre gestão da inovação, Mais informações Avantti, Conteúdos sobre inovação empresarial, Conhecimento em inovação corporativa, Ferramentas e dicas de inovação ">
   <meta name="robots" content="index, follow">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="language" content="Portuguese">
@@ -20,22 +20,22 @@
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="Sumário">
   <meta name="twitter:site" content="@avantti">
-  <meta name="twitter:title" content="Descubra Mais sobre a Avantti Inovação | Soluções e Serviços Adicionais">
-  <meta name="twitter:description" content="Explore as soluções complementares da Avantti Inovação para transformação digital e inovação. Oferecemos serviços adicionais que ampliam o impacto de nossos projetos, garantindo resultados consistentes e sustentáveis para sua empresa.">
+  <meta name="twitter:title" content="Explore Mais | Recursos e Informações Sobre Gestão da Inovação | Avantti">
+  <meta name="twitter:description" content="Descubra mais conteúdos e recursos oferecidos pela Avantti para aprofundar seus conhecimentos sobre gestão da inovação. Explore novas possibilidades para inovar na sua empresa.">
   <meta name="twitter:creator" content="@avantti">
   <!-- Imagem Twitter Summary Card, tem que ter pelo menos 120x120px -->
   <meta name="twitter:image" content="https://www.avantti.csahost.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png">
 
   <!-- Open Graph data -->
-  <meta property="og:title" content="Descubra Mais sobre a Avantti Inovação | Soluções e Serviços Adicionais" />
+  <meta property="og:title" content="Explore Mais | Recursos e Informações Sobre Gestão da Inovação | Avantti" />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://www.avantti.csahost.com.br" />
   <meta property="og:image" content="https://www.avantti.csahost.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png" />
-  <meta property="og:description" content="Explore as soluções complementares da Avantti Inovação para transformação digital e inovação. Oferecemos serviços adicionais que ampliam o impacto de nossos projetos, garantindo resultados consistentes e sustentáveis para sua empresa." /> 
+  <meta property="og:description" content="Descubra mais conteúdos e recursos oferecidos pela Avantti para aprofundar seus conhecimentos sobre gestão da inovação. Explore novas possibilidades para inovar na sua empresa." /> 
   <meta property="og:site_name" content="Avantti" />
   <meta property="fb:admins" content="" />
   
-  <title>Descubra Mais sobre a Avantti Inovação | Soluções e Serviços Adicionais</title>
+  <title>Explore Mais | Recursos e Informações Sobre Gestão da Inovação | Avantti</title>
 
 
     <!-- Google Tag Manager -->

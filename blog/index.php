@@ -18,9 +18,9 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-  <meta name="title" content="Blog Avantti Inovação | Insights sobre Inovação e Transformação Digital">
-  <meta name="description" content="Acompanhe o Blog da Avantti Inovação para conteúdos exclusivos sobre inovação, transformação digital, tendências tecnológicas e estratégias de crescimento. Descubra dicas e insights valiosos para impulsionar sua empresa no mercado atual.">
-  <meta name="keywords" content="Avantti Inovação, Soluções de Inovação">
+  <meta name="title" content="Blog da Avantti | Insights e Dicas de Gestão da Inovação">
+  <meta name="description" content="Acesse o Blog da Avantti e fique por dentro das tendências, insights e dicas sobre gestão da inovação. Transforme ideias em projetos inovadores para sua empresa.">
+  <meta name="keywords" content="Blog sobre gestão da inovação, Dicas de inovação empresarial, Insights para inovação corporativa, Tendências em gestão de inovação, Conteúdos sobre inovação organizacional">
   <meta name="robots" content="index, follow">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="language" content="Portuguese">
@@ -30,22 +30,22 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="Sumário">
   <meta name="twitter:site" content="@avantti">
-  <meta name="twitter:title" content="Blog Avantti Inovação | Insights sobre Inovação e Transformação Digital">
-  <meta name="twitter:description" content="Acompanhe o Blog da Avantti Inovação para conteúdos exclusivos sobre inovação, transformação digital, tendências tecnológicas e estratégias de crescimento. Descubra dicas e insights valiosos para impulsionar sua empresa no mercado atual.">
+  <meta name="twitter:title" content="Blog da Avantti | Insights e Dicas de Gestão da Inovação">
+  <meta name="twitter:description" content="Acesse o Blog da Avantti e fique por dentro das tendências, insights e dicas sobre gestão da inovação. Transforme ideias em projetos inovadores para sua empresa.">
   <meta name="twitter:creator" content="@avantti">
   <!-- Imagem Twitter Summary Card, tem que ter pelo menos 120x120px -->
   <meta name="twitter:image" content="https://www.avantti.csahost.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png">
 
   <!-- Open Graph data -->
-  <meta property="og:title" content="Blog Avantti Inovação | Insights sobre Inovação e Transformação Digital" />
+  <meta property="og:title" content="Blog da Avantti | Insights e Dicas de Gestão da Inovação" />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://www.avantti.csahost.com.br" />
   <meta property="og:image" content="https://www.avantti.csahost.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png" />
-  <meta property="og:description" content="Acompanhe o Blog da Avantti Inovação para conteúdos exclusivos sobre inovação, transformação digital, tendências tecnológicas e estratégias de crescimento. Descubra dicas e insights valiosos para impulsionar sua empresa no mercado atual." /> 
+  <meta property="og:description" content="Acesse o Blog da Avantti e fique por dentro das tendências, insights e dicas sobre gestão da inovação. Transforme ideias em projetos inovadores para sua empresa." /> 
   <meta property="og:site_name" content="Avantti" />
   <meta property="fb:admins" content="" />
 
-  <title>Blog Avantti Inovação | Insights sobre Inovação e Transformação Digital</title>
+  <title>Blog da Avantti | Insights e Dicas de Gestão da Inovação</title>
 
   <meta content="" name="description" />
   <meta content="" name="keywords" />
