@@ -335,9 +335,44 @@ h6,
 }
 
 .cta-index {
-   max-width: 900px !important;
-   font-size: 1.7rem !important;
-   /* font-weight: 600; */
+   background-image: url(../img/bg_3.png);
+   background-position: center;
+   flex-direction: column;
+   width: 100%;
+}
+
+.cta-index-btn-container {
+   width: 50%;
+   gap: 10px;
+   margin-top: 20px;
+}
+
+.cta-index p {
+   max-width: 800px !important;
+   font-size: 1.5rem !important;
+   color: #ffffff;
+}
+
+.cta-index .btn-cta-index {
+   max-width: 280px;
+}
+
+.mr-3 {
+   margin-right: 1rem;
+}
+
+.cta-index .btn-cta-index p {
+   padding: 10px;
+   background: transparent;
+   color: #fff;
+   border-radius: 5px;
+   width: 280px;
+   height: 72px;
+   cursor: default;
+   font-size: 1rem !important;
+   border: 1px #fff double;
+   text-align: center;
+   align-content: center;
 }
 
 .cta-conheca-start {
@@ -1094,6 +1129,34 @@ td:nth-child(2) {
       align-content: center;
       padding: 0 15px;
    }
+
+   .cta-index-btn-container {
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      padding: 0 !important;
+      gap: 5px;
+   }
+
+   .cta-index p {
+      font-size: 1rem !important;
+      color: #ffffff;
+   }
+
+   .cta-index .btn-cta-index {
+      max-width: 175px;
+      justify-content: center;
+      padding: 0;
+      gap: 5px;
+   }
+
+   .cta-index .btn-cta-index p {
+      padding: 5px;
+      width: 175px;
+      height: 65px;
+      font-size: 12px !important;
+      line-height: 15px;
+   }
 }
 
 @media screen and (max-width: 400px) {
@@ -1268,12 +1331,6 @@ td:nth-child(2) {
 
    .detalhe-plano img {
       max-width: 100%;
-   }
-
-   .cta-index {
-      max-width: 400px !important;
-      font-size: 1rem !important;
-      font-weight: 500;
    }
 
    .cta-conheca-start {
@@ -1643,7 +1700,8 @@ td:nth-child(2) {
 }
 
 .logo-footer img {
-   max-height: 30px;
+   height: 30px;
+   width: 96px;
 }
 
 .footer-top .container {
@@ -2209,6 +2267,67 @@ td:nth-child(2) {
    .detail-mobile {
       height: 400px;
    }
+}
+
+/* Containter Como */
+
+.container-home {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 90px 10px;
+   padding: 50px 10px;
+}
+
+.container-home .card {
+   /* position: relative; */
+   display: flex;
+   /* justify-content: center; */
+   flex-direction: column;
+   align-items: center;
+   width: 300px;
+   max-width: 100%;
+   height: 270px;
+   background: white;
+   border-radius: 10px;
+   transition: 0.5s;
+   box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+}
+
+.container-home .card .img-box {
+   margin: 30px 0 20px 0;
+   width: 245px;
+   height: 165px;
+   object-fit: scale-down;
+   border-radius: 5px;
+   transition: 0.5s;
+}
+
+.container-home .card:hover .img-box {
+   scale: 1.1;
+}
+
+.container-home .card .img-box img {
+   width: 100%;
+   height: 165px;
+}
+
+.container-home .card .content {
+   top: 195px;
+   width: 100%;
+   padding: 0 20px;
+   text-align: center;
+   transition: 0.5s;
+   line-height: 1.2rem;
+}
+
+.container-home .card .content p {
+   color: #333;
+   font-size: 15px;
+   padding: 0 !important;
+   display: flex;
 }
 
 /* Containter Conheca */
@@ -2951,6 +3070,30 @@ td:nth-child(2) {
    align-items: center;
 }
 
+.diagnostico {
+   background-color: #fbf6f4;
+}
+
+.diagnostico h3 {
+   font-size: 2rem;
+   /* text-align: center; */
+}
+
+.diagnostico p {
+   font-size: 1.2rem;
+   color: #47009a;
+}
+
+.diagnostico-box {
+   display: flex;
+   width: 60%;
+   justify-content: center;
+   border: 2px #c077f2;
+   border-style: double;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
 .materiais-container {
    display: flex;
    flex-direction: row;
@@ -3094,7 +3237,7 @@ td:nth-child(2) {
 .display-conheca h6 {
    font-size: 40px;
    line-height: 50px;
-   font-weight: bold !important;
+   font-weight: 900 !important;
 }
 
 .display-servicos h6 {
@@ -3555,6 +3698,7 @@ td:nth-child(2) {
 .container-institucional {
    padding-top: 30px;
    padding-bottom: 40px;
+   margin-bottom: 80px;
 }
 
 .container-index {
@@ -3574,27 +3718,28 @@ td:nth-child(2) {
    display: flex;
    justify-content: center;
    align-items: center;
-   width: 250px;
+   width: 280px;
    max-width: 100%;
-   height: 170px;
+   height: 180px;
    background: white;
-   border-radius: 20px;
+   border-radius: 15px;
    transition: 0.3s;
    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
 }
 
 .container-index .card-index:hover {
-   cursor: pointer;
+   /* cursor: pointer; */
    scale: 1.04;
 }
 
 .container-index .card-index .content-index {
    display: flex;
    justify-content: center;
+   align-items: center;
    position: absolute;
-   width: 90%;
-   height: 80%;
-   padding: 0 20px;
+   width: 100%;
+   height: 90%;
+   padding: 0 10px;
    text-align: center;
    overflow: hidden;
    transition: 0.5s;
@@ -3602,9 +3747,10 @@ td:nth-child(2) {
 
 .container-index .card-index .content-index p {
    display: flex;
-   height: 130px;
+   height: 140px;
    margin: 5px 0;
    align-items: center;
+   color: #181818;
 }
 
 @media screen and (max-width: 576px) {

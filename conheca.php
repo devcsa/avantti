@@ -3,93 +3,102 @@
 
 <head>
 
-  <!-- Google Tag Manager -->
-  <script>
-  (function(w, d, s, l, i) {
-    w[l] = w[l] || [];
-    w[l].push({
-      'gtm.start': new Date().getTime(),
-      event: 'gtm.js'
-    });
-    var f = d.getElementsByTagName(s)[0],
-      j = d.createElement(s),
-      dl = l != 'dataLayer' ? '&l=' + l : '';
-    j.async = true;
-    j.src =
-      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-    f.parentNode.insertBefore(j, f);
-  })(window, document, 'script', 'dataLayer', 'GTM-5H9VSQWL');
-  </script>
-  <!-- End Google Tag Manager -->
-
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
+  <meta name="title" content="Sobre a Avantti Inovação | Conheça Nossa Visão e Experiência em Transformação Digital">
   <meta name="description"
-    content="Software de gestão da inovação que te ajuda a provar resultados de forma prática, direto ao ponto, visualizando diversos projetos dentro de um único local. " />
+    content="A Avantti Inovação é especialista em transformar empresas com soluções tecnológicas e inovadoras. Conheça nossa missão, visão e equipe dedicada a impulsionar o crescimento sustentável e eficiente para o futuro.">
+  <meta name="keywords" content="Avantti Inovação, Soluções de Inovação">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="Portuguese">
+  <meta name="revisit-after" content="10 days">
+  <meta name="author" content="Avantti">
 
-  <title>Conheça como funciona | Avantt.i</title>
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="Sumário">
+  <meta name="twitter:site" content="@avantti">
+  <meta name="twitter:title"
+    content="Sobre a Avantti Inovação | Conheça Nossa Visão e Experiência em Transformação Digital">
+  <meta name="twitter:description"
+    content="A Avantti Inovação é especialista em transformar empresas com soluções tecnológicas e inovadoras. Conheça nossa missão, visão e equipe dedicada a impulsionar o crescimento sustentável e eficiente para o futuro.">
+  <meta name="twitter:creator" content="@avantti">
+  <!-- Imagem Twitter Summary Card, tem que ter pelo menos 120x120px -->
+  <meta name="twitter:image" content="https://www.avanttinovacao.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png">
 
-  <!-- Favicon -->
+  <!-- Open Graph data -->
+  <meta property="og:title"
+    content="Sobre a Avantti Inovação | Conheça Nossa Visão e Experiência em Transformação Digital" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://www.avanttinovacao.com.br" />
+  <meta property="og:image"
+    content="https://www.avanttinovacao.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png" />
+  <meta property="og:description"
+    content="A Avantti Inovação é especialista em transformar empresas com soluções tecnológicas e inovadoras. Conheça nossa missão, visão e equipe dedicada a impulsionar o crescimento sustentável e eficiente para o futuro." />
+  <meta property="og:site_name" content="Avantti" />
+  <meta property="fb:admins" content="" />
+
+  <title>Sobre a Avantti Inovação | Conheça Nossa Visão e Experiência em Transformação Digital</title>
+
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5H9VSQWL');
+  </script>
+
   <link href="./img/favicon.png" rel="icon" />
 
-  <!-- Google Web Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" /> -->
 
-  <!-- Icon Font Stylesheet -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
-
-  <!-- Libraries Stylesheet -->
-
   <link href="lib/animate/animate.min.css" rel="stylesheet" />
-
-  <!-- Customized Bootstrap Stylesheet -->
   <link href="css/bootstrap.min.css" rel="stylesheet" />
-
-  <!-- Template Stylesheet -->
   <link href="css/style.css" rel="stylesheet" />
 
   <script src="./js/email.js"></script>
-
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
   <script type="text/javascript">
-  (function() {
-    emailjs.init("M5tc3I8aObv3dh3Cd");
-  })();
+    (function() {
+      emailjs.init("M5tc3I8aObv3dh3Cd");
+    })();
   </script>
 </head>
 
 <body>
-
-  <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5H9VSQWL" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
 
-  <!-- Spinner Start -->
   <div id="spinner"
     class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
     <div class="spinner"></div>
   </div>
-  <!-- Spinner End -->
 
   <header>
-
     <div class="container-fluid position-relative p-0">
       <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
-        <!-- navbar.js -->
       </nav>
 
       <div class="container-fluid bg-primary py-5 bg-header-conheca">
         <div class="row py-5">
           <div class="display-conheca col-12 pt-lg-5 mt-lg-5 text-center">
-            <h6 class="text-white animated zoomIn text-uppercase mb-4">
-              <strong>Faça a <span style="color: #ce8ff3">gestão das iniciativas </span>inovadoras,<br />do começo ao
-                fim,<br />de forma simples e direto ao ponto</strong>
+            <h6 class="text-white animated zoomIn mb-4">
+              <strong>Avantt.i lidera seus programas de <span style="color: #ce8ff3">intra, open innovation e <br>gestão
+                  do portfolio</span>, de forma simples e direto ao ponto.</strong>
             </h6>
           </div>
         </div>
@@ -97,19 +106,15 @@
     </div>
   </header>
 
-  <!-- Institucional Start -->
   <div class="w-100 bg-light shadow d-flex align-items-center justify-content-center p-3 mb-4">
     <p class="mt-3 text-center text-primary cta-conheca-start">
       Com quase duas décadas de expertise pela Inventta, a Avantt.i te ajuda a <strong>gerir a <br />inovação na sua
-        empresa</strong>, maximizando
-      <strong>eficiência do seu portfólio de inovação</strong>, <br />enquanto engaja colaboradores e impulsiona a
+        empresa</strong>, maximizando <strong>eficiência do seu portfólio de inovação</strong>, <br />enquanto engaja
+      colaboradores e impulsiona a
       <strong>cultura de inovação</strong>.
     </p>
   </div>
-  <!-- Institucional End -->
 
-  <!-- Service Start -->
-  <!-- <main class="principal w-100"> -->
   <section id="about">
     <div class="container wow fadeInUp mb-4 border-bottom" data-wow-delay="0.1s">
 
@@ -129,41 +134,16 @@
               <img class="rounded wow zoomIn" data-wow-delay="0.9s" src="img/labi.gif" alt="Gif Animado" />
             </div>
             <div class="d-flex justify-content-center">
-              <!-- <button type="button" class="btn btn-primary py-3 btn-fixoGG wow zoomIn" data-wow-delay="0.9s"
-                data-bs-toggle="modal" data-bs-target="#searchModal">
-                Quero conhecer mais sobre a Avantt.i
-              </button> -->
               <a href="./conheca"
                 class="btn btn-primary btn-fixoGG py-md-3 animated slideInRight textos-btn-mobile">Quero
                 conhecer mais sobre a Avantt.i</a>
             </div>
           </div>
         </div>
-        <!-- </div> -->
       </div>
-
-      <!-- About End -->
-
     </div>
   </section>
-  <!-- </div> -->
-  <!-- Service End -->
 
-  <!-- Conheca Start -->
-  <!-- <div class="w-100 container d-flex p-4 align-items-center justify-content-center border-bottom">
-      <a href="https://outlook.office365.com/owa/calendar/ParaconheceroLabi@inventta.net/bookings/
-            " target="_blank" class="btn-ciano py-md-3 btn-fixoM me-3 mb-4 animated slideInRight textos-btn-mobile"><i
-          class="fa fa-calendar me-2"></i>Agende uma demonstração</a>
-
-      <button type="button" class="btn btn-dark py-md-3 btn-fixoM mb-4 animated slideInLeft textos-btn-mobile"
-        data-bs-toggle="modal" data-bs-target="#searchModal">
-        Receba acesso e teste grátis
-      </button>
-    </div> -->
-  <!-- End -->
-
-
-  <!-- Modal Message-->
   <div class="modal fade" id="mensagem" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -180,35 +160,6 @@
     </div>
   </div>
 
-  <!-- Conheca Start -->
-  <!-- <div class="container-fluid py-2 wow fadeInUp mb-4 border-bottom" data-wow-delay="0.1s">
-      <div class="container py-5">
-        <div class="d-flex row justify-content-center g-5 mt-2">
-          <div class="conheca-mobile col-lg-5">
-            <div class="section-title position-relative pb-3 mb-5 pt-3">
-              <h3 class="text-primary mb-0" style="font-size: 23px">Simples, acionável e objetivo, assim é a Avantt.i
-              </h3>
-            </div>
-            <div class="mb-2">
-              <div class="wow zoomIn" data-wow-delay="0.2s"></div>
-              <p class="text-start">Pare de duplicar esforços entre diversas plataformas e saia de ferramentas que só
-                funcionam como repositório de informações.</p>
-              <p class="text-start">Com Avantt.i, seus projetos de inovação avançam, ganham vida ao longo do funil e são
-                aprovados com transparência e governança clara.</p>
-            </div>
-          </div>
-          <div class="col-lg-5" style="min-height: 290px">
-            <div class="position-relative h-100">
-              <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/labi.gif"
-                style="object-fit: contain" alt="Gif Animado" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-  <!-- End -->
-
-  <!-- Como a Avantt.i  te ajuda Start -->
   <div class="container-fluid py-3 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container py-3">
       <div class="section-title title-ajuda text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 800px">
@@ -263,9 +214,7 @@
       </div>
     </div>
   </div>
-  <!-- Como a Avantt.i  te ajuda Start -->
 
-  <!-- ======= Cta Section ======= -->
   <section id="cta">
     <div class="container" data-aos="zoom-in">
       <div class="wow fadeInUp mb-5 py-5 text-center" style="background-image: url(./img/bgcall.png)"
@@ -275,13 +224,8 @@
       </div>
     </div>
   </section>
-  <!-- End Cta Section -->
-
-  <!-- Conheca Start -->
-
 
   <section class="d-flex flex-column justify-content-center border-bottom py-5">
-
     <div class="d-flex justify-content-center row mb-4">
       <div class="conheca-mobile d-flex flex-column col-lg-5">
         <div class="section-title position-relative pb-3 mb-5">
@@ -447,32 +391,26 @@
   </section>
 
   <style>
-  .shape {
-    justify-content: center !important;
-    justify-items: center !important;
-    align-items: center;
-    font-size: 14px;
-  }
+    .shape {
+      justify-content: center !important;
+      justify-items: center !important;
+      align-items: center;
+      font-size: 14px;
+    }
 
-  .shape-btn {
-    border-radius: 5px;
-    /* border: 1px red solid; */
-    padding: 8px 15px;
-    background-color: #9D28F0;
-    color: #fff;
-    font-weight: bold;
-    font-size: 1.5rem;
-    width: 95px;
-    justify-content: center;
-    display: flex;
-  }
+    .shape-btn {
+      border-radius: 5px;
+      padding: 8px 15px;
+      background-color: #9D28F0;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1.5rem;
+      width: 95px;
+      justify-content: center;
+      display: flex;
+    }
   </style>
 
-  <!-- End -->
-
-
-
-  <!-- Conheca Start -->
   <div class="w-100 container d-flex p-4 align-items-center justify-content-center border-bottom">
     <a href="https://outlook.office365.com/owa/calendar/ParaconheceroLabi@inventta.net/bookings/
             " target="_blank"
@@ -484,10 +422,7 @@
       Receba acesso e teste grátis
     </button>
   </div>
-  <!-- End -->
 
-
-  <!-- Modal E-mail Start -->
   <div class="modal fade" id="emailModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -522,18 +457,15 @@
   </div>
 
   <script type="text/javascript">
-  function openModalEmail() {
-    $("#emailModal").modal("show");
+    function openModalEmail() {
+      $("#emailModal").modal("show");
 
-    let texto_email = document.getElementById("message");
-    texto_email.value =
-      "Olá! Acessei a página da Avantt.i e quero agendar uma call para conhecer mais. \n\nObrigada!";
-  }
+      let texto_email = document.getElementById("message");
+      texto_email.value =
+        "Olá! Acessei a página da Avantt.i e quero agendar uma call para conhecer mais. \n\nObrigada!";
+    }
   </script>
-  <!-- Modal E-mail End -->
 
-
-  <!-- Modal Solicitar Acesso Start -->
   <div class="modal fade" id="searchModal" tabindex="-1">
     <div class="modal-dialog" role="document">
       <div class="modal-content" style="background: rgba(9, 30, 62, 0.8)">
@@ -569,14 +501,6 @@
                   <option value="Mais de 5.001">Mais de 5.001</option>
                 </select>
               </div>
-              <!-- <div class="col-md-6">
-                  <label for="versao" class="form-label">Versão de Acesso *</label>
-                  <select id="versao" class="form-select" required>
-                    <option selected></option>
-                    <option value="Acesso único por 4h">Acesso único por 4h</option>
-                    <option value="Acesso Trial 15 dias">Acesso Trial 15 dias</option>
-                  </select>
-                </div> -->
 
               <div class="col-12">
                 <div class="form-check">
@@ -594,64 +518,13 @@
                 <button type="submit" class="btn btn-primary" onclick="sendMail()">Quero receber o acesso ao
                   Avantt.i</button>
               </div>
-
-              <!-- <small>
-                  <p class="text-white mb-0">*Liberado em até 24h</p>
-                  <p class="text-white mb-0">**Acesso somente liberados para emails corporativos.</p>
-                </small> -->
             </span>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- Modal Solicitar Acesso End -->
 
-  <!-- Diferenciais Start -->
-  <!-- <section id="diferenciais">
-      <div class="container-fluid py-3 wow fadeInUp ajuste-padding" data-wow-delay="0.1s">
-        <div class="container py-3 ajuste-padding mt-5">
-          <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 650px">
-            <h4 class="diferenciais fw-bold text-primary">Avantt.i capacita seu time, gerencia, mede e implementa seus
-              projetos de inovação</h4>
-          </div>
-          <div class="wow zoomIn" data-wow-delay="0.2s"></div>
-          <div class="container-diferenciais mb-5">
-            <div class="card-diferenciais" style="--clr: #47009a">
-              <div class="img-box-diferenciais">
-                <img src="./img/sozinho.png" alt="Icone Sozinho" />
-              </div>
-              <div class="content-diferenciais">
-                <h2>Não te deixamos sozinho com um software</h2>
-                <p>A Avantt.i tem suporte dos consultores da Inventta em toda a jornada, da ideia à implementação.</p>
-              </div>
-            </div>
-            <div class="card-diferenciais" style="--clr: #47009a">
-              <div class="img-box-diferenciais">
-                <img src="./img/expertise_1.png" />
-              </div>
-              <div class="content-diferenciais">
-                <h2>Expertise Inventta de 20 anos em inovação e estratégia</h2>
-                <p>Método e gestão comprovados em + de 300 projetos em inovação e estratégia. <br /><br />Tudo que
-                  sabemos está dentro da Avantt.i.</p>
-              </div>
-            </div>
-            <div class="card-diferenciais" style="--clr: #47009a">
-              <div class="img-box-diferenciais">
-                <img src="./img/plano.png" />
-              </div>
-              <div class="content-diferenciais">
-                <h2>Plano de contratação transparente</h2>
-                <p>Não te prendemos à nós. Cancele quando quiser, assine por quanto tempo quiser.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-  <!-- Diferenciais End -->
-
-  <!-- ======= Cta Section ======= -->
   <section id="cta">
     <div class="container" data-aos="zoom-in">
       <div class="cta-conheca wow fadeInUp" data-wow-delay="0.1s">
@@ -671,20 +544,7 @@
       </div>
     </div>
   </section>
-  <!-- End Cta Section -->
 
-  <!-- Conheca Start -->
-  <!-- <div class="w-100 container d-flex p-4 align-items-center justify-content-center border-bottom">
-      <a href="price" class="btn btn-dark py-md-3 px-md-4 me-3 mb-4 animated slideInRight">Conheça nossos
-        planos</a>
-
-      <button type="button" class="btn btn-primary py-md-3 px-md-4 mb-4 animated slideInLeft" data-bs-toggle="modal"
-        data-bs-target="#searchModal">Receba acesso e teste grátis</button>
-    </div> -->
-  <!-- End -->
-  <!-- </main> -->
-
-  <!-- Footer Start -->
   <footer id="footer">
     <div class="footer-newsletter">
       <div class="container">
@@ -746,28 +606,20 @@
     </div>
   </footer>
 
-  <!-- Footer End -->
-
-  <!-- Back to Top -->
   <a href="#" class="btn btn-lg btn-back-to-top rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
 
-  <!-- JavaScript Libraries -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="lib/wow/wow.min.js"></script>
   <script src="lib/easing/easing.min.js"></script>
   <script src="lib/waypoints/waypoints.min.js"></script>
 
-
-  <!-- Template Javascript -->
   <script src="./js/navbar.js"></script>
   <script src="js/main.js"></script>
 
   <?php
   if (isset($_GET['email_status'])) {
     $emailStatus = $_GET['email_status'];
-
-    // Verifica o status e define as mensagens e classes conforme necessário
     $modalTitle = ($emailStatus === 'success') ? 'Sucesso' : 'Erro';
     $modalMessage = ($emailStatus === 'success') ? 'E-mail enviado com sucesso!' : 'Erro ao enviar o e-mail';
     $modalClass = ($emailStatus === 'success') ? 'modal-success' : 'modal-danger';
@@ -801,16 +653,13 @@
     echo 'document.body.appendChild(modal);';
     echo 'var modalInstance = new bootstrap.Modal(modal);';
     echo 'modalInstance.show();';
-    // Remove o parâmetro da URL sem recarregar a página
     echo 'var url = window.location.href;';
     echo 'var cleanUrl = url.split("?")[0];';
     echo 'window.history.replaceState({}, document.title, cleanUrl);';
-
     echo '});';
     echo '</script>';
   }
   ?>
-
 </body>
 
 </html>

@@ -21,7 +21,6 @@ function validacaoEmail(field) {
       $("#tipoMsg").attr("class", "modal-header text-secondary");
       $(".btn_OK").attr("class", "btn btn-danger");
 
-      // Pop up Mensagem Sucesso
       $("#mensagem").modal("show");
 
       return;
@@ -52,14 +51,11 @@ function sendMail() {
       $("#tipoMsg").attr("class", "modal-header text-secondary");
       $(".btn_OK").attr("class", "btn btn-danger");
 
-      // Pop up Mensagem Sucesso
       $("#mensagem").modal("show");
 
       return;
    } else {
       if (validacaoEmail(email) == 0) {
-         // console.log(params);
-
          const serviceID = "service_2pvjjey";
          const templateID = "template_wss9cyq";
 
@@ -84,7 +80,6 @@ function sendMail() {
                var btnModal = document.querySelector(".btn_OK");
                btnModal.setAttribute("id", "btnModal");
 
-               // Pop up Mensagem Sucesso
                $("#mensagem").modal("show");
             })
             .catch((err) => console.log(err));
@@ -114,7 +109,6 @@ function sendNewsletter() {
             $("#tipoMsg").attr("class", "modal-header text-secondary");
             $(".btn_OK").attr("class", "btn btn-primary");
 
-            // Pop up Mensagem Sucesso
             $("#mensagem").modal("show");
          })
          .catch((err) => console.log(err));

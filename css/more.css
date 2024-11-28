@@ -8,7 +8,6 @@ ul {
 }
 
 ul li {
-   /* Remove li Bullets with zero-width space for accessability */
    list-style-type: none;
 }
 

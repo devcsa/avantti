@@ -5,112 +5,112 @@
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-  <title>Avantt.i - Seu aliado na gestão da inovação</title>
+  <meta name="title"
+    content="Plataforma de Inovação | Colete ideias, crie e implemente projetos, visualize resultados | Avantt.i">
+  <meta name="description"
+    content="Descubra a Avantti, a plataforma de gestão da inovação que ajuda empresas a criar, planejar, implementar e visualizar projetos inovadores com clareza de dados e eficiência. Torne sua inovação estratégica!">
+  <meta name="keywords"
+    content="Plataforma de gestão da inovação, Gestão de inovação, Organização de iniciativas de inovação">
 
-  <!-- Google Tag Manager -->
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="Portuguese">
+  <meta name="revisit-after" content="10 days">
+  <meta name="author" content="Avantti">
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="Sumário">
+  <meta name="twitter:site" content="@avantti">
+  <meta name="twitter:title"
+    content="Plataforma de Inovação | Colete ideias, crie e implemente projetos, visualize resultados | Avantt.i">
+  <meta name="twitter:description"
+    content="Descubra a Avantti, a plataforma de gestão da inovação que ajuda empresas a criar, planejar, implementar e visualizar projetos inovadores com clareza de dados e eficiência. Torne sua inovação estratégica!">
+  <meta name="twitter:creator" content="@avantti">
+  <!-- Imagem Twitter Summary Card, tem que ter pelo menos 120x120px -->
+  <meta name="twitter:image" content="https://www.avanttinovacao.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png">
+
+  <!-- Open Graph data -->
+  <meta property="og:title"
+    content="Plataforma de Inovação | Colete ideias, crie e implemente projetos, visualize resultados | Avantt.i" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://www.avanttinovacao.com.br" />
+  <meta property="og:image" content="https://avanttinovacao.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png" />
+
+  <meta property="og:description"
+    content="Descubra a Avantti, a plataforma de gestão da inovação que ajuda empresas a criar, planejar, implementar e visualizar projetos inovadores com clareza de dados e eficiência. Torne sua inovação estratégica!" />
+  <meta property="og:site_name" content="Avantti" />
+  <meta property="fb:admins" content="" />
+
+  <title>Plataforma de Inovação | Colete ideias, crie e implemente projetos, visualize resultados | Avantt.i</title>
+
   <script>
-  (function(w, d, s, l, i) {
-    w[l] = w[l] || [];
-    w[l].push({
-      'gtm.start': new Date().getTime(),
-      event: 'gtm.js'
-    });
-    var f = d.getElementsByTagName(s)[0],
-      j = d.createElement(s),
-      dl = l != 'dataLayer' ? '&l=' + l : '';
-    j.async = true;
-    j.src =
-      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-    f.parentNode.insertBefore(j, f);
-  })(window, document, 'script', 'dataLayer', 'GTM-5H9VSQWL');
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5H9VSQWL');
   </script>
-  <!-- End Google Tag Manager -->
 
-  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-VN5MYF8C3L"></script>
   <script>
-  window.dataLayer = window.dataLayer || [];
+    window.dataLayer = window.dataLayer || [];
 
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag('js', new Date());
-
-  gtag('config', 'G-VN5MYF8C3L');
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-VN5MYF8C3L');
   </script>
 
-
-  <meta name="description"
-    content="Software de gestão da inovação que te ajuda a provar resultados de forma prática, direto ao ponto, visualizando diversos projetos dentro de um único local." />
-
-
-
-  <!-- Favicon -->
   <link href="./img/favicon.png" rel="icon" />
 
-  <!-- Google Web Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" /> -->
 
-  <!-- Icon Font Stylesheet -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
-
-  <!-- Libraries Stylesheet -->
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
-    integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-
-
   <link href="lib/animate/animate.min.css" rel="stylesheet" />
-
-  <!-- Customized Bootstrap Stylesheet -->
   <link href="css/bootstrap.min.css" rel="stylesheet" />
-
-  <!-- Template Stylesheet -->
   <link href="css/style.css" rel="stylesheet" />
 
   <meta name="google-site-verification" content="30iN9t6_pfSgAWG1zflgflbB3VchdpGb5S7K7NCJ5MA" />
-
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5H9VSQWL" height="0" width="0"
       style="display:none;visibility:hidden" title="Google TM"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
 
-
-  <!-- Widget Env Script -->
   <script>
-  window.Zaia = {
-    AgentURL: "https://platform.zaia.app/embed/chat/18613",
-  };
+    window.Zaia = {
+      AgentURL: "https://platform.zaia.app/embed/chat/18613",
+    };
   </script>
 
-  <!-- Widget Loader Script -->
   <script src="https://cdn.zapgpt.com.br/widget-loader.js"></script>
 
-
-  <!-- Spinner Start -->
   <div id="spinner"
     class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
     <div class="spinner"></div>
   </div>
-  <!-- Spinner End -->
-
   <header>
 
     <div class="container-fluid position-relative p-0">
       <nav id="menumobile" class="navbar navbar-expand-lg navbar-dark px-4 py-3 py-lg-0">
-        <!-- navbar.js -->
       </nav>
 
       <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="w-100" src="img/bghome.jpg" alt="Image" />
+            <img class="w-100" src="img/bghome.png" alt="Capa Home" />
             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
               <div class="p-3 titulo-mobile mt-5">
                 <h6 class="display-index text-white animated zoomIn" data-wow-delay="0.2s">A
@@ -127,10 +127,8 @@
         </div>
       </div>
     </div>
-    <!-- Navbar & Carousel End -->
   </header>
 
-  <!-- ======= Clients Section ======= -->
   <section id="clients" class="clients">
     <div class="container">
       <div class="institucional d-flex align-items-center justify-content-center">
@@ -153,11 +151,9 @@
             <li>
               <img src="./assets/img/logos/mercurio.png" alt="Correias Mercurio" />
             </li>
-
             <li>
               <img src="./assets/img/logos/multilog.png" alt="Multilog" />
             </li>
-
             <li>
               <img src="./assets/img/logos/parker.png" alt="Logo Parker" />
             </li>
@@ -178,29 +174,86 @@
       </div>
     </div>
   </section>
-  <!-- End Clients Section -->
 
-  <!-- Institucional Start -->
-  <div class="w-100 bg-light shadow d-flex align-items-center justify-content-center p-3 mb-5 mt-4">
-    <p class="mt-3 text-center text-primary cta-index">
+  <div class="cta-index shadow d-flex align-items-center justify-content-center p-3 mb-5 mt-4">
+    <p class="mt-3 text-center">
       <span class="font-weight-bold">Um único espaço, várias formas de inovar.</span><br />
-      Use a plataforma Avantt.i para coletar ideias de colaboradores e gerenciá-las em projetos de inovação, da ideia à
-      implementação.
+      Use a plataforma Avantt.i para coletar ideias de colaboradores e gerenciá-las em projetos de inovação, da ideia
+      à implementação.
     </p>
+    <div class="d-flex row cta-index-btn-container justify-content-center">
+      <div class="btn-cta-index mb-2">
+        <p>Intraempreendedorismo</p>
+      </div>
+      <div class="btn-cta-index mb-2">
+        <p>Capacitação</p>
+      </div>
+      <div class="btn-cta-index mb-2">
+        <p>Gestão de portfólio</p>
+      </div>
+      <div class="btn-cta-index mb-3">
+        <p>Open innovation</p>
+      </div>
+      <div class="btn-cta-index mb-3">
+        <p>Suporte de IA para estruturação da estratégia de inovação</p>
+      </div>
+      <div class="btn-cta-index mb-3">
+        <p>Onboarding robusto e suporte consultivo em toda jornada</p>
+      </div>
+    </div>
   </div>
 
-  <div class="ajuste-btn-mobileG w-100 container d-flex p-4 align-items-center justify-content-center mt-4 mb-5">
+  <div class="ajuste-btn-mobileG w-100 container d-flex p-5 align-items-center justify-content-center mt-4 mb-5">
     <button type="button" class="btn btn-primary btn-fixoG py-md-3 me-3 animated slideInLeft textos-btn-mobile"
       data-bs-toggle="modal" data-bs-target="#searchModal">Acesse e teste grátis</button>
     <a href="./price" class="btn btn-dark btn-fixoG py-md-3 animated slideInRight textos-btn-mobile">Conheça
       nossos planos</a>
   </div>
 
-  <!-- Institucional End -->
+  <section id="clients" class="clients">
+    <div class="section-title text-center position-relative pb-1 mb-3 mx-auto mt-3" style="max-width: 700px">
+      <h3 class="text-primary"> O que você encontra na Avantt.i</h3>
+    </div>
+    <div class="container-home">
+      <div class="card">
+        <div class="img-box">
+          <img class="position-relative" data-wow-delay="0.9s" src="./img/ferramenta.gif" alt="Intra" />
+        </div>
+        <div class="content">
+          <p>Intra, open e gestão do portfolio de inovação</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-box">
+          <img class="position-relative" data-wow-delay="0.9s" src="./img/funil.gif" alt="Processos" />
+        </div>
+        <div class="content">
+          <p>Processos e governança para avaliar os projetos</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-box">
+          <img class="position-relative" data-wow-delay="0.9s" src="./img/dash_p.png" alt="Dashboards" />
+        </div>
+        <div class="content">
+          <p>Dashboard com dados financeiros e globais</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-box">
+          <img class="position-relative" data-wow-delay="0.9s" src="./img/startups.gif" alt="Startups" />
+        </div>
+        <div class="content">
+          <p>24.000 startups para projetos colaborativos</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <div class="institucional d-flex align-items-center justify-content-center">
-    <p class="text-center text-primary" style="max-width: 900px; font-size: 1.2rem">
-      Feito para gestores de inovação e gestores de projeto que querem:
+  <div class="institucional d-flex align-items-center justify-content-center mt-5">
+    <p class="text-center text-primary" style="max-width: 900px; font-size: 1.6rem">
+      <strong>A Avantt.i é sua <span style="color: #000;">melhor escolha</span> para capacitar o time e gerir as
+        iniciativas de inovação</strong>
     </p>
   </div>
 
@@ -208,61 +261,28 @@
     <div class="container-index">
       <div class="card-index" style="--clr: #9d28f0">
         <div class="content-index">
-          <p>Maximizar resultados das inovações com gestão consolidada do portfolio.</p>
+          <p>Avantt.i aloca consultor para gerir toda a plataforma e estruturar seus processos.</p>
         </div>
       </div>
       <div class="card-index" style="--clr: #9d28f0">
         <div class="content-index">
-          <p>Otimizar tempo com os projetos em um único lugar, evitando duplicidades.</p>
+          <p>Nossa trilha de conhecimento embarcada direciona colaboradores na jornada de inovação, com mais de 40
+            vídeos e frameworks.</p>
         </div>
       </div>
       <div class="card-index" style="--clr: #9d28f0">
         <div class="content-index">
-          <p>Influenciar a organização a investir em esforços de inovação a partir de métricas acionáveis.</p>
+          <p>Você não precisa aprender a usar o sistema sozinho. Nosso time de CS oferece suporte contínuo.</p>
         </div>
       </div>
       <div class="card-index" style="--clr: #9d28f0">
         <div class="content-index">
-          <p>Implementar intraempreendedorismo e alavancar cultura de inovação com colaboração dos times.</p>
+          <p>Nossas mentorias são 1:1. Suporte estratégico e customizado da Inventta.</p>
         </div>
       </div>
     </div>
   </div>
-  <!-- Institucional End -->
 
-
-
-  <!-- About Start -->
-  <section id="about">
-    <div class="container-fluid py-2 wow fadeInUp mb-5 border-bottom" data-wow-delay="0.1s">
-      <div class="container py-0">
-        <div class="justify-content-around row g-0 mb-3">
-          <div class="d-flex col-lg-6">
-            <img src="./assets/img/use_avantti.png" class="rounded-3 use-avantti" alt="Use Avantt.i">
-          </div>
-
-          <div class="col-lg-5 about-gif">
-            <div class="position-relative h-100 mb-3">
-              <iframe class="use-avantti-mobile" width="558" height="314"
-                src="https://www.youtube.com/embed/UOPYcb_q-H0?si=XrWtYIpf_6SWcZhs&amp;controls=0&amp;autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=UOPYcb_q-H0"
-                title="YouTube video player" frameborder="0" style="border: 0;"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-
-          </div>
-          <div class="d-flex justify-content-center">
-            <a href="./conheca"
-              class="btn btn-primary btn-fixoG py-md-3 animated slideInRight textos-btn-mobile mt-2">Quero
-              conhecer mais sobre a Avantt.i</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- About End -->
-
-  <!-- Modal E-mail Start -->
   <div class="modal fade" id="emailModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -297,16 +317,14 @@
   </div>
 
   <script type="text/javascript">
-  function openModalEmail() {
-    $("#emailModal").modal("show");
+    function openModalEmail() {
+      $("#emailModal").modal("show");
 
-    let texto_email = document.getElementById("message");
-    texto_email.value = "Olá! Acessei a página da Avantt.i e quero agendar uma call para conhecer mais. \n\nObrigada!";
-  }
+      let texto_email = document.getElementById("message");
+      texto_email.value = "Olá! Acessei a página da Avantt.i e quero agendar uma call para conhecer mais. \n\nObrigada!";
+    }
   </script>
-  <!-- Modal E-mail End -->
 
-  <!-- Modal Solicitar Acesso Start -->
   <div class="modal fade" id="searchModal" tabindex="-1">
     <div class="modal-dialog" role="document">
       <div class="modal-content" style="background: rgba(9, 30, 62, 0.8)">
@@ -348,12 +366,10 @@
                   <label class="form-check-label" for="news">Concordo em receber novidades.</label>
                 </div>
               </div>
-
               <br />
               <small>
                 <p class="text-white">Em conformidade com a lei nº 13.709/18, ou LGPD.</p>
               </small>
-
               <div class="text-center mb-3">
                 <button type="submit" class="btn btn-primary" onclick="sendMail()">Quero receber o acesso ao
                   Avantt.i</button>
@@ -364,81 +380,79 @@
       </div>
     </div>
   </div>
-  <!-- Modal Solicitar Acesso End -->
 
-  <!-- Institucional Start -->
-  <div class="w-100 d-flex align-items-center justify-content-center p-3 mb-5 mt-5">
-    <a href="#" onclick="openModalEmail()">
-      <img src="./assets/img/junte.png" class="junte-avantti" alt="Junte-se a Avantt.i">
-    </a>
-  </div>
-  <!-- Institucional End -->
-
-  <!-- Facts Start -->
-  <div class="container-fluid facts py-3 pt-lg-0">
-    <div class="container py-5 pt-lg-0">
-      <div class="d-flex justify-content-center row gx-0">
-        <div class="d-flex justify-content-center col-lg-3 wow zoomIn mb-2" data-wow-delay="0.1s">
-          <div class="facts-box bg-primary shadow d-flex align-items-center justify-content-center p-4"
-            style="height: 150px">
-            <div class="d-flex align-items-center justify-content-center rounded mb-2">
-              <img src="./img/icons/users.png" alt="Imagem Users" />
-            </div>
-            <div class="ps-4">
-              <h6 class="text-primary mb-0">.</h6>
-              <h2 class="text-white mb-0" data-toggle="counter-up">15000</h2>
-              <h6 class="text-white mb-0">Usuários Cadastrados</h6>
+  <section id="clients" class="clients">
+    <div class="section-title text-center position-relative pb-1 mb-5 mx-auto" style="max-width: 700px">
+      <h3 class="text-primary"> Resultados com nossos clientes</h3>
+    </div>
+    <div class="container-fluid facts py-3 pt-lg-0 mt-5">
+      <div class="container py-5 pt-lg-0">
+        <div class="d-flex justify-content-center row gx-0">
+          <div class="d-flex justify-content-center col-lg-3 wow zoomIn mb-2" data-wow-delay="0.1s">
+            <div class="facts-box bg-primary shadow d-flex align-items-center justify-content-center p-4"
+              style="height: 150px">
+              <div class="d-flex align-items-center justify-content-center rounded mb-2">
+                <img src="./img/icons/users.png" alt="Imagem Users" />
+              </div>
+              <div class="ps-4">
+                <h6 class="text-primary mb-0">.</h6>
+                <h2 class="text-white mb-0" data-toggle="counter-up">15000</h2>
+                <h6 class="text-white mb-0">Usuários Cadastrados</h6>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="d-flex justify-content-center col-lg-3 wow zoomIn mb-2" data-wow-delay="0.3s">
-          <div class="facts-box bg-light shadow d-flex align-items-center justify-content-center p-4"
-            style="height: 150px">
-            <div class="d-flex align-items-center justify-content-center rounded mb-2">
-              <img src="./img/icons/ideias.png" alt="Imagem Ideias" />
-            </div>
-            <div class="ps-4">
-              <h6 class="text-secondary mb-0">+ de</h6>
-              <h2 class="mb-0" data-toggle="counter-up">2000</h2>
-              <h6 class="text-secondary mb-0">Ideias Geradas</h6>
-            </div>
-          </div>
-        </div>
-        <div class="d-flex justify-content-center col-lg-3 wow zoomIn mb-2" data-wow-delay="0.6s">
-          <div class="facts-box bg-primary shadow d-flex align-items-center justify-content-center p-4"
-            style="height: 150px">
-            <div class="d-flex align-items-center justify-content-center rounded mb-2">
-              <img src="./img/icons/lupap.png" alt="Icone Lupa" />
-            </div>
-            <div class="ps-4">
-              <h6 class="text-primary mb-0">.</h6>
-              <h2 class="text-white mb-0" data-toggle="counter-up">282</h2>
-              <h6 class="text-white mb-0">Ideias Selecionadas</h6>
+          <div class="d-flex justify-content-center col-lg-3 wow zoomIn mb-2" data-wow-delay="0.3s">
+            <div class="facts-box bg-light shadow d-flex align-items-center justify-content-center p-4"
+              style="height: 150px">
+              <div class="d-flex align-items-center justify-content-center rounded mb-2">
+                <img src="./img/icons/ideias.png" alt="Imagem Ideias" />
+              </div>
+              <div class="ps-4">
+                <h6 class="text-secondary mb-0">+ de</h6>
+                <h2 class="mb-0" data-toggle="counter-up">2000</h2>
+                <h6 class="text-secondary mb-0">Ideias Geradas</h6>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="d-flex justify-content-center col-lg-3 wow zoomIn mb-2" data-wow-delay="0.3s">
-          <div class="facts-box bg-light shadow d-flex align-items-center justify-content-center p-4"
-            style="height: 150px">
-            <div class="d-flex align-items-center justify-content-center rounded mb-2"
-              style="width: 60px; height: 60px">
-              <img src="./img/icons/users2.png" alt="Icone Users" />
+          <div class="d-flex justify-content-center col-lg-3 wow zoomIn mb-2" data-wow-delay="0.6s">
+            <div class="facts-box bg-primary shadow d-flex align-items-center justify-content-center p-4"
+              style="height: 150px">
+              <div class="d-flex align-items-center justify-content-center rounded mb-2">
+                <img src="./img/icons/lupap.png" alt="Icone Lupa" />
+              </div>
+              <div class="ps-4">
+                <h6 class="text-primary mb-0">.</h6>
+                <h2 class="text-white mb-0" data-toggle="counter-up">282</h2>
+                <h6 class="text-white mb-0">Ideias Selecionadas</h6>
+              </div>
             </div>
-            <div class="ps-4">
-              <h6 class="text-light mb-0">.</h6>
-              <h2 class="mb-0" data-toggle="counter-up">82</h2>
-              <h6 class="text-secondary mb-0" style="width: 180px;">Ideias Implementadas</h6>
+          </div>
+          <div class="d-flex justify-content-center col-lg-3 wow zoomIn mb-2" data-wow-delay="0.3s">
+            <div class="facts-box bg-light shadow d-flex align-items-center justify-content-center p-4"
+              style="height: 150px">
+              <div class="d-flex align-items-center justify-content-center rounded mb-2"
+                style="width: 60px; height: 60px">
+                <img src="./img/icons/users2.png" alt="Icone Users" />
+              </div>
+              <div class="ps-4">
+                <h6 class="text-light mb-0">.</h6>
+                <h2 class="mb-0" data-toggle="counter-up">82</h2>
+                <h6 class="text-secondary mb-0" style="width: 180px;">Ideias Implementadas</h6>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Facts Start -->
+  </section>
 
-  <!-- Testimonial Start -->
-  <section id="Testimonial">
-    <div class="container py-2 wow fadeInUp mb-4 border-bottom" data-wow-delay="0.1s">
+  <div class="d-flex justify-content-center mt-3">
+    <button type="button" class="btn btn-primary btn-fixoG py-md-3 me-3 animated slideInLeft textos-btn-mobile"
+      data-bs-toggle="modal" data-bs-target="#searchModal">Quero conhecer</button>
+  </div>
+
+  <section id="Testimonial" class="mt-5">
+    <div class="container py-2 wow fadeInUp mb-4" data-wow-delay="0.1s">
       <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 700px">
           <h5 class="fw-bold text-tertiary text-uppercase">Depoimentos</h5>
@@ -454,11 +468,10 @@
                 <img class="img-fluid rounded" src="./img/icons/logo-ccr.png" style="width: 100px" alt="Logo CCR" />
               </div>
             </div>
-
             <div class="detail-testimonial pt-4 pb-3 px-5">
               <p class="text-justify">
-                Com a Avantt.i desenvolvemos o Inovaê, um programa de inovação e empreendedorismo da CCR que em apenas 2
-                meses registrou 76 ideias, o que para nós é um número excelente.
+                Com a Avantt.i desenvolvemos o Inovaê, um programa de inovação e empreendedorismo da CCR que em apenas
+                2 meses registrou 76 ideias, o que para nós é um número excelente.
               </p>
               <p class="text-justify">
                 A plataforma tem facilitado muito a gestão de ideias e aumenta a qualidade das mesmas, pois o que o
@@ -466,32 +479,27 @@
                 que precisamos para avaliar e validar, linkado com nossos direcionais estratégicos.
               </p>
             </div>
-
             <div class="d-flex">
               <div class="vermais pt-4 pb-3 px-5">
                 <button onclick="vermais_ccr()" class="btn btn-primary">Ver depoimento completo</button>
               </div>
             </div>
           </div>
-
           <div class="my-3 back">
             <div class="d-flex flex-row justify-content-center border-bottom pt-4 pb-4" style="height: 93px">
               <div class="d-flex" style="width: auto">
                 <img class="img-fluid rounded" src="./img/icons/logo-ccr.png" style="width: 100px" alt="Logo CCR" />
               </div>
             </div>
-
             <div class="detail-testimonial pt-4 pb-3 px-5">
               <p class="text-justify">
-                Até o momento temos 20 ideias aprovadas para desenvolvimento na esteira de desenvolvimento. Um fator de
-                escolha foi a fácil usabilidade e e intuitividade, pois nosso público
-                está em campo, sem tanto acesso à tecnologia.
+                Até o momento temos 20 ideias aprovadas para desenvolvimento na esteira de desenvolvimento. Um fator
+                de escolha foi a fácil usabilidade e e intuitividade, pois nosso público está em campo, sem tanto acesso
+                à tecnologia.
               </p>
               <p class="text-justify">
                 a Avantt.i também nos ajudou a quebrar barreiras da inovação na empresa, trazendo a possibilidade de
-                todos
-                darem ideias independente de onde estejam, impulsionando o nosso
-                valor de inovação.
+                todos darem ideias independente de onde estejam, impulsionando o nosso valor de inovação.
               </p>
               <div class="ps-4 text-end pt-3">
                 <h6 class="text-primary mb-1">Gabriela Fuzaro</h6>
@@ -505,7 +513,6 @@
             </div>
           </div>
         </div>
-
         <div id="card-votorantin" class="flipper-2" data-wow-delay="0.6s">
           <div class="my-3 front-2">
             <div class="d-flex flex-row justify-content-center border-bottom pt-4 pb-4" style="height: 93px">
@@ -514,18 +521,16 @@
                   alt="Logo Votorantim" />
               </div>
             </div>
-
             <div class="detail-testimonial detail-mobile pt-4 pb-3 px-5">
               <p class="text-justify">
                 Antes de iniciarmos com o software Avantt.i, o cadastro de ideias era feito via Google Docs. O volume
-                era
-                razoável, mas o conteúdo das ideias era ruim, o que acabava não
-                gerando bons projetos para aceleração da inovação.
+                era razoável, mas o conteúdo das ideias era ruim, o que acabava não gerando bons projetos para
+                aceleração da inovação.
               </p>
               <p class="text-justify">
-                Escolhemos a Avantt.i pela expertise e agilidade da Inventta e percebemos que em pouco mais de 2 meses,
-                tivemos um aumento expressivo na qualidade de ideias, maior interesse e
-                engajamento de colaboradores.
+                Escolhemos a Avantt.i pela expertise e agilidade da Inventta e percebemos que em pouco mais de 2
+                meses, tivemos um aumento expressivo na qualidade de ideias, maior interesse e engajamento de
+                colaboradores.
               </p>
             </div>
             <div class="d-flex">
@@ -546,10 +551,9 @@
             <div class="detail-testimonial detail-mobile pt-4 pb-3 px-5">
               <p class="text-justify">
                 Quando escolhemos a Avantt.i, consideramos muito a expertise e a parceria que já tínhamos com a
-                Inventta, o
-                rápido atendimento que sempre nos prestaram e por já terem uma
-                plataforma pronta e adaptável. Percebemos que em pouco mais de 2 meses, tivemos um aumento expressivo na
-                qualidade de ideias, maior interesse e engajamento de colaboradores.
+                Inventta, o rápido atendimento que sempre nos prestaram e por já terem uma plataforma pronta e
+                adaptável. Percebemos que em pouco mais de 2 meses, tivemos um aumento expressivo na qualidade de
+                ideias, maior interesse e engajamento de colaboradores.
               </p>
               <p class="text-justify">
                 No lançamento da plataforma, participando ativamente. E foi aí que percebemos o potencial que a Avantt.i
@@ -572,15 +576,7 @@
       </div>
     </div>
   </section>
-  <!-- Testimonial End -->
 
-  <div class="w-100 container d-flex p-4 align-items-center justify-content-center mb-2">
-    <a href="./conheca" class="btn btn-primary btn-fixoG py-md-3 animated slideInRight textos-btn-mobile">Quero
-      conhecer mais sobre a Avantt.i</a>
-  </div>
-
-
-  <!-- Modal Message-->
   <div class="modal fade" id="mensagem" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -597,8 +593,6 @@
     </div>
   </div>
 
-
-  <!-- Footer Start -->
   <footer id="footer">
     <div class="footer-newsletter">
       <div class="container">
@@ -659,56 +653,38 @@
       </div>
     </div>
   </footer>
-  <!-- Footer End -->
 
-  <!-- Back to Top -->
   <a href="#" class="btn btn-lg btn-back-to-top rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
 
-  <!-- JavaScript Libraries -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="lib/wow/wow.min.js"></script>
   <script src="lib/easing/easing.min.js"></script>
   <script src="lib/waypoints/waypoints.min.js"></script>
   <script src="lib/counterup/counterup.min.js"></script>
-  <!-- <script src="lib/owlcarousel/owl.carousel.min.js"></script> -->
-
   <script src="./js/email.js"></script>
-
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
   <script type="text/javascript">
-  (function() {
-    // emailjs.init("ye4doyHG3bmtrhbjk");
-    emailjs.init("M5tc3I8aObv3dh3Cd");
-  })();
+    (function() {
+      emailjs.init("M5tc3I8aObv3dh3Cd");
+    })();
   </script>
 
   <script>
-  // Facts counter
-  $('[data-toggle="counter-up"]').counterUp({
-    delay: 10,
-    time: 2000,
-  });
+    $('[data-toggle="counter-up"]').counterUp({
+      delay: 10,
+      time: 2000,
+    });
   </script>
 
-  <!-- Template Javascript -->
   <script src="./js/navbar.js"></script>
   <script src="./js/main.js"></script>
   <script src="./js/script.js"></script>
 
-  <!-- <script>
-  window.onload = function() {
-    const mia_photo = document.getElementById("chatbot-picture")
-    mia_photo.src = "./img/icons/mia_2.png"
-  }
-  </script> -->
-
   <?php
   if (isset($_GET['email_status'])) {
     $emailStatus = $_GET['email_status'];
-
-    // Verifica o status e define as mensagens e classes conforme necessário
     $modalTitle = ($emailStatus === 'success') ? 'Sucesso' : 'Erro';
     $modalMessage = ($emailStatus === 'success') ? 'E-mail enviado com sucesso!' : 'Erro ao enviar o e-mail';
     $modalClass = ($emailStatus === 'success') ? 'modal-success' : 'modal-danger';
@@ -742,16 +718,13 @@
     echo 'document.body.appendChild(modal);';
     echo 'var modalInstance = new bootstrap.Modal(modal);';
     echo 'modalInstance.show();';
-    // Remove o parâmetro da URL sem recarregar a página
     echo 'var url = window.location.href;';
     echo 'var cleanUrl = url.split("?")[0];';
     echo 'window.history.replaceState({}, document.title, cleanUrl);';
-
     echo '});';
     echo '</script>';
   }
   ?>
-
 </body>
 
 </html>

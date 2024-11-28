@@ -1,13 +1,11 @@
 body {
    background: url(/img/bg-about.png);
    object-fit: scale-down;
-   /* border: 1px red solid; */
 }
 
 .about {
    display: flex;
    justify-content: center;
-   /* border: 1px green solid; */
 }
 
 .content {
@@ -16,14 +14,12 @@ body {
    width: 80vw;
    margin: 0;
    padding: 0 !important;
-   /* border: 2px pink solid; */
 }
 
 .timeline {
    position: relative;
    min-height: 500px;
    padding: 60px 0;
-   /* border: 1px red solid; */
 }
 
 .timeline__bar {

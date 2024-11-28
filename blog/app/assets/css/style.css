@@ -605,7 +605,8 @@ td {
 }
 
 .logo-footer img {
-   max-height: 30px;
+   height: 30px;
+   width: 96px;
 }
 
 .footer-top .container {

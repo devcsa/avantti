@@ -2,6 +2,41 @@
 <html lang="pt-br">
 
 <head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+  <meta name="title" content="Sobre a Avantti Inovação | Nossa Missão e Expertise em Transformação Digital">
+  <meta name="description"
+    content="A Avantti Inovação é uma empresa focada em soluções de transformação digital e inovação. Saiba mais sobre nossa história, missão e compromisso em ajudar empresas a crescerem de forma sustentável, com mais de 20 anos de experiência em estratégia e tecnologia.">
+  <meta name="keywords" content="Avantti Inovação, Soluções de Inovação">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="Portuguese">
+  <meta name="revisit-after" content="10 days">
+  <meta name="author" content="Avantti">
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="Sumário">
+  <meta name="twitter:site" content="@avantti">
+  <meta name="twitter:title" content="Sobre a Avantti Inovação | Nossa Missão e Expertise em Transformação Digital">
+  <meta name="twitter:description"
+    content="A Avantti Inovação é uma empresa focada em soluções de transformação digital e inovação. Saiba mais sobre nossa história, missão e compromisso em ajudar empresas a crescerem de forma sustentável, com mais de 20 anos de experiência em estratégia e tecnologia.">
+  <meta name="twitter:creator" content="@avantti">
+  <!-- Imagem Twitter Summary Card, tem que ter pelo menos 120x120px -->
+  <meta name="twitter:image" content="https://www.avanttinovacao.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Sobre a Avantti Inovação | Nossa Missão e Expertise em Transformação Digital" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://www.avanttinovacao.com.br" />
+  <meta property="og:image"
+    content="https://www.avanttinovacao.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png" />
+  <meta property="og:description"
+    content="A Avantti Inovação é uma empresa focada em soluções de transformação digital e inovação. Saiba mais sobre nossa história, missão e compromisso em ajudar empresas a crescerem de forma sustentável, com mais de 20 anos de experiência em estratégia e tecnologia." />
+  <meta property="og:site_name" content="Avantti" />
+  <meta property="fb:admins" content="" />
+
+  <title>Sobre nós | Avantt.i</title>
 
   <!-- Google Tag Manager -->
   <script>
@@ -21,14 +56,6 @@
     })(window, document, 'script', 'dataLayer', 'GTM-5H9VSQWL');
   </script>
   <!-- End Google Tag Manager -->
-
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <meta name="description"
-    content="Software de gestão da inovação que te ajuda a provar resultados de forma prática, direto ao ponto, visualizando diversos projetos dentro de um único local. " />
-
-  <title>Sobre nós | Avantt.i</title>
 
   <!-- Favicon -->
   <link href="./img/favicon.png" rel="icon" />
@@ -68,9 +95,6 @@
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5H9VSQWL" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript> -->
-  <!-- End Google Tag Manager (noscript) -->
 
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5H9VSQWL" height="0" width="0"
@@ -90,7 +114,6 @@
       <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
         <!-- navbar.js -->
       </nav>
-
 
       <div class="container-fluid bg-primary py-5 bg-header">
         <div class="row py-5">
@@ -263,9 +286,6 @@
   </script>
   <!-- Modal E-mail End -->
 
-
-
-
   <!-- Modal Solicitar Acesso Start -->
   <div class="modal fade" id="searchModal" tabindex="-1">
     <div class="modal-dialog" role="document">
@@ -302,14 +322,6 @@
                   <option value="Mais de 5.001">Mais de 5.001</option>
                 </select>
               </div>
-              <!-- <div class="col-md-6">
-                <label for="versao" class="form-label">Versão de Acesso *</label>
-                <select id="versao" class="form-select" required>
-                  <option selected></option>
-                  <option value="Acesso único por 4h">Acesso único por 4h</option>
-                  <option value="Acesso Trial 15 dias">Acesso Trial 15 dias</option>
-                </select>
-              </div> -->
 
               <div class="col-12">
                 <div class="form-check">
@@ -327,11 +339,6 @@
                 <button type="submit" class="btn btn-primary" onclick="sendMail()">Quero receber o acesso ao
                   Avantt.i</button>
               </div>
-
-              <!-- <small>
-                <p class="text-white mb-0">*Liberado em até 24h</p>
-                <p class="text-white mb-0">**Acesso somente liberados para emails corporativos.</p>
-              </small> -->
             </span>
           </div>
         </div>
@@ -475,15 +482,12 @@ if (isset($_GET['email_status'])) {
   echo 'document.body.appendChild(modal);';
   echo 'var modalInstance = new bootstrap.Modal(modal);';
   echo 'modalInstance.show();';
-  // Remove o parâmetro da URL sem recarregar a página
   echo 'var url = window.location.href;';
   echo 'var cleanUrl = url.split("?")[0];';
   echo 'window.history.replaceState({}, document.title, cleanUrl);';
-
   echo '});';
   echo '</script>';
 }
 ?>
-
 
 </html>

@@ -2,8 +2,42 @@
 <html lang="pt-br">
 
 <head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-  <!-- Google Tag Manager -->
+  <meta name="title" content="Nossos Clientes | Cases de Sucesso em Inovação com a Avantti">
+  <meta name="description"
+    content="Conheça os clientes da Avantti Inovação e nossos cases de sucesso em transformação digital e inovação. Veja como ajudamos empresas de diversos setores a alcançarem resultados sólidos e sustentáveis com soluções inovadoras e estratégicas.">
+  <meta name="keywords" content="Avantti Inovação, Soluções de Inovação">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="Portuguese">
+  <meta name="revisit-after" content="10 days">
+  <meta name="author" content="Avantti">
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="Sumário">
+  <meta name="twitter:site" content="@avantti">
+  <meta name="twitter:title" content="Nossos Clientes | Cases de Sucesso em Inovação com a Avantti">
+  <meta name="twitter:description"
+    content="Conheça os clientes da Avantti Inovação e nossos cases de sucesso em transformação digital e inovação. Veja como ajudamos empresas de diversos setores a alcançarem resultados sólidos e sustentáveis com soluções inovadoras e estratégicas.">
+  <meta name="twitter:creator" content="@avantti">
+  <!-- Imagem Twitter Summary Card, tem que ter pelo menos 120x120px -->
+  <meta name="twitter:image" content="https://www.avanttinovacao.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Nossos Clientes | Cases de Sucesso em Inovação com a Avantti" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://www.avanttinovacao.com.br" />
+  <meta property="og:image"
+    content="https://www.avanttinovacao.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png" />
+  <meta property="og:description"
+    content="Conheça os clientes da Avantti Inovação e nossos cases de sucesso em transformação digital e inovação. Veja como ajudamos empresas de diversos setores a alcançarem resultados sólidos e sustentáveis com soluções inovadoras e estratégicas." />
+  <meta property="og:site_name" content="Avantti" />
+  <meta property="fb:admins" content="" />
+
+  <title>Nossos Clientes | Cases de Sucesso em Inovação com a Avantti</title>
+
   <script>
     (function(w, d, s, l, i) {
       w[l] = w[l] || [];
@@ -20,39 +54,22 @@
       f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-5H9VSQWL');
   </script>
-  <!-- End Google Tag Manager -->
 
-
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <meta name="description"
-    content="Software de gestão da inovação que te ajuda a provar resultados de forma prática, direto ao ponto, visualizando diversos projetos dentro de um único local. " />
-
-  <title>Cases de orgulho | Avantt.i</title>
-
-  <!-- Favicon -->
   <link href="./img/favicon.png" rel="icon" />
 
-  <!-- Google Web Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" /> -->
 
-  <!-- Icon Font Stylesheet -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
 
-  <!-- Libraries Stylesheet -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
     integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="lib/animate/animate.min.css" rel="stylesheet" />
 
-  <!-- Customized Bootstrap Stylesheet -->
   <link href="css/bootstrap.min.css" rel="stylesheet" />
 
-  <!-- Template Stylesheet -->
   <link href="css/style.css" rel="stylesheet" />
 
   <script src="./js/email.js"></script>
@@ -67,51 +84,35 @@
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5H9VSQWL" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript> -->
-  <!-- End Google Tag Manager (noscript) -->
-
-  <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5H9VSQWL" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
 
-  <!-- Spinner Start -->
   <div id="spinner"
     class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
     <div class="spinner"></div>
   </div>
-  <!-- Spinner End -->
 
   <header>
-
     <div class="container-fluid position-relative p-0">
       <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
-        <!-- navbar.js -->
       </nav>
 
       <div class="container-fluid bg-primary py-5 bg-header-conheca">
         <div class="row py-5">
           <div class="col-12 pt-lg-5 mt-lg-5 text-center titulo-mobile">
-            <h6 class="display-index text-white animated zoomIn text-uppercase mb-4">Nossos Clientes</h6>
+            <h6 class="display-index text-white animated zoomIn text-uppercase mb-4">Casos de <span
+                style="color: #ce8ff3">sucesso</span></h6>
             <p class="animated zoomIn text-white" data-wow-delay="0.6s"
-              style="font-family: Montserrat; font-weight: 500">Conheça as empresas que utilizam a expertise da Avantt.i
-              na
-              gestão da<br>inovação e na gestão de ideias.</p>
+              style="font-family: Montserrat; font-weight: 500">Conheça como Avantt.i ajuda empresas a profisionalizar e
+              promover a inovação,<br>capacitar colaboradores e gerir portfolio completo.</p>
           </div>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- ======= Clients Section ======= -->
   <section id="clients" class="clients">
     <div class="container">
-      <!-- <div class="institucional d-flex align-items-center justify-content-center">
-        <p class="text-center text-primary" style="max-width: 900px; font-size: 1.8rem">
-          Empresas que confiam na Avantt.i
-        </p>
-      </div> -->
       <div class="row g-0 mt-5 wow fadeIn" data-wow-delay="0.6s">
         <div class="col-lg-12 mb-3 about-mobile scroller" data-speed="fast">
           <ul class="tag-list scroller__inner">
@@ -152,9 +153,7 @@
       </div>
     </div>
   </section>
-  <!-- End Clients Section -->
 
-  <!-- Clients Start -->
   <div class="container-fluid py-3 wow fadeInUp border-bottom pb-5" data-wow-delay="0.1s">
     <div class="container py-3 mt-5">
       <div class="section-title text-center position-relative pb-1 mb-5 mx-auto" style="max-width: 600px">
@@ -177,15 +176,9 @@
           </div>
         </div>
       </div>
-      <!-- <div class="w-100 container d-flex mt-5 p-4 align-items-center justify-content-center">
-        <a href="https://outlook.office365.com/owa/calendar/ParaconheceroLabi@inventta.net/bookings/
-            " target="_blank" class="btn btn-dark py-md-3 px-md-3 me-3 mb-4 animated slideInRight btn-fixoM"><i
-            class="fa fa-calendar me-2"></i>Agende uma demonstração</a>
-      </div> -->
     </div>
   </div>
 
-  <!-- Testimonial Start -->
   <section id="Testimonial">
     <div class="container py-2 wow fadeInUp mb-5 border-bottom" data-wow-delay="0.1s">
       <div class="container py-5">
@@ -321,7 +314,6 @@
       </div>
     </div>
   </section>
-  <!-- Testimonial End -->
 
   <section id="usarolabi">
     <div class="container py-1" style="padding-left: 0; padding-right: 0">
@@ -389,7 +381,6 @@
     }
   </script>
 
-  <!-- Modal E-mail Start -->
   <div class="modal fade" id="emailModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -431,11 +422,7 @@
       texto_email.value = "Olá! Acessei a página da Avantt.i e quero agendar uma call para conhecer mais. \n\nObrigada!";
     }
   </script>
-  <!-- Modal E-mail End -->
 
-
-
-  <!-- Modal Solicitar Acesso Start -->
   <div class="modal fade" id="searchModal" tabindex="-1">
     <div class="modal-dialog" role="document">
       <div class="modal-content" style="background: rgba(9, 30, 62, 0.8)">
@@ -471,14 +458,6 @@
                   <option value="Mais de 5.001">Mais de 5.001</option>
                 </select>
               </div>
-              <!-- <div class="col-md-6">
-                <label for="versao" class="form-label">Versão de Acesso *</label>
-                <select id="versao" class="form-select" required>
-                  <option selected></option>
-                  <option value="Acesso único por 4h">Acesso único por 4h</option>
-                  <option value="Acesso Trial 15 dias">Acesso Trial 15 dias</option>
-                </select>
-              </div> -->
 
               <div class="col-12">
                 <div class="form-check">
@@ -496,20 +475,13 @@
                 <button type="submit" class="btn btn-primary" onclick="sendMail()">Quero receber o acesso ao
                   Avantt.i</button>
               </div>
-
-              <!-- <small>
-                <p class="text-white mb-0">*Liberado em até 24h</p>
-                <p class="text-white mb-0">**Acesso somente liberados para emails corporativos.</p>
-              </small> -->
             </span>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- Modal Solicitar Acesso End -->
 
-  <!-- Modal Message-->
   <div class="modal fade" id="mensagem" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -526,8 +498,6 @@
     </div>
   </div>
 
-
-  <!-- Footer Start -->
   <footer id="footer">
     <div class="footer-newsletter">
       <div class="container">
@@ -589,12 +559,8 @@
     </div>
   </footer>
 
-  <!-- Footer End -->
-
-  <!-- Back to Top -->
   <a href="#" class="btn btn-lg btn-back-to-top rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
 
-  <!-- JavaScript Libraries -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="lib/wow/wow.min.js"></script>
@@ -604,7 +570,6 @@
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
   <script>
-    // Vendor carousel
     $(".vendor-carousel").owlCarousel({
       items: 1,
       loop: true,
@@ -616,7 +581,6 @@
     });
   </script>
 
-  <!-- Template Javascript -->
   <script src="./js/navbar.js"></script>
   <script src="./js/main.js"></script>
   <script src="./js/tabs.js"></script>
@@ -625,8 +589,6 @@
   <?php
   if (isset($_GET['email_status'])) {
     $emailStatus = $_GET['email_status'];
-
-    // Verifica o status e define as mensagens e classes conforme necessário
     $modalTitle = ($emailStatus === 'success') ? 'Sucesso' : 'Erro';
     $modalMessage = ($emailStatus === 'success') ? 'E-mail enviado com sucesso!' : 'Erro ao enviar o e-mail';
     $modalClass = ($emailStatus === 'success') ? 'modal-success' : 'modal-danger';
@@ -660,17 +622,13 @@
     echo 'document.body.appendChild(modal);';
     echo 'var modalInstance = new bootstrap.Modal(modal);';
     echo 'modalInstance.show();';
-    // Remove o parâmetro da URL sem recarregar a página
     echo 'var url = window.location.href;';
     echo 'var cleanUrl = url.split("?")[0];';
     echo 'window.history.replaceState({}, document.title, cleanUrl);';
-
     echo '});';
     echo '</script>';
   }
   ?>
-
-
 </body>
 
 </html>

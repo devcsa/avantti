@@ -2,8 +2,42 @@
 <html lang="pt-br">
 
 <head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-  <!-- Google Tag Manager -->
+  <meta name="title" content="Materiais Educativos e Conteúdos Exclusivos | Avantti Inovação">
+  <meta name="description"
+    content="Acesse conteúdos exclusivos da Avantti Inovação sobre transformação digital, estratégias de inovação e tendências de mercado. Baixe e explore nossos e-books, guias e estudos de caso para impulsionar o crescimento e a inovação da sua empresa.">
+  <meta name="keywords" content="Avantti Inovação, Soluções de Inovação">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="Portuguese">
+  <meta name="revisit-after" content="10 days">
+  <meta name="author" content="Avantti">
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="Sumário">
+  <meta name="twitter:site" content="@avantti">
+  <meta name="twitter:title" content="Materiais Educativos e Conteúdos Exclusivos | Avantti Inovação">
+  <meta name="twitter:description"
+    content="Acesse conteúdos exclusivos da Avantti Inovação sobre transformação digital, estratégias de inovação e tendências de mercado. Baixe e explore nossos e-books, guias e estudos de caso para impulsionar o crescimento e a inovação da sua empresa.">
+  <meta name="twitter:creator" content="@avantti">
+  <!-- Imagem Twitter Summary Card, tem que ter pelo menos 120x120px -->
+  <meta name="twitter:image" content="https://www.avanttinovacao.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Materiais Educativos e Conteúdos Exclusivos | Avantti Inovação" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://www.avanttinovacao.com.br" />
+  <meta property="og:image"
+    content="https://www.avanttinovacao.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png" />
+  <meta property="og:description"
+    content="Acesse conteúdos exclusivos da Avantti Inovação sobre transformação digital, estratégias de inovação e tendências de mercado. Baixe e explore nossos e-books, guias e estudos de caso para impulsionar o crescimento e a inovação da sua empresa." />
+  <meta property="og:site_name" content="Avantti" />
+  <meta property="fb:admins" content="" />
+
+  <title>Materiais Educativos e Conteúdos Exclusivos | Avantti Inovação</title>
+
   <script>
     (function(w, d, s, l, i) {
       w[l] = w[l] || [];
@@ -20,37 +54,19 @@
       f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-5H9VSQWL');
   </script>
-  <!-- End Google Tag Manager -->
 
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <meta name="description"
-    content="Software de gestão da inovação que te ajuda a provar resultados de forma prática, direto ao ponto, visualizando diversos projetos dentro de um único local. " />
-
-  <title>Materiais e frames | Avantt.i</title>
-
-  <!-- Favicon -->
   <link href="./img/favicon.png" rel="icon" />
 
-  <!-- Google Web Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" /> -->
 
-  <!-- Icon Font Stylesheet -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
 
-  <!-- Libraries Stylesheet -->
-
   <link href="lib/animate/animate.min.css" rel="stylesheet" />
 
-  <!-- Customized Bootstrap Stylesheet -->
-
   <link href="css/bootstrap.min.css" rel="stylesheet" />
-
-  <!-- Template Stylesheet -->
 
   <link href="css/style.css" rel="stylesheet" />
 
@@ -66,30 +82,20 @@
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5H9VSQWL" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript> -->
-  <!-- End Google Tag Manager (noscript) -->
-
-  <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5H9VSQWL" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
 
-  <!-- Spinner Start -->
   <div id="spinner"
     class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
     <div class="spinner"></div>
   </div>
-  <!-- Spinner End -->
 
   <header>
-
     <div class="container-fluid position-relative p-0">
       <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
-        <!-- navbar.js -->
       </nav>
 
-      <div class="container-fluid bg-primary py-5 bg-header-materiais mb-5">
+      <div class="container-fluid bg-primary py-5 bg-header-materiais">
         <div class="row py-5">
           <div class="col-12 pt-lg-5 mt-lg-5 text-center">
             <h6 class="display-index text-white animated zoomIn text-uppercase mb-4">Materiais e Frames de <span
@@ -102,7 +108,29 @@
     </div>
   </header>
 
-  <!-- ======= Materiais Start ======= -->
+  <section class="d-flex flex-column justify-content-center py-5 mb-5 diagnostico">
+
+    <div class="d-flex justify-content-center row">
+      <a class="diagnostico-box" href="https://materiais.avanttinovacao.com.br/lp-avantti-diagnostico" target="_blank">
+        <div class="conheca-mobile d-flex flex-column col-lg-6 mt-3">
+          <div class="position-relative pb-3 mb-4 mt-5">
+            <h3 class="text-primary mb-0">Diagnóstico de inovação</h3>
+          </div>
+          <div class="mb-3">
+            <div class="wow zoomIn" data-wow-delay="0.2s"></div>
+            <p class="text-start">
+              Entenda a maturidade da sua empresa para inovar.</p>
+            <div class="wow zoomIn" data-wow-delay="0.2s"></div>
+          </div>
+        </div>
+
+        <div class="d-flex col-lg-3 img-conheca">
+          <img class="position-relative wow zoomIn" data-wow-delay="0.9s" src="./img/diagnostico.gif" alt="Intra" />
+        </div>
+      </a>
+    </div>
+  </section>
+
   <section id="materiais" class="materiais p-5 mb-6 border-bottom">
     <div class="container d-flex flex-column justify-content-center pt-2 mb-6">
       <div class="section-title title-ajuda text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 800px">
@@ -137,9 +165,7 @@
       </div>
     </div>
   </section>
-  <!-- Materiais End -->
 
-  <!-- ======= Videos Start ======= -->
   <section id="videos" class="materiais p-5 mb-4 mt-5 mb-5">
     <div class="container d-flex flex-column justify-content-center pt-2 mt-4 mb-6">
       <div class="section-title text-center position-relative pb-1 mb-5 mx-auto" style="max-width: 700px">
@@ -169,10 +195,7 @@
       </div>
     </div>
   </section>
-  <!-- Videos End -->
 
-
-  <!-- Modal E-mail Start -->
   <div class="modal fade" id="emailModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -214,11 +237,7 @@
       texto_email.value = "Olá! Acessei a página da Avantt.i e quero agendar uma call para conhecer mais. \n\nObrigada!";
     }
   </script>
-  <!-- Modal E-mail End -->
 
-
-
-  <!-- Modal Solicitar Acesso Start -->
   <div class="modal fade" id="searchModal" tabindex="-1">
     <div class="modal-dialog" role="document">
       <div class="modal-content" style="background: rgba(9, 30, 62, 0.8)">
@@ -254,14 +273,6 @@
                   <option value="Mais de 5.001">Mais de 5.001</option>
                 </select>
               </div>
-              <!-- <div class="col-md-6">
-                <label for="versao" class="form-label">Versão de Acesso *</label>
-                <select id="versao" class="form-select" required>
-                  <option selected></option>
-                  <option value="Acesso único por 4h">Acesso único por 4h</option>
-                  <option value="Acesso Trial 15 dias">Acesso Trial 15 dias</option>
-                </select>
-              </div> -->
 
               <div class="col-12">
                 <div class="form-check">
@@ -279,20 +290,13 @@
                 <button type="submit" class="btn btn-primary" onclick="sendMail()">Quero receber o acesso ao
                   Avantt.i</button>
               </div>
-
-              <!-- <small>
-                <p class="text-white mb-0">*Liberado em até 24h</p>
-                <p class="text-white mb-0">**Acesso somente liberados para emails corporativos.</p>
-              </small> -->
             </span>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- Modal Solicitar Acesso End -->
 
-  <!-- Modal Login / Register Start -->
   <div class="modal fade" id="loginModal" tabindex="-1">
     <div class="modal-dialog" role="document">
       <div class="modal-content-login">
@@ -357,9 +361,7 @@
       </div>
     </div>
   </div>
-  <!-- Modal Login / Register End -->
 
-  <!-- Modal Message-->
   <div class="modal fade" id="mensagem" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -376,7 +378,6 @@
     </div>
   </div>
 
-  <!-- Footer Start -->
   <footer id="footer">
     <div class="footer-newsletter">
       <div class="container">
@@ -438,12 +439,7 @@
     </div>
   </footer>
 
-  <!-- Footer End -->
-
-  <!-- Back to Top -->
   <a href="#" class="btn btn-lg btn-back-to-top rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
-
-  <!-- JavaScript Libraries -->
 
   <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-auth-compat.js"></script>
@@ -464,7 +460,6 @@
 
   <script src="lib/wow/wow.min.js"></script>
 
-  <!-- Template Javascript -->
   <script src="./js/navbar.js"></script>
   <script src="./js/main.js"></script>
 
@@ -476,8 +471,6 @@
 <?php
 if (isset($_GET['email_status'])) {
   $emailStatus = $_GET['email_status'];
-
-  // Verifica o status e define as mensagens e classes conforme necessário
   $modalTitle = ($emailStatus === 'success') ? 'Sucesso' : 'Erro';
   $modalMessage = ($emailStatus === 'success') ? 'E-mail enviado com sucesso!' : 'Erro ao enviar o e-mail';
   $modalClass = ($emailStatus === 'success') ? 'modal-success' : 'modal-danger';
@@ -511,11 +504,9 @@ if (isset($_GET['email_status'])) {
   echo 'document.body.appendChild(modal);';
   echo 'var modalInstance = new bootstrap.Modal(modal);';
   echo 'modalInstance.show();';
-  // Remove o parâmetro da URL sem recarregar a página
   echo 'var url = window.location.href;';
   echo 'var cleanUrl = url.split("?")[0];';
   echo 'window.history.replaceState({}, document.title, cleanUrl);';
-
   echo '});';
   echo '</script>';
 }

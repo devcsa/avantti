@@ -19,7 +19,7 @@ function validatePasswordMatch() {
 
       return false;
    }
-   return true; // Adicione esta linha para indicar que a validação passou
+   return true;
 }
 
 function register() {
@@ -34,11 +34,10 @@ function register() {
       .auth()
       .createUserWithEmailAndPassword(email, password)
       .then((userCredential) => {
-         // Usuário criado com sucesso
          const user = userCredential.user;
 
          firebase.initializeApp(firebaseConfig);
-         // Salvar informações adicionais no Firestore
+
          const db = firebase.firestore();
          const timestamp = firebase.firestore.FieldValue.serverTimestamp();
 

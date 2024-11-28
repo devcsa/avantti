@@ -3,112 +3,118 @@
 
 <head>
 
-  <!-- Google Tag Manager -->
-  <script>
-  (function(w, d, s, l, i) {
-    w[l] = w[l] || [];
-    w[l].push({
-      'gtm.start': new Date().getTime(),
-      event: 'gtm.js'
-    });
-    var f = d.getElementsByTagName(s)[0],
-      j = d.createElement(s),
-      dl = l != 'dataLayer' ? '&l=' + l : '';
-    j.async = true;
-    j.src =
-      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-    f.parentNode.insertBefore(j, f);
-  })(window, document, 'script', 'dataLayer', 'GTM-5H9VSQWL');
-  </script>
-  <!-- End Google Tag Manager -->
-
-
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
+  <meta name="title" content="Avantti Inovação | Planos e Preços para Soluções de Transformação Digital">
   <meta name="description"
-    content="Software de gestão da inovação que te ajuda a provar resultados de forma prática, direto ao ponto, visualizando diversos projetos dentro de um único local. " />
+    content="Explore os planos e preços das soluções de inovação e transformação digital da Avantti Inovação. Oferecemos pacotes personalizados para atender às necessidades específicas de cada empresa, impulsionando resultados com tecnologia e estratégia.">
+  <meta name="keywords" content="Avantti Inovação, Soluções de Inovação">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="Portuguese">
+  <meta name="revisit-after" content="10 days">
+  <meta name="author" content="Avantti">
 
-  <title>Planos e preços | Avantt.i</title>
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="Sumário">
+  <meta name="twitter:site" content="@avantti">
+  <meta name="twitter:title" content="Avantti Inovação | Planos e Preços para Soluções de Transformação Digital">
+  <meta name="twitter:description"
+    content="Explore os planos e preços das soluções de inovação e transformação digital da Avantti Inovação. Oferecemos pacotes personalizados para atender às necessidades específicas de cada empresa, impulsionando resultados com tecnologia e estratégia.">
+  <meta name="twitter:creator" content="@avantti">
+  <!-- Imagem Twitter Summary Card, tem que ter pelo menos 120x120px -->
+  <meta name="twitter:image" content="https://www.avanttinovacao.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png">
 
-  <!-- Favicon -->
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Avantti Inovação | Planos e Preços para Soluções de Transformação Digital" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://www.avanttinovacao.com.br" />
+  <meta property="og:image"
+    content="https://www.avanttinovacao.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png" />
+  <meta property="og:description"
+    content="Explore os planos e preços das soluções de inovação e transformação digital da Avantti Inovação. Oferecemos pacotes personalizados para atender às necessidades específicas de cada empresa, impulsionando resultados com tecnologia e estratégia." />
+  <meta property="og:site_name" content="Avantti" />
+  <meta property="fb:admins" content="" />
+
+  <title>Avantti Inovação | Planos e Preços para Soluções de Transformação Digital</title>
+
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5H9VSQWL');
+  </script>
+
   <link href="./img/favicon.png" rel="icon" />
 
-  <!-- Google Web Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" /> -->
 
-  <!-- Icon Font Stylesheet -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
-
   <link href="lib/animate/animate.min.css" rel="stylesheet" />
-
-  <!-- Customized Bootstrap Stylesheet -->
   <link href="css/bootstrap.min.css" rel="stylesheet" />
-
-  <!-- Template Stylesheet -->
   <link href="css/style.css" rel="stylesheet" />
 
   <script src="./js/email.js"></script>
-
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
   <script type="text/javascript">
-  (function() {
-    emailjs.init("M5tc3I8aObv3dh3Cd");
-  })();
+    (function() {
+      emailjs.init("M5tc3I8aObv3dh3Cd");
+    })();
   </script>
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5H9VSQWL" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
 
-  <!-- Spinner Start -->
   <div id="spinner"
     class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
     <div class="spinner"></div>
   </div>
-  <!-- Spinner End -->
 
   <div class="container-fluid position-relative p-0">
     <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
-      <!-- navbar.js -->
     </nav>
 
     <div class="container-fluid bg-primary py-5 bg-header mb-5">
       <div class="row py-5">
         <div class="col-12 pt-lg-5 mt-lg-5 text-center">
-          <h6 class="display-index text-white animated zoomIn text-uppercase mb-4">Planos e Preços</h6>
+          <h6 class="display-index text-white animated zoomIn text-uppercase mb-4">Assinatura com <span
+              style="color: #ce8ff3">Menor preço</span> do mercado</h6>
           <p id="pricing" class="h5 text-white" style="font-size: 22px; font-family: Montserrat; font-weight: 500">
-            Implementação do seu jeito. Escolha o nível do suporte que<br>deseja e implemente Avantt.i na sua empresa.
-
-          </p>
+            Com o serviço mais customizado e o menor preço do mercado, Avantt.i é a
+            plataforma<br>ideal para
+            profissionalizar a inovação corporativa na sua empresa</p>
         </div>
       </div>
     </div>
   </div>
-  <!-- Navbar End -->
-
-  <!-- Pricing Plan Start -->
 
   <section id="formas">
     <div class="container-fluid py-3 wow fadeInUp mb-5" data-wow-delay="0.1s">
       <div class="d-flex justify-content-center container detalhe-plano">
         <img src="./assets/img/formas.png" alt="Planos e Formas">
       </div>
-
   </section>
 
   <section id="pricing" class="price-desktop">
     <div class="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
       <div class="container py-2 d-flex justify-content-center flex-column">
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 900px">
-          <!-- <h5 class="fw-bold text-tertiary text-uppercase mb-4">Planos e Preços</h5> -->
           <h2 class="mb-0 text-tertiary text-uppercase">Modelo de <span class="text-primary">Contratação
               Transparente.</span></h2>
           <p class="text-muted">Nossos valores são oferecidos por ranges e não por número de usuários: Mais
@@ -220,7 +226,6 @@
               </div>
             </div>
 
-
             <div class="price-terms">
               <div class="plan-terms-funcionarios"><strong>500</strong></div>
               <div class="price-terms-line">
@@ -249,13 +254,11 @@
         </div>
       </div>
   </section>
-  <!-- Pricing Plan End -->
 
   <section id="pricing" class="price-mobile">
     <div class="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
       <div class="container py-2 d-flex justify-content-center flex-column">
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 900px">
-          <!-- <h5 class="fw-bold text-tertiary text-uppercase mb-4">Planos e Preços</h5> -->
           <h2 class="mb-0 text-tertiary text-uppercase">Modelo de <span class="text-primary">Contratação
               Transparente.</span></h2>
           <p class="text-muted">Nossos valores são oferecidos por ranges e não por número de usuários: Mais
@@ -315,7 +318,6 @@
               </div>
             </div>
 
-
             <div class="price-box-plan bg-white rounded shadow slideInUp position-relative" style="z-index: 1"
               data-wow-delay="0.3s">
               <div class="price-box-title-plan">
@@ -360,7 +362,6 @@
                 <div class="plan-terms-line-mobile"><strong style="color: #df0075">R$ 4.800</strong>/ mês</div>
               </div>
             </div>
-
 
             <div class="price-title">
               <div class="price-title-profissional">
@@ -422,14 +423,12 @@
       </div>
     </div>
   </section>
-  <!-- Pricing Plan End -->
-
-  <!-- Serviços -->
 
   <div class="container-fluid py-3 wow fadeInUp ajuste-padding" data-wow-delay="0.1s">
     <div class="container py-3 ajuste-padding mt-5">
       <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 800px">
-        <h4 class="fw-bold text-tertiary text-uppercase">Implementação <span class="text-primary">seu jeito</span></h4>
+        <h4 class="fw-bold text-tertiary text-uppercase">Escolha <span class="text-primary">serviços para
+            customizar</span></h4>
       </div>
       <div class="d-flex text-center mb-3 justify-content-center title-ajuda">
         <p class="text-dark" style="max-width: 850px">
@@ -590,23 +589,18 @@
       class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInRight textos-btn-mobile"
       onclick="openModalEmail()">Personalize seu Plano - Fale
       Conosco</a>
-    <!-- <a id="btnEmail"
-      href="mailto:mariana.triveloni@inventta.net?subject=Quero conhecer a Avantt.i&body=Olá! Acessei a página da Avantt.i e quero agendar uma call para conhecer mais. %0A %0AObrigada!"
-      class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInRight textos-btn-mobile">Personalize seu Plano - Fale
-      Conosco</a> -->
     <a id="agende-demonstracao" href="https://outlook.office365.com/owa/calendar/ParaconheceroLabi@inventta.net/bookings/
       " target="_blank" class="btn btn-dark py-md-3 px-md-4 animated slideInRight textos-btn-mobile"><i
         class="fa fa-calendar me-2"></i>Agende uma demonstração customizada</a>
   </div>
 
   <script>
-  if (window.innerWidth < 430) {
-    document.getElementById("personalize-plano").innerText = "Personalize seu Plano"
-    document.getElementById("agende-demonstracao").innerText = "Agende uma demonstração"
-  }
+    if (window.innerWidth < 430) {
+      document.getElementById("personalize-plano").innerText = "Personalize seu Plano"
+      document.getElementById("agende-demonstracao").innerText = "Agende uma demonstração"
+    }
   </script>
 
-  <!-- Diferenciais Start -->
   <div class="container-fluid py-3 wow fadeInUp ajuste-padding" data-wow-delay="0.1s">
     <div class="container py-3 ajuste-padding mt-5">
       <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 800px">
@@ -644,29 +638,16 @@
                 está dentro da Avantt.i.</p>
             </div>
           </div>
-          <!-- <div class="card-diferenciais" style="--clr: #47009a">
-          <div class="img-box-diferenciais">
-            <img src="./img/plano.png" />
-          </div>
-          <div class="content-diferenciais">
-            <h2>Plano de contratação transparente</h2>
-            <p>Não te prendemos à nós. Cancele quando quiser, assine por quanto tempo quiser.</p>
-          </div>
-        </div> -->
         </div>
       </div>
     </div>
   </div>
-  <!-- Diferenciais End -->
 
-  <!-- Conheca Start -->
   <div class="w-100 container d-flex p-4 align-items-center justify-content-center border-bottom">
     <a href="conheca" class="btn btn-dark py-md-3 px-md-4 mb-4 animated slideInRight">Conheça como funciona o
       Avantt.i</a>
   </div>
-  <!-- End -->
 
-  <!-- ======= F.A.Q Section ======= -->
   <section id="faq" class="faq">
     <div class="container-fluid py-2 wow fadeInUp mb-5 mt-5" data-wow-delay="0.1s">
       <div class="container py-2">
@@ -854,9 +835,7 @@
       </div>
     </div>
   </section>
-  <!-- Pricing Plan End -->
 
-  <!-- ======= Cta Section ======= -->
   <section id="cta">
     <div class="container" data-aos="zoom-in">
       <div class="wow fadeInUp mb-5 py-5 text-center" style="font-size: 18px; background-image: url(./img/bgcall.png)"
@@ -876,10 +855,7 @@
       </div>
     </div>
   </section>
-  <!-- End Cta Section -->
 
-
-  <!-- Modal E-mail Start -->
   <div class="modal fade" id="emailModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -914,18 +890,15 @@
   </div>
 
   <script type="text/javascript">
-  function openModalEmail() {
-    $("#emailModal").modal("show");
+    function openModalEmail() {
+      $("#emailModal").modal("show");
 
-    let texto_email = document.getElementById("message");
-    texto_email.value =
-      "Olá! Acessei a página da Avantt.i e quero agendar uma call para conhecer mais. \n\nObrigada!";
-  }
+      let texto_email = document.getElementById("message");
+      texto_email.value =
+        "Olá! Acessei a página da Avantt.i e quero agendar uma call para conhecer mais. \n\nObrigada!";
+    }
   </script>
-  <!-- Modal E-mail End -->
 
-
-  <!-- Modal Solicitar Acesso Start -->
   <div class="modal fade" id="searchModal" tabindex="-1">
     <div class="modal-dialog" role="document">
       <div class="modal-content" style="background: rgba(9, 30, 62, 0.8)">
@@ -961,14 +934,6 @@
                   <option value="Mais de 5.001">Mais de 5.001</option>
                 </select>
               </div>
-              <!-- <div class="col-md-6">
-                <label for="versao" class="form-label">Versão de Acesso *</label>
-                <select id="versao" class="form-select" required>
-                  <option selected></option>
-                  <option value="Acesso único por 4h">Acesso único por 4h</option>
-                  <option value="Acesso Trial 15 dias">Acesso Trial 15 dias</option>
-                </select>
-              </div> -->
 
               <div class="col-12">
                 <div class="form-check">
@@ -986,20 +951,13 @@
                 <button type="submit" class="btn btn-primary" onclick="sendMail()">Quero receber o acesso ao
                   Avantt.i</button>
               </div>
-
-              <!-- <small>
-                <p class="text-white mb-0">*Liberado em até 24h</p>
-                <p class="text-white mb-0">**Acesso somente liberados para emails corporativos.</p>
-              </small> -->
             </span>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- Modal Solicitar Acesso End -->
 
-  <!-- Modal Message-->
   <div class="modal fade" id="mensagem" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -1016,8 +974,6 @@
     </div>
   </div>
 
-
-  <!-- Footer Start -->
   <footer id="footer">
     <div class="footer-newsletter">
       <div class="container">
@@ -1078,27 +1034,21 @@
       </div>
     </div>
   </footer>
-  <!-- Footer End -->
 
-  <!-- Back to Top -->
   <a href="#" class="btn btn-lg btn-back-to-top rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
 
-  <!-- JavaScript Libraries -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="lib/wow/wow.min.js"></script>
   <script src="lib/easing/easing.min.js"></script>
   <script src="lib/waypoints/waypoints.min.js"></script>
 
-  <!-- Template Javascript -->
   <script src="./js/navbar.js"></script>
   <script src="js/main.js"></script>
 
   <?php
   if (isset($_GET['email_status'])) {
     $emailStatus = $_GET['email_status'];
-
-    // Verifica o status e define as mensagens e classes conforme necessário
     $modalTitle = ($emailStatus === 'success') ? 'Sucesso' : 'Erro';
     $modalMessage = ($emailStatus === 'success') ? 'E-mail enviado com sucesso!' : 'Erro ao enviar o e-mail';
     $modalClass = ($emailStatus === 'success') ? 'modal-success' : 'modal-danger';
@@ -1132,16 +1082,13 @@
     echo 'document.body.appendChild(modal);';
     echo 'var modalInstance = new bootstrap.Modal(modal);';
     echo 'modalInstance.show();';
-    // Remove o parâmetro da URL sem recarregar a página
     echo 'var url = window.location.href;';
     echo 'var cleanUrl = url.split("?")[0];';
     echo 'window.history.replaceState({}, document.title, cleanUrl);';
-
     echo '});';
     echo '</script>';
   }
   ?>
-
 </body>
 
 </html>

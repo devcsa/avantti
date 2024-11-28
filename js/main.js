@@ -4,7 +4,6 @@ function viewMoreTopics(bloco) {
    const divBloco = `more-topics-${bloco}`;
    const spanBloco = `other-topics-${bloco}`;
    const arrowBloco = `icon-more-${bloco}`;
-   // console.log(divBloco + " " + spanBloco);
    const moreTopics = document.getElementById(divBloco);
    if (moreTopics.innerText == "Mais...") {
       moreTopics.innerText = "Menos...";
@@ -24,7 +23,6 @@ function viewMoreTopics(bloco) {
 (function ($) {
    "use strict";
 
-   // Spinner
    var spinner = function () {
       setTimeout(function () {
          if ($("#spinner").length > 0) {
@@ -34,10 +32,8 @@ function viewMoreTopics(bloco) {
    };
    spinner();
 
-   // Initiate the wowjs
    new WOW().init();
 
-   // Sticky Navbar
    $(window).scroll(function () {
       if ($(this).scrollTop() > 0) {
          $(".navbar").addClass("sticky-top shadow-sm");
@@ -56,7 +52,6 @@ function viewMoreTopics(bloco) {
       }
    });
 
-   // Dropdown on mouse hover
    const $dropdown = $(".dropdown");
    const $dropdownToggle = $(".dropdown-toggle");
    const $dropdownMenu = $(".dropdown-menu");
@@ -83,25 +78,10 @@ function viewMoreTopics(bloco) {
       }
    });
 
-   // // Back to top button
-   // $(window).scroll(function () {
-   //    if ($(this).scrollTop() > 100) {
-   //       $(".back-to-top").fadeIn("slow");
-   //    } else {
-   //       $(".back-to-top").fadeOut("slow");
-   //    }
-   // });
-   // $(".back-to-top").click(function () {
-   //    $("html, body").animate({ scrollTop: 0 }, 1500, "easeInOutExpo");
-   //    return false;
-   // });
-
    $(window).scroll(function () {
-      // Verifica a posição de rolagem da página
       if ($(this).scrollTop() > 100) {
          $(".back-to-top").fadeIn("slow");
 
-         // Define um timeout para esconder o botão após 3 segundos se não for clicado
          clearTimeout($.data(this, "scrollTimer"));
          $.data(
             this,
@@ -109,17 +89,15 @@ function viewMoreTopics(bloco) {
             setTimeout(function () {
                $(".back-to-top").fadeOut("slow");
             }, 3000)
-         ); // Esconde após 3000 ms (3 segundos)
+         );
       } else {
          $(".back-to-top").fadeOut("slow");
       }
    });
 
-   // Anima a rolagem para o topo ao clicar no botão
    $(".back-to-top").click(function () {
       $("html, body").animate({ scrollTop: 0 }, 1500, "easeInOutExpo");
 
-      // Opcional: pode adicionar aqui um clearTimeout para que o botão desapareça imediatamente após o clique
       clearTimeout($.data(window, "scrollTimer"));
 
       return false;
@@ -137,10 +115,6 @@ function vermais_votorantin() {
    cardvotorantin.classList.toggle("flip-votorantin");
 }
 
-//
-//
-
-// Verifica se há algum usuário logado
 function userCheck(material) {
    firebase.auth().onAuthStateChanged((user) => {
       if (user) {
@@ -170,10 +144,6 @@ function showMaterial(material) {
    }
 }
 
-//
-//
-
-// Videos Materiais
 function executeVideo(video, video_src) {
    var videoPlaying = document.querySelector(".videoPlaying");
 

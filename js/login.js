@@ -1,11 +1,8 @@
 function login() {
-   //  showLoading();
    firebase
       .auth()
       .signInWithEmailAndPassword(form.email().value, form.password().value)
       .then((response) => {
-         //  hideLoading();
-         //  window.location.href = "dashboard.php";
          bootbox.dialog({
             title: "Aviso",
             message: "Usuário logado com sucesso!",
@@ -20,7 +17,6 @@ function login() {
          });
       })
       .catch((error) => {
-         //  hideLoading();
          bootbox.dialog({
             title: "Aviso",
             message: getLoginErrorMessage(error),
@@ -74,7 +70,6 @@ var form = {
    loginButton: () => document.getElementById("login-button"),
 };
 
-// Forulário de login e cadastro
 var signup = document.getElementById("sign-up");
 var signin = document.getElementById("sign-in");
 var title_signin = document.getElementById("title-signin");

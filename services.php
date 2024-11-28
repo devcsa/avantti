@@ -2,8 +2,6 @@
 <html lang="pt-br">
 
 <head>
-
-  <!-- Google Tag Manager -->
   <script>
     (function(w, d, s, l, i) {
       w[l] = w[l] || [];
@@ -20,38 +18,65 @@
       f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-5H9VSQWL');
   </script>
-  <!-- End Google Tag Manager -->
 
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
+  <meta name="title" content="Serviços da Avantti | Gestão Estratégica da Inovação Corporativa">
   <meta name="description"
-    content="Software de gestão da inovação que te ajuda a provar resultados de forma prática, direto ao ponto, visualizando diversos projetos dentro de um único local. " />
+    content="Descubra os serviços da Avantti para gestão da inovação. Oferecemos soluções customizadas para criar, planejar, implementar, e visualizar projetos inovadores com eficiência.">
+  <meta name="keywords"
+    content="Serviços de gestão da inovação, Soluções para inovação corporativa, Organização de projetos de inovação, Planejamento estratégico da inovação, Serviços de inovação corporativa">
 
-  <title>Serviços | Avantt.i</title>
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="Portuguese">
+  <meta name="revisit-after" content="10 days">
+  <meta name="author" content="Avantti">
 
-  <!-- Favicon -->
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="Sumário">
+  <meta name="twitter:site" content="@avantti">
+
+  <meta name="twitter:title" content="Serviços da Avantti | Gestão Estratégica da Inovação Corporativa">
+  <meta name="twitter:description"
+    content="Descubra os serviços da Avantti para gestão da inovação. Oferecemos soluções customizadas para criar, planejar, implementar, e visualizar projetos inovadores com eficiência.">
+
+  <meta name="twitter:creator" content="@avantti">
+  <!-- Imagem Twitter Summary Card, tem que ter pelo menos 120x120px -->
+  <meta name="twitter:image" content="https://www.avanttinovacao.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png">
+
+  <!-- Open Graph data -->
+
+  <meta property="og:title" content="Serviços da Avantti | Gestão Estratégica da Inovação Corporativa" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://www.avanttinovacao.com.br" />
+  <meta property="og:image"
+    content="https://www.avanttinovacao.com.br/assets/img/Banner%20Open%20Graph%20Avantti.png" />
+
+  <meta property="og:description"
+    content="Descubra os serviços da Avantti para gestão da inovação. Oferecemos soluções customizadas para criar, planejar, implementar, e visualizar projetos inovadores com eficiência." />
+
+  <meta property="og:site_name" content="Avantti" />
+  <meta property="fb:admins" content="" />
+
+  <title>Serviços da Avantt.i | Gestão Estratégica da Inovação Corporativa</title>
+
   <link href="./img/favicon.png" rel="icon" />
 
-  <!-- Google Web Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" /> -->
 
-  <!-- Icon Font Stylesheet -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
 
-  <!-- Libraries Stylesheet -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
     integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="lib/animate/animate.min.css" rel="stylesheet" />
 
-  <!-- Customized Bootstrap Stylesheet -->
   <link href="css/bootstrap.min.css" rel="stylesheet" />
 
-  <!-- Template Stylesheet -->
   <link href="css/style.css" rel="stylesheet" />
 
   <script src="./js/email.js"></script>
@@ -66,29 +91,17 @@
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5H9VSQWL" height="0" width="0"
-      style="display: none; visibility: hidden"></iframe></noscript> -->
-  <!-- End Google Tag Manager (noscript) -->
-
-  <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5H9VSQWL" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
 
-  <!-- Spinner Start -->
   <div id="spinner"
     class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
     <div class="spinner"></div>
   </div>
-  <!-- Spinner End -->
 
   <header>
-
     <div class="container-fluid position-relative p-0">
-      <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
-        <!-- navbar.js -->
-      </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0"></nav>
 
       <div class="container-fluid bg-primary py-5 bg-header-conheca">
         <div class="row py-5">
@@ -103,16 +116,13 @@
     </div>
   </header>
 
-  <!-- Institucional Start -->
   <div class="w-100 conheca bg-light shadow d-flex align-items-center justify-content-center p-3 mb-5">
     <p class="mt-3 text-center text-primary" style="max-width: 900px; font-size: 19px">
       Na Avantt.i, oferecemos diversos serviços adicionais para auxiliar a implementação <br />da plataforma e garantir
       perenidade das suas <strong>iniciativas de inovação</strong>.
     </p>
   </div>
-  <!-- Institucional End -->
 
-  <!-- ======= Services Section ======= -->
   <section id="services" class="services p-5 mb-4">
     <div class="container d-flex flex-column justify-content-center pt-4">
       <div class="section-title text-center position-relative pb-1 mb-4 mx-auto" style="max-width: 600px">
@@ -141,7 +151,6 @@
           </ul>
         </div>
       </div>
-
 
       <div class="services-container row mt-6 pt-3">
         <div class="col-lg-4 col-md-6 d-flex justify-content-center" data-aos="fade-up">
@@ -258,20 +267,13 @@
         </div>
       </div>
       <div class="d-flex justify-content-center mb-2 wow fadeIn" data-wow-delay="0.6s">
-        <!-- <a class="btn btn-primary btn-fixoM me-3 animated slideInRight textos-btn-mobile" href="#"
-          onclick="openModalEmail()">Fale com nossos consultores</a>
-        <a href="materiais" class="btn btn-dark btn-fixoM me-3 animated slideInRight textos-btn-mobile">Acesse
-          nossos materiais de apoio</a> -->
         <a class="btn btn-primary btn-fixoG me-3 animated slideInRight textos-btn-mobile" href="https://inventta.net/"
           target="_blank">Conheça mais sobre os
           serviços Inventta.</a>
       </div>
     </div>
   </section>
-  <!-- End Services Section -->
 
-
-  <!-- Modal E-mail Start -->
   <div class="modal fade" id="emailModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -313,11 +315,7 @@
       texto_email.value = "Olá! Acessei a página da Avantt.i e quero agendar uma call para conhecer mais. \n\nObrigada!";
     }
   </script>
-  <!-- Modal E-mail End -->
 
-
-
-  <!-- Modal Solicitar Acesso Start -->
   <div class="modal fade" id="searchModal" tabindex="-1">
     <div class="modal-dialog" role="document">
       <div class="modal-content" style="background: rgba(9, 30, 62, 0.8)">
@@ -353,14 +351,6 @@
                   <option value="Mais de 5.001">Mais de 5.001</option>
                 </select>
               </div>
-              <!-- <div class="col-md-6">
-                <label for="versao" class="form-label">Versão de Acesso *</label>
-                <select id="versao" class="form-select" required>
-                  <option selected></option>
-                  <option value="Acesso único por 4h">Acesso único por 4h</option>
-                  <option value="Acesso Trial 15 dias">Acesso Trial 15 dias</option>
-                </select>
-              </div> -->
 
               <div class="col-12">
                 <div class="form-check">
@@ -378,20 +368,13 @@
                 <button type="submit" class="btn btn-primary" onclick="sendMail()">Quero receber o acesso ao
                   Avantt.i</button>
               </div>
-
-              <!-- <small>
-                <p class="text-white mb-0">*Liberado em até 24h</p>
-                <p class="text-white mb-0">**Acesso somente liberados para emails corporativos.</p>
-              </small> -->
             </span>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- Modal Solicitar Acesso End -->
 
-  <!-- Modal Message-->
   <div class="modal fade" id="mensagem" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -408,7 +391,6 @@
     </div>
   </div>
 
-  <!-- Footer Start -->
   <footer id="footer">
     <div class="footer-newsletter">
       <div class="container">
@@ -470,12 +452,8 @@
     </div>
   </footer>
 
-  <!-- Footer End -->
-
-  <!-- Back to Top -->
   <a href="#" class="btn btn-lg btn-back-to-top rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
 
-  <!-- JavaScript Libraries -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="lib/wow/wow.min.js"></script>
@@ -484,15 +462,12 @@
   <script src="lib/counterup/counterup.min.js"></script>
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-  <!-- Template Javascript -->
   <script src="./js/navbar.js"></script>
   <script src="js/main.js"></script>
 
   <?php
   if (isset($_GET['email_status'])) {
     $emailStatus = $_GET['email_status'];
-
-    // Verifica o status e define as mensagens e classes conforme necessário
     $modalTitle = ($emailStatus === 'success') ? 'Sucesso' : 'Erro';
     $modalMessage = ($emailStatus === 'success') ? 'E-mail enviado com sucesso!' : 'Erro ao enviar o e-mail';
     $modalClass = ($emailStatus === 'success') ? 'modal-success' : 'modal-danger';
@@ -526,16 +501,13 @@
     echo 'document.body.appendChild(modal);';
     echo 'var modalInstance = new bootstrap.Modal(modal);';
     echo 'modalInstance.show();';
-    // Remove o parâmetro da URL sem recarregar a página
     echo 'var url = window.location.href;';
     echo 'var cleanUrl = url.split("?")[0];';
     echo 'window.history.replaceState({}, document.title, cleanUrl);';
-
     echo '});';
     echo '</script>';
   }
   ?>
-
 </body>
 
 </html>
