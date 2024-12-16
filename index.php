@@ -78,6 +78,7 @@
 
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+
   <link href="lib/animate/animate.min.css" rel="stylesheet" />
   <link href="css/bootstrap.min.css" rel="stylesheet" />
   <link href="css/style.css" rel="stylesheet" />
@@ -112,16 +113,25 @@
           <div class="carousel-item active">
             <img class="w-100" src="img/bghome.png" alt="Capa Home" />
             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-              <div class="p-3 titulo-mobile mt-5">
-                <h6 class="display-index text-white animated zoomIn" data-wow-delay="0.2s">A
-                  <span style="color: #ce8ff3">Plataforma de Inovação</span> para te ajudar a estruturar <br />e gerir
-                  seu portfólio de ideias e inovação
-                </h6>
+              <div class="title-home p-3 titulo-mobile">
+                <h6 class="display-index text-white animated zoomIn" data-wow-delay="0.2s">A <span
+                    style="color: #ce8ff3">Plataforma de Gestão</span> da inovação que te ajuda <br />a estruturar e
+                  gerir seu portfólio de ideias e projetos</h6>
                 <br />
                 <p class="animated zoomIn text-white" data-wow-delay="0.6s">
                   20 anos de experiência <strong>Inventta </strong> em inovação transformados em software
                 </p>
               </div>
+
+              <div
+                class="ajuste-btn-mobileG w-100 container d-flex p-5 align-items-center justify-content-center mt-4 mb-5">
+                <a href="#footer-demonstration"
+                  class="btn btn-primary btn-fixoM py-md-3 me-3 animated slideInLeft textos-btn-mobile">Demonstração
+                  gratuita</a>
+                <a href="./conheca" class="btn btn-dark btn-fixoM py-md-3 animated slideInRight textos-btn-mobile">Veja
+                  como funciona</a>
+              </div>
+
             </div>
           </div>
         </div>
@@ -129,11 +139,11 @@
     </div>
   </header>
 
-  <section id="clients" class="clients">
+  <section id="clients" class="clients-home border-bottom">
     <div class="container">
-      <div class="institucional d-flex align-items-center justify-content-center">
-        <p class="text-center text-primary cta-mobile" style="max-width: 900px; font-size: 1.8rem">
-          Empresas que confiam na Avantt.i
+      <div class="institucional d-flex align-items-center justify-content-center mb-4">
+        <p class="text-center cta-mobile" style="max-width: 900px; font-size: 1.8rem; color:#000">
+          Empresas que fazem <span class="text-primary">Gestão da Inovação</span> com Avantt.i
         </p>
       </div>
       <div class="row g-0 mt-5 wow fadeIn" data-wow-delay="0.6s">
@@ -175,44 +185,13 @@
     </div>
   </section>
 
-  <div class="cta-index shadow d-flex align-items-center justify-content-center p-3 mb-5 mt-4">
-    <p class="mt-3 text-center">
-      <span class="font-weight-bold">Um único espaço, várias formas de inovar.</span><br />
-      Use a plataforma Avantt.i para coletar ideias de colaboradores e gerenciá-las em projetos de inovação, da ideia
-      à implementação.
-    </p>
-    <div class="d-flex row cta-index-btn-container justify-content-center">
-      <div class="btn-cta-index mb-2">
-        <p>Intraempreendedorismo</p>
-      </div>
-      <div class="btn-cta-index mb-2">
-        <p>Capacitação</p>
-      </div>
-      <div class="btn-cta-index mb-2">
-        <p>Gestão de portfólio</p>
-      </div>
-      <div class="btn-cta-index mb-3">
-        <p>Open innovation</p>
-      </div>
-      <div class="btn-cta-index mb-3">
-        <p>Suporte de IA para estruturação da estratégia de inovação</p>
-      </div>
-      <div class="btn-cta-index mb-3">
-        <p>Onboarding robusto e suporte consultivo em toda jornada</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="ajuste-btn-mobileG w-100 container d-flex p-5 align-items-center justify-content-center mt-4 mb-5">
-    <button type="button" class="btn btn-primary btn-fixoG py-md-3 me-3 animated slideInLeft textos-btn-mobile"
-      data-bs-toggle="modal" data-bs-target="#searchModal">Acesse e teste grátis</button>
-    <a href="./price" class="btn btn-dark btn-fixoG py-md-3 animated slideInRight textos-btn-mobile">Conheça
-      nossos planos</a>
-  </div>
+  <br />
 
   <section id="clients" class="clients">
-    <div class="section-title text-center position-relative pb-1 mb-3 mx-auto mt-3" style="max-width: 700px">
-      <h3 class="text-primary"> O que você encontra na Avantt.i</h3>
+    <div class="section-title text-center position-relative pb-1 mb-3 mx-auto mt-1" style="max-width: 900px">
+      <h3 class="text-primary py-2"><span style="color: #000">Como funciona a </span>Gestão da Inovação Corporativa
+        <span style="color: #000">com Avantt.i</span>
+      </h3>
     </div>
     <div class="container-home">
       <div class="card">
@@ -250,6 +229,57 @@
     </div>
   </section>
 
+
+  <!-- <div class="ajuste-btn-mobileG w-100 container d-flex p-5 align-items-center justify-content-center mt-4 mb-5">
+    <button type="button" class="btn btn-primary btn-fixoG py-md-3 me-3 animated slideInLeft textos-btn-mobile"
+      data-bs-toggle="modal" data-bs-target="#searchModal">Demonstração gratuita </button>
+    <a href="./conheca" class="btn btn-dark btn-fixoG py-md-3 animated slideInRight textos-btn-mobile">Veja
+      como funciona</a>
+  </div> -->
+
+
+  <div class="ajuste-btn-mobileG w-100 container d-flex p-5 align-items-center justify-content-center mt-4 mb-5">
+    <a href="#footer-demonstration"
+      class="btn btn-primary btn-fixoM py-md-3 me-3 animated slideInLeft textos-btn-mobile">Demonstração
+      gratuita</a>
+    <a href="./conheca" class="btn btn-dark btn-fixoM py-md-3 animated slideInRight textos-btn-mobile">Veja
+      como funciona</a>
+  </div>
+
+
+
+  <div class="cta-index shadow d-flex align-items-center justify-content-center p-3 mb-5 mt-4">
+    <p class="mt-3 text-center">
+      <span class="font-weight-bold">Uma única plataforma, várias formas de inovar.</span><br />
+      Gestores de inovação usam Avantt.i para coletar ideias, gerenciar portfolio e projetos e provar resultados de
+      inovação corporativa.
+    </p>
+    <div class="d-flex row cta-index-btn-container justify-content-center">
+      <div class="btn-cta-index mb-2">
+        <p>Intraempreendedorismo</p>
+      </div>
+      <div class="btn-cta-index mb-2">
+        <p>Capacitação</p>
+      </div>
+      <div class="btn-cta-index mb-2">
+        <p>Gestão de portfólio</p>
+      </div>
+      <div class="btn-cta-index mb-3">
+        <p>Open innovation</p>
+      </div>
+      <div class="btn-cta-index mb-3">
+        <p>Suporte de IA para estruturação da estratégia de inovação</p>
+      </div>
+      <div class="btn-cta-index mb-3">
+        <p>Onboarding robusto e suporte consultivo em toda jornada</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
   <div class="institucional d-flex align-items-center justify-content-center mt-5">
     <p class="text-center text-primary" style="max-width: 900px; font-size: 1.6rem">
       <strong>A Avantt.i é sua <span style="color: #000;">melhor escolha</span> para capacitar o time e gerir as
@@ -259,25 +289,30 @@
 
   <div class="container-institucional">
     <div class="container-index">
-      <div class="card-index" style="--clr: #9d28f0">
+      <div class="card-index">
         <div class="content-index">
-          <p>Avantt.i aloca consultor para gerir toda a plataforma e estruturar seus processos.</p>
+          <p>
+            Avantt.i aloca consultor para<span style="color: #9d28f0;"> gerir toda a plataforma</span> e estruturar seus
+            processos.
+          </p>
         </div>
       </div>
-      <div class="card-index" style="--clr: #9d28f0">
+      <div class="card-index">
         <div class="content-index">
-          <p>Nossa trilha de conhecimento embarcada direciona colaboradores na jornada de inovação, com mais de 40
-            vídeos e frameworks.</p>
+          <p>Nossa<span style="color: #9d28f0;"> trilha de conhecimento</span> embarcada direciona colaboradores na
+            jornada de inovação, com mais de 40 vídeos e frameworks.</p>
         </div>
       </div>
-      <div class="card-index" style="--clr: #9d28f0">
+      <div class="card-index">
         <div class="content-index">
-          <p>Você não precisa aprender a usar o sistema sozinho. Nosso time de CS oferece suporte contínuo.</p>
+          <p>Você não precisa aprender a usar o sistema sozinho.<span style="color: #9d28f0;"> Nosso time de CS oferece
+              suporte contínuo.</span></p>
         </div>
       </div>
-      <div class="card-index" style="--clr: #9d28f0">
+      <div class="card-index">
         <div class="content-index">
-          <p>Nossas mentorias são 1:1. Suporte estratégico e customizado da Inventta.</p>
+          <p>Nossas<span style="color: #9d28f0;"> mentorias são 1:1.</span> Suporte estratégico e customizado da
+            Inventta.</p>
         </div>
       </div>
     </div>
@@ -325,7 +360,7 @@
     }
   </script>
 
-  <div class="modal fade" id="searchModal" tabindex="-1">
+  <!-- <div class="modal fade" id="searchModal" tabindex="-1">
     <div class="modal-dialog" role="document">
       <div class="modal-content" style="background: rgba(9, 30, 62, 0.8)">
         <div class="modal-header border-0">
@@ -379,11 +414,45 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <section id="clients" class="clients">
     <div class="section-title text-center position-relative pb-1 mb-5 mx-auto" style="max-width: 700px">
-      <h3 class="text-primary"> Resultados com nossos clientes</h3>
+      <h3 class="text-primary">Como Avantt.i transformou a cultura de inovação em grandes empresas</h3>
+    </div>
+    <div class="container-fluid facts py-3 pt-lg-0 mt-5">
+      <div class="container py-5 pt-lg-2">
+        <div class="d-flex justify-content-center row gx-0">
+          <div class="d-flex justify-content-center col-lg-4 wow zoomIn mb-2" data-wow-delay="0.1s">
+            <div class="facts-box bg-primary shadow d-flex align-items-center justify-content-center p-4">
+              <div class="d-flex align-items-center justify-content-center rounded mb-2">
+                <img src="./assets/img/1_case_ac_camargo.png" alt="Case AC Camargo" />
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center col-lg-4 wow zoomIn mb-2" data-wow-delay="0.3s">
+            <div class="facts-box bg-primary shadow d-flex align-items-center justify-content-center p-4">
+              <div class="d-flex align-items-center justify-content-center rounded mb-2">
+                <img src="./assets/img/2_case_aco_cearence.png" alt="Case Aço Cearence" />
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center col-lg-4 wow zoomIn mb-2" data-wow-delay="0.6s">
+            <div class="facts-box bg-primary shadow d-flex align-items-center justify-content-center p-4">
+              <div class="d-flex align-items-center justify-content-center rounded mb-2">
+                <img src="./assets/img/3_case_ccr.png" alt="Case CCR" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- <section id="clients" class="clients">
+    <div class="section-title text-center position-relative pb-1 mb-5 mx-auto" style="max-width: 700px">
+      <h3 class="text-primary">Como Avantt.i transformou a cultura de inovação em grandes empresas</h3>
     </div>
     <div class="container-fluid facts py-3 pt-lg-0 mt-5">
       <div class="container py-5 pt-lg-0">
@@ -444,12 +513,13 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <div class="d-flex justify-content-center mt-3">
-    <button type="button" class="btn btn-primary btn-fixoG py-md-3 me-3 animated slideInLeft textos-btn-mobile"
-      data-bs-toggle="modal" data-bs-target="#searchModal">Quero conhecer</button>
+    <a href="#footer-demonstration"
+      class="btn btn-primary btn-fixoM py-md-3 me-3 animated slideInLeft textos-btn-mobile">Quero conhecer</a>
   </div>
+
 
   <section id="Testimonial" class="mt-5">
     <div class="container py-2 wow fadeInUp mb-4" data-wow-delay="0.1s">
@@ -594,13 +664,62 @@
   </div>
 
   <footer id="footer">
-    <div class="footer-newsletter">
+    <!-- <div class="footer-newsletter">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6">
             <h3 class="text-primary mb-4">Assine Nossa Newsletter</h3>
             <span><input type="email" name="email" id="newsletter" placeholder="E-mail" /><button
                 onclick="sendNewsletter()" type="submit">Assinar</button></span>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+
+    <div id="footer-demonstration" class="footer-demonstration">
+      <div class="footer-demonstration-text">
+        <p>A <span style="color: #CE8ff3;">plataforma</span>de <span style="color: #CE8ff3;">inovação</span> que faz
+          gestão de projetos inovativos do inicio ao fim, de forma simples e
+          resultados reais</p>
+      </div>
+
+      <div class="div-form-demonstration">
+        <div class=" form-demonstration">
+          <div class="modal-header border-0">
+            <h5 class="title-demonstration text-dark">Preencha o formulário para saber mais sobre a <span
+                style="color: #47009A; font-weight: 700;"> plataforma de inovação Avantt.i</span></h5>
+          </div>
+          <div class="d-flex align-items-center justify-content-center">
+            <div class="input-group" style="max-width: 600px">
+              <span class="row g-3 px-2">
+                <div class="col-md-12 mt-2 form-control-demonstration">
+                  <label for="name" class="form-label-demonstration">Nome*</label>
+                  <input type="text" name="name" class="form-control" id="name" required />
+                </div>
+                <div class="col-md-12 form-control-demonstration">
+                  <label for="email" class="form-label-demonstration">E-mail*</label>
+                  <input type="email" class="form-control" name="email" id="email" required />
+                </div>
+                <div class="col-md-12 form-control-demonstration">
+                  <label for="empresa" class="form-label-demonstration">Empresa*</label>
+                  <input type="text" class="form-control" name="empesa" id="empresa" required />
+                </div>
+                <div class="col-md-12 form-control-demonstration">
+                  <label for="colaboradores" class="form-label-demonstration">Tamanho da empresa*</label>
+                  <select id="colaboradores" class="form-select" required>
+                    <option selected></option>
+                    <option value="1 a 50">1 a 50 Colaboradores</option>
+                    <option value="51 a 200">51 a 200 Colaboradores</option>
+                    <option value="201 a 800">201 a 800 Colaboradores</option>
+                    <option value="Mais de 800">Mais de 800 Colaboradores</option>
+                  </select>
+                </div>
+                <div class="text-center mb-3 mt-5">
+                  <button type="submit" class="btn btn-primary" onclick="sendMail()">Solicite uma demonstração</button>
+                </div>
+              </span>
+            </div>
           </div>
         </div>
       </div>

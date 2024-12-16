@@ -2540,6 +2540,7 @@ fieldset:disabled .btn {
    color: #fff;
    background-color: #67d1c4;
    border-color: #67d1c4;
+   scale: 1.02;
 }
 .btn-check:focus + .btn-primary,
 .btn-primary:focus {
@@ -2823,9 +2824,11 @@ fieldset:disabled .btn {
 }
 .btn-dark:hover {
    color: #fff;
-   background-color: #081a35;
-   border-color: #071832;
+   background-color: #9d28f0;
+   border-color: #9d28f0;
+   scale: 1.02;
 }
+
 .btn-check:focus + .btn-dark,
 .btn-dark:focus {
    color: #fff;
@@ -5421,7 +5424,7 @@ fieldset:disabled .btn {
 .carousel-inner {
    width: 100%;
    overflow: hidden;
-   max-height: 500px;
+   max-height: 550px;
 }
 
 .carousel-item {
